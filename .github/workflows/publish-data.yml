@@ -1,0 +1,36 @@
+name: Publish public market data
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC; monitor collection itself remains in the existing free cloud scheduler.
+    - cron: '43 1,6,7,8,12 * * 1-5'
+    - cron: '43 10,11 * * 0,1,5'
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: public-data
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node scripts/publish-data.mjs
+      - name: Publish data and request Pages build
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'ZY Research data publisher'
+          git config user.email 'data-publisher@users.noreply.github.com'
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public market snapshots'
+            git push
+            gh api --method POST repos/${{ github.repository }}/pages/builds
+          fi
