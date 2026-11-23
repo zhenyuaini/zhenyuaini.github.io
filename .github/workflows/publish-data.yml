@@ -27,6 +27,9 @@ jobs:
       - name: Verify ETF fields and CFTC official API
         if: always() && github.event.schedule != '7,17,27,37,47,57 1-7 * * 1-5'
         run: node scripts/enrich-data.mjs
+      - name: Cross-check CFTC annual source export
+        if: success() && github.event.schedule != '7,17,27,37,47,57 1-7 * * 1-5'
+        run: python scripts/verify-cftc-archive.py
       - name: Publish data and request Pages build
         if: always()
         env:
