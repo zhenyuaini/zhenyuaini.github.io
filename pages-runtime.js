@@ -65,7 +65,7 @@ window.addEventListener('click',event=>{const a=event.target.closest?.('a');if(!
    if(route==='market-quotes'){
     try{data=await liveQuotes();}catch{data=await snapshot(route,options);quoteMode='archive';updateStatus('报价源暂不可用 · 展示云端存档，数据日期以数字旁标注为准');}
    }else data=await snapshot(route,options);
-   if(route==='etf-quality'&&url.searchParams.get('date')&&data.asOf!==url.searchParams.get('date'))return json({error:'对应日期的 ETF 质量数据待更新'},503);
+   if(route==='etf-quality'&&url.searchParams.get('date')&&data.date!==url.searchParams.get('date'))return json({error:'对应日期的 ETF 质量数据待更新'},503);
    if(options.signal?.aborted)throw new DOMException('Aborted','AbortError');
    return json(data);
   }catch(error){if(error.name==='AbortError')throw error;return json({error:'数据暂不可用，等待云端发布'},503);}
