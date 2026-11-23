@@ -91,7 +91,7 @@
   },
   {
     "chapter": "basics-mlcc",
-    "after": "basics-mlcc-p1",
+    "after": "basics-mlcc-p10",
     "kind": "original-embedded",
     "figure": "basics-mlcc-original-figure-1"
   },
