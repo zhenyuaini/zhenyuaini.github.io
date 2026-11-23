@@ -1,0 +1,2 @@
+// Public reading edition uses document navigation on a static host.
+window.addEventListener('click',event=>{const a=event.target.closest?.('a');if(!a||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||a.target==='_blank'||a.hasAttribute('download'))return;const url=new URL(a.href,location.href);if(url.origin===location.origin&&url.pathname!==location.pathname){event.preventDefault();event.stopImmediatePropagation();location.assign(url.href);}},true);
