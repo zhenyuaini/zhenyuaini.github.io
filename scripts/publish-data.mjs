@@ -1,4 +1,5 @@
 import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import {mergeQuality} from './enrich-data.mjs';
 const origin='https://zy-research-lab-2jwhxpli.edgeone.dev';
 const indices=['sh000001','sh000300','sz399006','sh000688','sh000905','hkHSTECH','usIXIC'];
 const quick=process.env.QUICK==='1';
@@ -39,6 +40,7 @@ if(!quick)try {
  const r=await fetch(origin+'/api/etf-quality?date='+rotation.asOf,{signal:AbortSignal.timeout(100000)});
  if(!r.ok) throw Error('HTTP '+r.status);
  const quality=await r.json();if(quality.error)throw Error(quality.error);
+ try{mergeQuality(quality,JSON.parse(await readFile('data/etf-quality.json','utf8')));}catch{}
  await writeFile('data/etf-quality.json',JSON.stringify(quality));
  results.push({route:'etf-quality',status:'updated',asOf:rotation.asOf,publishedAt:new Date().toISOString()});
 } catch(error){let retained=false;try{await readFile('data/etf-quality.json');retained=true;}catch{}results.push({route:'etf-quality',status:retained?'retained':'missing',error:String(error)});}

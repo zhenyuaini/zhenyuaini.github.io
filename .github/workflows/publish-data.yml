@@ -24,6 +24,9 @@ jobs:
       - run: node scripts/publish-data.mjs
         env:
           QUICK: ${{ github.event.schedule == '7,17,27,37,47,57 1-7 * * 1-5' && '1' || '0' }}
+      - name: Verify ETF fields and CFTC official API
+        if: always() && github.event.schedule != '7,17,27,37,47,57 1-7 * * 1-5'
+        run: node scripts/enrich-data.mjs
       - name: Publish data and request Pages build
         if: always()
         env:

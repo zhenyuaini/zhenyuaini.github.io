@@ -1,0 +1,222 @@
+[
+  {
+    "code": "515070",
+    "indexCode": "930713",
+    "index": "中证人工智能主题指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_515070.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_515070.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=930713",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh930713,day,,,90"
+  },
+  {
+    "code": "512480",
+    "indexCode": "H30184",
+    "index": "中证全指半导体产品与设备指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_512480.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_512480.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=H30184",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=shH30184,day,,,90"
+  },
+  {
+    "code": "515880",
+    "indexCode": "931160",
+    "index": "中证全指通信设备指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_515880.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_515880.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=931160",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh931160,day,,,90"
+  },
+  {
+    "code": "515790",
+    "indexCode": "931151",
+    "index": "中证光伏产业指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_515790.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_515790.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=931151",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh931151,day,,,90"
+  },
+  {
+    "code": "512800",
+    "indexCode": "399986",
+    "index": "中证银行指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_512800.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_512800.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=399986",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sz399986,day,,,90"
+  },
+  {
+    "code": "512170",
+    "indexCode": "399989",
+    "index": "中证医疗指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_512170.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_512170.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=399989",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sz399989,day,,,90"
+  },
+  {
+    "code": "515080",
+    "indexCode": "000922",
+    "index": "中证红利指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_515080.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_515080.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000922",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh000922,day,,,90"
+  },
+  {
+    "code": "513130",
+    "indexCode": null,
+    "index": "恒生科技指数",
+    "crossBorder": true,
+    "profile": "https://fundf10.eastmoney.com/jbgk_513130.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_513130.html",
+    "indexSource": "https://www.hsi.com.hk/eng/indexes/all-indexes/hstech",
+    "rawIndex": null
+  },
+  {
+    "code": "512880",
+    "indexCode": "399975",
+    "index": "中证全指证券公司指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_512880.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_512880.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=399975",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sz399975,day,,,90"
+  },
+  {
+    "code": "512200",
+    "indexCode": "931775",
+    "index": "中证全指房地产指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_512200.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_512200.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=931775",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh931775,day,,,90"
+  },
+  {
+    "code": "512400",
+    "indexCode": "000819",
+    "index": "中证申万有色金属指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_512400.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_512400.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000819",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh000819,day,,,90"
+  },
+  {
+    "code": "512660",
+    "indexCode": "399967",
+    "index": "中证军工指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_512660.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_512660.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=399967",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sz399967,day,,,90"
+  },
+  {
+    "code": "515220",
+    "indexCode": "399998",
+    "index": "中证煤炭指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_515220.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_515220.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=399998",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sz399998,day,,,90"
+  },
+  {
+    "code": "515210",
+    "indexCode": "930606",
+    "index": "中证钢铁指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_515210.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_515210.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=930606",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh930606,day,,,90"
+  },
+  {
+    "code": "516220",
+    "indexCode": "000813",
+    "index": "中证细分化工产业主题指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_516220.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_516220.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000813",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh000813,day,,,90"
+  },
+  {
+    "code": "516110",
+    "indexCode": "H30015",
+    "index": "中证800汽车与零部件指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_516110.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_516110.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=H30015",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=shH30015,day,,,90"
+  },
+  {
+    "code": "512690",
+    "indexCode": "399987",
+    "index": "中证酒指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_512690.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_512690.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=399987",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sz399987,day,,,90"
+  },
+  {
+    "code": "512600",
+    "indexCode": "000932",
+    "index": "中证主要消费指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_512600.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_512600.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000932",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh000932,day,,,90"
+  },
+  {
+    "code": "515230",
+    "indexCode": "H30202",
+    "index": "中证全指软件指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_515230.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_515230.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=H30202",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=shH30202,day,,,90"
+  },
+  {
+    "code": "516010",
+    "indexCode": "930901",
+    "index": "中证动漫游戏指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_516010.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_516010.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=930901",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sh930901,day,,,90"
+  },
+  {
+    "code": "515030",
+    "indexCode": "399976",
+    "index": "中证新能源汽车指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_515030.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_515030.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=399976",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sz399976,day,,,90"
+  },
+  {
+    "code": "516090",
+    "indexCode": "399808",
+    "index": "中证新能源指数",
+    "crossBorder": false,
+    "profile": "https://fundf10.eastmoney.com/jbgk_516090.html",
+    "nav": "https://fundf10.eastmoney.com/jjjz_516090.html",
+    "indexSource": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=399808",
+    "rawIndex": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline?param=sz399808,day,,,90"
+  }
+]
