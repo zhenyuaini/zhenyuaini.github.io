@@ -70,10 +70,12 @@ window.addEventListener('click',event=>{const a=event.target.closest?.('a');if(!
    return json(data);
   }catch(error){if(error.name==='AbortError')throw error;return json({error:'数据暂不可用，等待云端发布'},503);}
  };
- document.addEventListener('DOMContentLoaded',()=>{
+ function mountStatus(){
   if(location.pathname.startsWith('/research/handbook'))return;
+  if(document.getElementById('public-data-status'))return;
   const el=document.createElement('div');el.id='public-data-status';el.setAttribute('role','status');el.style.cssText='padding:8px 18px;background:#edf3f8;color:#425e76;font:12px/1.7 system-ui;text-align:center';
   el.textContent='免费云端数据 · 行情每分钟请求 · 日线与 ETF 收盘后更新 · 数据日期见各模块';document.body.prepend(el);
   snapshot('status').then(s=>{if(!quoteMode)updateStatus('免费云端数据 · 最近发布核对 '+clock.format(new Date(s.checkedAt))+' · 数据日期与缺失项见各模块');}).catch(()=>updateStatus('云端发布状态暂不可用 · 请按各模块数据日期判断'));
- });
+ }
+ document.addEventListener('DOMContentLoaded',()=>{setTimeout(mountStatus,2500);setInterval(mountStatus,60000);});
 })();
