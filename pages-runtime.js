@@ -57,6 +57,7 @@ window.addEventListener('click',event=>{const a=event.target.closest?.('a');if(!
  }
  window.fetch=async(input,options={})=>{
   const url=new URL(typeof input==='string'?input:input.url??String(input),location.href);
+  if(url.origin===location.origin&&url.pathname.startsWith('/handbook/')&&url.pathname.endsWith('.json'))return nativeFetch(input,{...options,cache:'no-store'});
   if(url.origin!==location.origin||!url.pathname.startsWith('/api/'))return nativeFetch(input,options);
   const route=url.pathname.slice(5).replace(/\/$/,'');
   if(!routes.has(route)||(options.method??input?.method??'GET').toUpperCase()!=='GET')return json({error:'公开站点不提供此接口'},404);
