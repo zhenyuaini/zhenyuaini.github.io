@@ -1,76 +1,77 @@
 {
-  "checkedAt": "2026-11-23T16:59:38.563Z",
+  "checkedAt": "2026-11-23T17:03:38.898Z",
   "origin": "https://zy-research-lab-2jwhxpli.edgeone.dev",
   "results": [
     {
-      "route": "watchlist-daily",
+      "route": "market-quotes",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:58:54.868Z",
-      "asOf": "2026-11-23"
+      "publishedAt": "2026-11-23T17:03:04.552Z",
+      "asOf": null
     },
     {
       "route": "etf-rotation",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:58:55.551Z",
+      "publishedAt": "2026-11-23T17:03:05.297Z",
       "asOf": "2026-11-23"
     },
     {
-      "route": "market-quotes",
+      "route": "watchlist-daily",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:58:56.096Z",
-      "asOf": null
+      "publishedAt": "2026-11-23T17:03:05.500Z",
+      "asOf": "2026-11-23"
     },
     {
       "route": "turnover-estimate",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:11.931Z",
+      "publishedAt": "2026-11-23T17:03:10.950Z",
       "asOf": "2026-11-23"
     },
     {
       "route": "turnover-signal-log",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:13.043Z",
+      "publishedAt": "2026-11-23T17:03:12.174Z",
       "asOf": null
     },
     {
       "route": "publish-weekly-review",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:13.560Z",
+      "publishedAt": "2026-11-23T17:03:12.190Z",
       "asOf": null
     },
     {
       "route": "index-candles/sh000300",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:14.000Z",
+      "publishedAt": "2026-11-23T17:03:12.430Z",
       "asOf": null
     },
     {
       "route": "index-candles/sh000001",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:14.458Z",
+      "publishedAt": "2026-11-23T17:03:15.337Z",
       "asOf": null
-    },
-    {
-      "route": "index-candles/sz399006",
-      "status": "updated",
-      "publishedAt": "2026-11-23T16:59:15.737Z",
-      "asOf": null
-    },
-    {
-      "route": "index-candles/hkHSTECH",
-      "status": "missing",
-      "error": "Error: HTTP 502"
     },
     {
       "route": "index-candles/sh000688",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:16.428Z",
+      "publishedAt": "2026-11-23T17:03:16.298Z",
       "asOf": null
     },
     {
       "route": "index-candles/sh000905",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:16.510Z",
+      "publishedAt": "2026-11-23T17:03:16.757Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sz399006",
+      "status": "updated",
+      "publishedAt": "2026-11-23T17:03:16.773Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/hkHSTECH",
+      "status": "updated",
+      "publishedAt": "2026-11-23T17:03:17.474Z",
       "asOf": null
     },
     {
@@ -81,31 +82,31 @@
     {
       "route": "index-candles/usIXIC",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:17.833Z",
+      "publishedAt": "2026-11-23T17:03:18.811Z",
       "asOf": null
     },
     {
       "route": "market-history/sp500",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:18.766Z",
+      "publishedAt": "2026-11-23T17:03:18.870Z",
       "asOf": null
     },
     {
       "route": "market-history/vix",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:19.206Z",
+      "publishedAt": "2026-11-23T17:03:19.551Z",
       "asOf": null
     },
     {
       "route": "etf-quality",
       "status": "updated",
       "asOf": "2026-11-23",
-      "publishedAt": "2026-11-23T16:59:36.847Z"
+      "publishedAt": "2026-11-23T17:03:37.544Z"
     },
     {
       "route": "/research/review/2026-11-20",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:59:38.563Z"
+      "publishedAt": "2026-11-23T17:03:38.897Z"
     }
   ]
 }
