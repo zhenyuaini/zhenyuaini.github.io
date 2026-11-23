@@ -1,0 +1,1978 @@
+[
+  {
+    "chapter": "basics-gpu",
+    "after": "basics-gpu-p25",
+    "kind": "original-embedded",
+    "figure": "basics-gpu-original-figure-1"
+  },
+  {
+    "chapter": "basics-packaging",
+    "after": "basics-packaging-p25",
+    "kind": "original-embedded",
+    "figure": "basics-packaging-original-figure-1"
+  },
+  {
+    "chapter": "basics-memory",
+    "after": "basics-memory-p27",
+    "kind": "original-embedded",
+    "figure": "basics-memory-original-figure-1"
+  },
+  {
+    "chapter": "basics-optics",
+    "after": "basics-optics-p198",
+    "kind": "original-embedded",
+    "figure": "basics-optics-original-figure-1"
+  },
+  {
+    "chapter": "basics-optics",
+    "after": "basics-optics-p29",
+    "kind": "original-embedded",
+    "figure": "basics-optics-original-figure-2"
+  },
+  {
+    "chapter": "basics-optics",
+    "after": "basics-optics-p110",
+    "kind": "original-embedded",
+    "figure": "basics-optics-original-figure-3"
+  },
+  {
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p33",
+    "kind": "original-embedded",
+    "figure": "basics-pcb-original-figure-1"
+  },
+  {
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p81",
+    "kind": "original-embedded",
+    "figure": "basics-pcb-original-figure-2"
+  },
+  {
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p50",
+    "kind": "original-embedded",
+    "figure": "basics-pcb-original-figure-3"
+  },
+  {
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p19",
+    "kind": "original-embedded",
+    "figure": "basics-equipment-original-figure-1"
+  },
+  {
+    "chapter": "basics-materials",
+    "after": "basics-materials-p18",
+    "kind": "original-embedded",
+    "figure": "basics-materials-original-figure-1"
+  },
+  {
+    "chapter": "basics-server",
+    "after": "basics-server-p22",
+    "kind": "original-embedded",
+    "figure": "basics-server-original-figure-1"
+  },
+  {
+    "chapter": "basics-robot",
+    "after": "basics-robot-p30",
+    "kind": "original-embedded",
+    "figure": "basics-robot-original-figure-1"
+  },
+  {
+    "chapter": "basics-robot",
+    "after": "basics-robot-p110",
+    "kind": "original-embedded",
+    "figure": "basics-robot-original-figure-2"
+  },
+  {
+    "chapter": "basics-robot",
+    "after": "basics-robot-p75",
+    "kind": "original-embedded",
+    "figure": "basics-robot-original-figure-3"
+  },
+  {
+    "chapter": "basics-mlcc",
+    "after": "basics-mlcc-p1",
+    "kind": "original-embedded",
+    "figure": "basics-mlcc-original-figure-1"
+  },
+  {
+    "chapter": "basics-mcu",
+    "after": "basics-mcu-p19",
+    "kind": "original-embedded",
+    "figure": "basics-mcu-original-figure-1"
+  },
+  {
+    "image": 1,
+    "chapter": "basics-packaging",
+    "after": "basics-packaging-p44",
+    "kind": "inline",
+    "figure": "basics-packaging-archive-figure-1",
+    "paragraphExcerpt": "芯片贴合、互连、保护和测试共同决定可靠性与良率。较大尺寸会增加翘曲、热管理和测试难度。",
+    "sourceSha256": "b506561f6b7ce1c1b0aa3a4b79b290c127d611645dca590b6305b3ce885eca86"
+  },
+  {
+    "image": 2,
+    "chapter": "chip-testing",
+    "after": "chip-testing-p3",
+    "kind": "inline",
+    "figure": "chip-testing-archive-figure-2",
+    "paragraphExcerpt": "日月光（ASE）列出的服务包括晶圆探测、封装终测和系统级测试。爱德万（Advantest）的 V93000 资料描述了测试机、探针台接口和探针卡的配合。前者的服务机会取决于客户外包多少工序，后者的设备机会取决于测试厂或芯片厂要补多少机时。两份产品资料没有披露某颗 GPU 的独家订单。",
+    "sourceSha256": "042c2a3cddeea2a5e6ffd0b77dcb3f599c46bd845e9c4b234bdd2418c879ca70"
+  },
+  {
+    "image": 3,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p1",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-3",
+    "paragraphExcerpt": "光通信由器件、模块、交换系统和连接组成，客户架构、端口数、速率升级与传输距离决定需求。",
+    "sourceSha256": "6a11ea05313af0f06f99fe6888428b1c3db9c1629cf46e028670f4acd23cc359"
+  },
+  {
+    "image": 4,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p51",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-4",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "6d553413406202a454c6690073b43fae03af1af58dc1302d6ba5ae56c6d2da67"
+  },
+  {
+    "image": 5,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p51",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-original-figure-3"
+  },
+  {
+    "image": 23,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p51",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-23",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "da455625909797155f7fe354536bbfe0928b4825f4cc26b2ad64488963ca9eda"
+  },
+  {
+    "image": 6,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p112",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-6",
+    "paragraphExcerpt": "光芯片、精密光器件和模块通常是不同产品；源杰科技涉及激光芯片，天孚通信涉及光器件，中际旭创和新易盛涉及光模块，国际厂商 Coherent、Lumentum 也在相关光器件领域布局。实际客户关系、产品代际及价格请查公开披露。",
+    "sourceSha256": "72e7dd36f3c729cb00c52df6581b2d1b22192ddc4811ebed19a8664d4df2ceec"
+  },
+  {
+    "image": 7,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p24",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-7",
+    "paragraphExcerpt": "DRAM 断电后数据会消失，用作运行时内存；NAND 可长期保存数据，用于固态硬盘等。SRAM、NOR Flash 等各有不同场景。",
+    "sourceSha256": "d093cc0a49243a129c11893e18fd7d8f43a9a2eaed998eb5bc7ef298ed73c234"
+  },
+  {
+    "image": 10,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p24",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-10",
+    "paragraphExcerpt": "DRAM 断电后数据会消失，用作运行时内存；NAND 可长期保存数据，用于固态硬盘等。SRAM、NOR Flash 等各有不同场景。",
+    "sourceSha256": "6bc744008f6918040a1170c1c3331716c9f82a1d4e0fbe6c4d6a2513bdd57dd1"
+  },
+  {
+    "image": 8,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p28",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-8",
+    "paragraphExcerpt": "产业位置： 美光、三星、SK 海力士是全球存储参与者。兆易创新、普冉股份涉及不同存储设计领域，不能等同于拥有 DRAM 晶圆厂。",
+    "sourceSha256": "105cd190f928dfb7bc67b0e8c56dc3131a80b7c0daa8bb07a097dfe51437d461"
+  },
+  {
+    "image": 9,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p28",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-9",
+    "paragraphExcerpt": "产业位置： 美光、三星、SK 海力士是全球存储参与者。兆易创新、普冉股份涉及不同存储设计领域，不能等同于拥有 DRAM 晶圆厂。",
+    "sourceSha256": "19400e218ff1ba710f3dad0360da4f20e2d2d86c39a7832e4a03a11c08d5942f"
+  },
+  {
+    "image": 14,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p28",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-14",
+    "paragraphExcerpt": "产业位置： 美光、三星、SK 海力士是全球存储参与者。兆易创新、普冉股份涉及不同存储设计领域，不能等同于拥有 DRAM 晶圆厂。",
+    "sourceSha256": "789286733491dd4febc0aedd23d1a2312683ae35c2b6545d94dc6f7ebbef4b95"
+  },
+  {
+    "image": 11,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p75",
+    "kind": "duplicate-reference",
+    "figure": "basics-memory-archive-figure-7"
+  },
+  {
+    "image": 12,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p75",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-12",
+    "paragraphExcerpt": "SSD 控制器管理数据写入、纠错和磨损；模组企业采购颗粒和配件，业务可能包括设计、品牌与渠道。高存储价格对颗粒厂和模组厂的影响不同。",
+    "sourceSha256": "88a4ee9fa24667b3ac0a747be47bf55ea1fcb3ba609378a9b515b33726f97856"
+  },
+  {
+    "image": 13,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p75",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-13",
+    "paragraphExcerpt": "SSD 控制器管理数据写入、纠错和磨损；模组企业采购颗粒和配件，业务可能包括设计、品牌与渠道。高存储价格对颗粒厂和模组厂的影响不同。",
+    "sourceSha256": "c4874e4a6dd1e4187fd133d0c4e0a4f8b79416ba95ed4ef4431307cfc621fefd"
+  },
+  {
+    "image": 15,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p77",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-15",
+    "paragraphExcerpt": "价格上涨会改变客户备货与企业利润，进而刺激扩产；当供给集中释放或客户去库存时，价格和利润可能回落。判断要同时看价格、需求和库存。",
+    "sourceSha256": "e2a27788b598c90f86e6724b2a9f97fab8c2887401b03db5f5e81ed766cec585"
+  },
+  {
+    "image": 16,
+    "chapter": "ai-hbm-capacity",
+    "after": "ai-hbm-capacity-p0",
+    "kind": "inline",
+    "figure": "ai-hbm-capacity-archive-figure-16",
+    "paragraphExcerpt": "一颗可交付的加速器要把计算芯片和高速存储接起来。存储厂把多层 DRAM 堆叠成 HBM；封装厂用中介层等结构连接逻辑芯片和 HBM，再完成集成与测试。换计算芯片品牌后，这两类需求往往仍在，但每颗装多少内存、封装占用多少资源、哪家通过认证，都可能改变。",
+    "sourceSha256": "1954d05b04945e2b1931e5a795b948c2b380065238f99526e0cf4bbc8ddf6d35"
+  },
+  {
+    "image": 17,
+    "chapter": "ai-hbm-capacity",
+    "after": "ai-hbm-capacity-p0",
+    "kind": "inline",
+    "figure": "ai-hbm-capacity-archive-figure-17",
+    "paragraphExcerpt": "一颗可交付的加速器要把计算芯片和高速存储接起来。存储厂把多层 DRAM 堆叠成 HBM；封装厂用中介层等结构连接逻辑芯片和 HBM，再完成集成与测试。换计算芯片品牌后，这两类需求往往仍在，但每颗装多少内存、封装占用多少资源、哪家通过认证，都可能改变。",
+    "sourceSha256": "a1b9a07dc9f43abe90ec52ea4dd27a37e796ca3ecf19bc0a82cf8d107282b39a"
+  },
+  {
+    "image": 18,
+    "chapter": "basics-materials",
+    "after": "basics-materials-p42",
+    "kind": "inline",
+    "figure": "basics-materials-archive-figure-18",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "d59185ed5ff06c34218461bd792809c57970c6589e3c0a044d6293a0720b6ad4"
+  },
+  {
+    "image": 19,
+    "chapter": "basics-materials",
+    "after": "basics-materials-p42",
+    "kind": "inline",
+    "figure": "basics-materials-archive-figure-19",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "b1068b3a1e8cad651484b43881737fa77f8a727f61cc3b9e270b9a9f1a79745f"
+  },
+  {
+    "image": 20,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p43",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-archive-figure-3"
+  },
+  {
+    "image": 21,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p43",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-21",
+    "paragraphExcerpt": "发送端激光器发光，接收端探测器将光信号转换为电信号；不同速率与距离所需技术不同。",
+    "sourceSha256": "829e559e7f1f88ddf2151f71fd8d0cd96e550aca1c98196168875a1b62b48875"
+  },
+  {
+    "image": 22,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p43",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-22",
+    "paragraphExcerpt": "发送端激光器发光，接收端探测器将光信号转换为电信号；不同速率与距离所需技术不同。",
+    "sourceSha256": "f7cb5b5a6a3884d12537563112f0fcc7d2a463a35047bf2546b0085bb2568c3f"
+  },
+  {
+    "image": 24,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p47",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-archive-figure-3"
+  },
+  {
+    "image": 25,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p47",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-25",
+    "paragraphExcerpt": "DSP 等电芯片处理信号，光模块与交换机、光纤组成连接；短距离也可能使用铜缆。",
+    "sourceSha256": "26e98597da97d23250a36d9f6816aa611fc28ad8235cbe46f3479a35f3124a0f"
+  },
+  {
+    "image": 26,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p47",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-26",
+    "paragraphExcerpt": "DSP 等电芯片处理信号，光模块与交换机、光纤组成连接；短距离也可能使用铜缆。",
+    "sourceSha256": "1c2a65ed3df1f97e4a2b9b9f9bb5fa53907a3686b08e7080fa5667185a25b38d"
+  },
+  {
+    "image": 27,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p47",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-27",
+    "paragraphExcerpt": "DSP 等电芯片处理信号，光模块与交换机、光纤组成连接；短距离也可能使用铜缆。",
+    "sourceSha256": "96d63caa8757f112f1173e2328c2364465c19990831bb499eae30f879eba6e25"
+  },
+  {
+    "image": 28,
+    "chapter": "framework",
+    "after": "framework-p4",
+    "kind": "inline",
+    "figure": "framework-archive-figure-28",
+    "paragraphExcerpt": "估算收入并非利润或估值。份额应明确相对于可服务市场的口径。",
+    "sourceSha256": "a31cc4f2ef540f1793b68634304e6733fb8ddff8c81d397398b2bfa2bc1c4cd7"
+  },
+  {
+    "image": 29,
+    "chapter": "framework",
+    "after": "framework-p4",
+    "kind": "inline",
+    "figure": "framework-archive-figure-29",
+    "paragraphExcerpt": "估算收入并非利润或估值。份额应明确相对于可服务市场的口径。",
+    "sourceSha256": "e5bddd761e6c72aeb6e37965244e5bfab9027d294bd6d1d1660ea742712c54fa"
+  },
+  {
+    "image": 30,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p33",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-30",
+    "paragraphExcerpt": "多层电路经过压合、钻孔、电镀、图形加工和测试形成板件；不同结构工序并不完全相同。",
+    "sourceSha256": "a4349508a5340f93dd1c122d19dc5ca6445710962223476c56020a4337c9762a"
+  },
+  {
+    "image": 31,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p33",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-31",
+    "paragraphExcerpt": "多层电路经过压合、钻孔、电镀、图形加工和测试形成板件；不同结构工序并不完全相同。",
+    "sourceSha256": "6017a6369c97355f5235517311400496247215313a226fff0403cf864fca8e4e"
+  },
+  {
+    "image": 32,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p85",
+    "kind": "duplicate-reference",
+    "figure": "basics-pcb-original-figure-2"
+  },
+  {
+    "image": 33,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p85",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-33",
+    "paragraphExcerpt": "只说明公开业务位置；不构成指定客户供货证明，个别公司业务需要结合最新公告核实。",
+    "sourceSha256": "86fed0eff9100adeb0af5c4adb12286f871dc10c327d56b152d41bfc3db94599"
+  },
+  {
+    "image": 34,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p85",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-34",
+    "paragraphExcerpt": "只说明公开业务位置；不构成指定客户供货证明，个别公司业务需要结合最新公告核实。",
+    "sourceSha256": "7098fe700e034093011dba1f772a3ddab79ab1a0b9f2f201b99e7535439f9f33"
+  },
+  {
+    "image": 35,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p30",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-35",
+    "paragraphExcerpt": "树脂、增强材料和铜箔经过加工形成覆铜板。材料的介电、耐热和可靠性性能影响信号损耗。",
+    "sourceSha256": "b92b6da3820d0ce207340429d5a4ece80361943a145f9658b10c21b1de75af83"
+  },
+  {
+    "image": 36,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p30",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-36",
+    "paragraphExcerpt": "树脂、增强材料和铜箔经过加工形成覆铜板。材料的介电、耐热和可靠性性能影响信号损耗。",
+    "sourceSha256": "295fd7f42b9503e8e94161c5a4ae21271c1dbdc287f7ffdd1688f9401711b614"
+  },
+  {
+    "image": 37,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p125",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-37",
+    "paragraphExcerpt": "更高速信号对损耗、层间连接、稳定性和制造良率提出更高要求。若客户升级材料和板层结构，单板价格可能提高；但也可能增加损耗、验证和报废成本。新的产品认证和交付量，才是检验价值量改善能否兑现的重要证据。",
+    "sourceSha256": "b18b2d77f9922336a73a5f273a19203a2d153a1a370275d2880f2f52ac3f254e"
+  },
+  {
+    "image": 38,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p125",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-38",
+    "paragraphExcerpt": "更高速信号对损耗、层间连接、稳定性和制造良率提出更高要求。若客户升级材料和板层结构，单板价格可能提高；但也可能增加损耗、验证和报废成本。新的产品认证和交付量，才是检验价值量改善能否兑现的重要证据。",
+    "sourceSha256": "0740bf23145a37f6ac9520fd700d3656b47bcbee5e035dfd8d96106f72b58434"
+  },
+  {
+    "image": 39,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p125",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-39",
+    "paragraphExcerpt": "更高速信号对损耗、层间连接、稳定性和制造良率提出更高要求。若客户升级材料和板层结构，单板价格可能提高；但也可能增加损耗、验证和报废成本。新的产品认证和交付量，才是检验价值量改善能否兑现的重要证据。",
+    "sourceSha256": "a4ccd638b93ac1f78717b324e9f66308aef73fcc519673f01588c55cc69ab256"
+  },
+  {
+    "image": 40,
+    "chapter": "framework",
+    "after": "framework-p1",
+    "kind": "inline",
+    "figure": "framework-archive-figure-40",
+    "paragraphExcerpt": "从需求和供应入手，依次核对份额、利润和市场预期，最后写下什么变化会让你修正判断。行业空间、企业收入、企业利润和市值是四个不同的数。",
+    "sourceSha256": "34b08481cc7c6f4915ad132182ca08b7c060a848cf192c06a734b84c78659483"
+  },
+  {
+    "image": 41,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p54",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-41",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "2ffe070d39869a5cffd46fc4f263f5b6d9fc19693860409970085a3ecb003eb0"
+  },
+  {
+    "image": 42,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p54",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-42",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "d26486e766637293fa0e4f5e31ceee95b4ec71360f9e8e9986513d62093e1a3a"
+  },
+  {
+    "image": 43,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p54",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-43",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "2626b9db08fbcc86553875f6678b59381aa57cbbf0567398684c8b02a8260d6e"
+  },
+  {
+    "image": 44,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p54",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-44",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "4e3696581decb4c2d63a812d7a13c8c00a0622cfa9616fb03373d129f201b868"
+  },
+  {
+    "image": 45,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p30",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-45",
+    "paragraphExcerpt": "电机提供旋转动力；减速器调整速度和扭矩；丝杠可把旋转运动转成直线运动；并非每个关节都采用相同方案。",
+    "sourceSha256": "d776b27f34a24bbd444b34c7d2e251d9fbdbb2b410c8001fa0d4e49280bf4f1c"
+  },
+  {
+    "image": 46,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p30",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-46",
+    "paragraphExcerpt": "电机提供旋转动力；减速器调整速度和扭矩；丝杠可把旋转运动转成直线运动；并非每个关节都采用相同方案。",
+    "sourceSha256": "07e478288c0f92bed6bc45ce08efb632b11b9991552f00a551428998837258f7"
+  },
+  {
+    "image": 47,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p110",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-47",
+    "paragraphExcerpt": "电机负责提供动力；减速器调整速度与扭矩；编码器反馈位置；传感器帮助识别接触或环境。不同产品可采用不同传动、关节和手部方案。研究公司时，要查具体产品规格、认证、定点、量产和实际收入，而不是只根据“机器人概念”归类。",
+    "sourceSha256": "8dea2d9dbbdf78f9bd342b3ef5ded1ede599f51f104dfcb7641ba29ef6751023"
+  },
+  {
+    "image": 48,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p110",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-48",
+    "paragraphExcerpt": "电机负责提供动力；减速器调整速度与扭矩；编码器反馈位置；传感器帮助识别接触或环境。不同产品可采用不同传动、关节和手部方案。研究公司时，要查具体产品规格、认证、定点、量产和实际收入，而不是只根据“机器人概念”归类。",
+    "sourceSha256": "278306f30587d8d56fcf58ec3cc5afd72f01232e801e4147c946c6a8e4966020"
+  },
+  {
+    "image": 49,
+    "chapter": "method-21",
+    "after": "method-21-p7",
+    "kind": "inline",
+    "figure": "method-21-archive-figure-49",
+    "paragraphExcerpt": "写下数据来源、观察时间、乐观与压力情景，以及什么事实会让判断改变。",
+    "sourceSha256": "a181f9cd6217c6e1f65533eb012cb45112a842f7e4bb3ac81363b6a9a292b5dc"
+  },
+  {
+    "image": 50,
+    "chapter": "method-21",
+    "after": "method-21-p7",
+    "kind": "inline",
+    "figure": "method-21-archive-figure-50",
+    "paragraphExcerpt": "写下数据来源、观察时间、乐观与压力情景，以及什么事实会让判断改变。",
+    "sourceSha256": "3106126e4a6b09ceac2e761e7edb501fc63f4ace0952d33df227a5cd2b86634f"
+  },
+  {
+    "image": 51,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p44",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-51",
+    "paragraphExcerpt": "电机提供动力；减速器调整转速与扭矩；丝杠把旋转转换为直线运动。不同方案不一定同时使用全部零件。",
+    "sourceSha256": "20a199841331fa3ecedbc2106cb00ddc6f5f34f88966bd37331ef8579431ed43"
+  },
+  {
+    "image": 52,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p44",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-52",
+    "paragraphExcerpt": "电机提供动力；减速器调整转速与扭矩；丝杠把旋转转换为直线运动。不同方案不一定同时使用全部零件。",
+    "sourceSha256": "95dfb2fa3109a9aaac0bb3c21cf570284a9ad928d272dda8e04cfb5e18cb9cb4"
+  },
+  {
+    "image": 53,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p112",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-53",
+    "paragraphExcerpt": "可观察付费场景是否明确、单次任务成本是否低于替代方案、故障维护能否接受、供应商是否收到可持续订单。反方也要看：技术方案改变导致某零件用量降低、量产降本慢、客户推迟部署或产能供过于求。",
+    "sourceSha256": "76c75ed059fd2d91bbc61cdd13dd950c6161d99a68e610b36d8f6ba2e783b66b"
+  },
+  {
+    "image": 54,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p112",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-54",
+    "paragraphExcerpt": "可观察付费场景是否明确、单次任务成本是否低于替代方案、故障维护能否接受、供应商是否收到可持续订单。反方也要看：技术方案改变导致某零件用量降低、量产降本慢、客户推迟部署或产能供过于求。",
+    "sourceSha256": "c471c316644b25bb88241646e2109da64efe2ddabbe66984ca45b2053eaaa1aa"
+  },
+  {
+    "image": 55,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p75",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-55",
+    "paragraphExcerpt": "电机输出动力，减速器、丝杠等机械部件改变速度和力，控制器协调关节。灵巧手方案多样，不能假定所有产品都采用同一种零件。",
+    "sourceSha256": "9da59f67224ca1661091dc4708aa0ac1ed1b0fad09eb8e56a474905c4b871b87"
+  },
+  {
+    "image": 56,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p75",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-56",
+    "paragraphExcerpt": "电机输出动力，减速器、丝杠等机械部件改变速度和力，控制器协调关节。灵巧手方案多样，不能假定所有产品都采用同一种零件。",
+    "sourceSha256": "7d1cd00547c1d55f2a6435f295f5ee17bf39acc6d105708aff4fdac4d7f2708a"
+  },
+  {
+    "image": 57,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p79",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-57",
+    "paragraphExcerpt": "只说明公开业务位置；不构成指定客户供货证明，个别公司业务需要结合最新公告核实。",
+    "sourceSha256": "d99cd3eb57db4b8e8093bb73a04ac4c72cbbe6963f5935be3071ef15b0dacc32"
+  },
+  {
+    "image": 58,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p79",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-58",
+    "paragraphExcerpt": "只说明公开业务位置；不构成指定客户供货证明，个别公司业务需要结合最新公告核实。",
+    "sourceSha256": "d1ff234526ed0aa8a858f68e9fa2d3ef4d1d31c8eb2df341f9fc25595733f8ff"
+  },
+  {
+    "image": 59,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p77",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-59",
+    "paragraphExcerpt": "工厂和服务场景需要可靠性、安全、维护、节拍及成本验证。展示视频、样机、订单和持续量产是不同阶段。",
+    "sourceSha256": "a5e47afb7acf10abbf27bcb51631fcd7b69680a3896ab19a4c985f9e09c826e5"
+  },
+  {
+    "image": 60,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p77",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-60",
+    "paragraphExcerpt": "工厂和服务场景需要可靠性、安全、维护、节拍及成本验证。展示视频、样机、订单和持续量产是不同阶段。",
+    "sourceSha256": "3141f9276cacfbce97d2eb5a07416b5bff42d05e4225fc2df473eda4acdf63cf"
+  },
+  {
+    "image": 61,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p77",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-61",
+    "paragraphExcerpt": "工厂和服务场景需要可靠性、安全、维护、节拍及成本验证。展示视频、样机、订单和持续量产是不同阶段。",
+    "sourceSha256": "c190555f009c674c6b8e537636689954c7285527f052cd1c3a58ad12d2bc25ae"
+  },
+  {
+    "image": 62,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p77",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-62",
+    "paragraphExcerpt": "工厂和服务场景需要可靠性、安全、维护、节拍及成本验证。展示视频、样机、订单和持续量产是不同阶段。",
+    "sourceSha256": "b781b57229f95421efc0fa7894c8bc988071d8cb0461259421e3fec3ee7ea57f"
+  },
+  {
+    "image": 63,
+    "chapter": "basics-server",
+    "after": "basics-server-p38",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-63",
+    "paragraphExcerpt": "芯片、内存、PCB、供电、网络与机箱集成为计算节点；厂商可能提供整机、定制和系统集成。",
+    "sourceSha256": "86289cee5e573fa9a71235026ba978c59c05487829ea21c51f7a137e149c1ee3"
+  },
+  {
+    "image": 64,
+    "chapter": "basics-server",
+    "after": "basics-server-p38",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-64",
+    "paragraphExcerpt": "芯片、内存、PCB、供电、网络与机箱集成为计算节点；厂商可能提供整机、定制和系统集成。",
+    "sourceSha256": "85ff03d037059f358b52adf3176c3b0e8a07daa94071161c7e15ba661bf0c555"
+  },
+  {
+    "image": 65,
+    "chapter": "basics-server",
+    "after": "basics-server-p77",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-65",
+    "paragraphExcerpt": "只说明公开业务位置；不构成指定客户供货证明，个别公司业务需要结合最新公告核实。",
+    "sourceSha256": "6f399cfd4ec3c6705b8f231fe7ae8d9ea98da07534f242f26f28a17d315c1b9d"
+  },
+  {
+    "image": 66,
+    "chapter": "basics-server",
+    "after": "basics-server-p77",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-66",
+    "paragraphExcerpt": "只说明公开业务位置；不构成指定客户供货证明，个别公司业务需要结合最新公告核实。",
+    "sourceSha256": "3ac61d250806854a5f21ec9240fd4e097616508f2f847377271c588aa8156210"
+  },
+  {
+    "image": 67,
+    "chapter": "framework",
+    "after": "framework-p1",
+    "kind": "inline",
+    "figure": "framework-archive-figure-67",
+    "paragraphExcerpt": "从需求和供应入手，依次核对份额、利润和市场预期，最后写下什么变化会让你修正判断。行业空间、企业收入、企业利润和市值是四个不同的数。",
+    "sourceSha256": "e395daef56b80ae98732fdbec5b2088ddbaaf77da876f58341e918f015d074e3"
+  },
+  {
+    "image": 68,
+    "chapter": "framework",
+    "after": "framework-p1",
+    "kind": "inline",
+    "figure": "framework-archive-figure-68",
+    "paragraphExcerpt": "从需求和供应入手，依次核对份额、利润和市场预期，最后写下什么变化会让你修正判断。行业空间、企业收入、企业利润和市值是四个不同的数。",
+    "sourceSha256": "5e1ffd05e428a45c5e6fe859a5db14dc691bb2ad1482437fae924864b9a4256c"
+  },
+  {
+    "image": 69,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p24",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-69",
+    "paragraphExcerpt": "相机、深度视觉、力和触觉传感器帮助机器人理解环境和接触状态。传感器只是起点，数据处理与控制同样关键。",
+    "sourceSha256": "ddc2e8ba610198da4eab59ebeb898901f42d72a848fa282844919824dcce5e93"
+  },
+  {
+    "image": 70,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p24",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-70",
+    "paragraphExcerpt": "相机、深度视觉、力和触觉传感器帮助机器人理解环境和接触状态。传感器只是起点，数据处理与控制同样关键。",
+    "sourceSha256": "fe3d1a4a30a6d24428285edcf0291f79427a15183971c17272fa71e87117e437"
+  },
+  {
+    "image": 71,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p108",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-71",
+    "paragraphExcerpt": "IFR 统计，2025 年全球工业机器人新增安装约 60.3 万台，工厂在运行的工业机器人约 507.9 万台。前者是当年新增，后者是历年累计存量；都不是人形机器人出货量，更不能直接换算成灵巧手市场。",
+    "sourceSha256": "f6c811512f0e509f4ea88c15d39375b30aba46bdea4729b9b4959e2458fdc213"
+  },
+  {
+    "image": 72,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p108",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-72",
+    "paragraphExcerpt": "IFR 统计，2025 年全球工业机器人新增安装约 60.3 万台，工厂在运行的工业机器人约 507.9 万台。前者是当年新增，后者是历年累计存量；都不是人形机器人出货量，更不能直接换算成灵巧手市场。",
+    "sourceSha256": "619da2f41f55b608aaf85f22e90308cf72028480e68784e41085b41dc9ce5b66"
+  },
+  {
+    "image": 73,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p40",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-73",
+    "paragraphExcerpt": "相机、深度传感、力和触觉传感器采集环境信息，算法将原始信号变成可用状态。",
+    "sourceSha256": "8049566938516d9dd2b164dfdade9d77fadd1dfe479468e47e50ce9d24993cc5"
+  },
+  {
+    "image": 74,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p40",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-74",
+    "paragraphExcerpt": "相机、深度传感、力和触觉传感器采集环境信息，算法将原始信号变成可用状态。",
+    "sourceSha256": "d6fa7287b9f086cc6044fc425b51a7815d5f94aace884e36c34138546c81a7f3"
+  },
+  {
+    "image": 75,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p48",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-75",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "1eef47aff8b59081e10a63cb1b57eba35dbec21086a4c57cdf8a78a2c0ef722d"
+  },
+  {
+    "image": 76,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p48",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-76",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "3cbd1a3b17dfc58056cdc429400f975230c77c99691ddca5e4aa6b7acb8bc386"
+  },
+  {
+    "image": 77,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p32",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-77",
+    "paragraphExcerpt": "晶圆制造设备的需求来自新产能、工艺升级与存量维护。具体设备种类多，技术难度和客户认证各不相同。",
+    "sourceSha256": "71f44779f1616e95614a41a266d512d905844c90bdc7e02514dee9ee9dc43bad"
+  },
+  {
+    "image": 78,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p32",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-78",
+    "paragraphExcerpt": "晶圆制造设备的需求来自新产能、工艺升级与存量维护。具体设备种类多，技术难度和客户认证各不相同。",
+    "sourceSha256": "b294f8b511fc459dc099b8e508b51b8350bbfa76aba3bcd9c0166de229862d86"
+  },
+  {
+    "image": 79,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p32",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-79",
+    "paragraphExcerpt": "晶圆制造设备的需求来自新产能、工艺升级与存量维护。具体设备种类多，技术难度和客户认证各不相同。",
+    "sourceSha256": "b0f8d30650f1c0a6b630fe9be2ef8e8d043444ce6befef98b54542333a5ab11a"
+  },
+  {
+    "image": 80,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p43",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-80",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "e03440352da5f61eae3a759ef28d505d7ca37e09a45b34cdcaf05286709284f5"
+  },
+  {
+    "image": 81,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p43",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-81",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "2ba59b503800611f458f5fed98dc7a5ecc9eb0f115d741b0ad3155fc3cd9315b"
+  },
+  {
+    "image": 82,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p28",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-82",
+    "paragraphExcerpt": "设备通常是资本开支，材料更多随投片消耗；设备也有维护及备件，材料也受库存和价格周期影响。",
+    "sourceSha256": "d1ca3d545b8159ad3c752661f2bbfb117eb433b06d7e9e3f12af2edc5e79f51e"
+  },
+  {
+    "image": 83,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p28",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-83",
+    "paragraphExcerpt": "设备通常是资本开支，材料更多随投片消耗；设备也有维护及备件，材料也受库存和价格周期影响。",
+    "sourceSha256": "dbb6f0f19c2db0cb92eb67287161855289c0fe91a71c6adaf195ac559a040176"
+  },
+  {
+    "image": 84,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p28",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-84",
+    "paragraphExcerpt": "设备通常是资本开支，材料更多随投片消耗；设备也有维护及备件，材料也受库存和价格周期影响。",
+    "sourceSha256": "82ec268085bcf68396ae6c2bc3be5fe68b55af2b4da0009c34759cde75e3e8c3"
+  },
+  {
+    "image": 85,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p41",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-85",
+    "paragraphExcerpt": "量测关注尺寸、厚度等指标；检测寻找缺陷，反馈用于改善良率。两者相关但不完全相同。",
+    "sourceSha256": "ee018566358be4367ebbecc8a754225a1c723b2a6680540773b9a37bf893ff01"
+  },
+  {
+    "image": 86,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p41",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-86",
+    "paragraphExcerpt": "量测关注尺寸、厚度等指标；检测寻找缺陷，反馈用于改善良率。两者相关但不完全相同。",
+    "sourceSha256": "0b508fe8f774f098472e2517c20d794095a08143a58c7c79b48f01295c199e7a"
+  },
+  {
+    "image": 87,
+    "chapter": "chip-testing",
+    "after": "chip-testing-p3",
+    "kind": "inline",
+    "figure": "chip-testing-archive-figure-87",
+    "paragraphExcerpt": "日月光（ASE）列出的服务包括晶圆探测、封装终测和系统级测试。爱德万（Advantest）的 V93000 资料描述了测试机、探针台接口和探针卡的配合。前者的服务机会取决于客户外包多少工序，后者的设备机会取决于测试厂或芯片厂要补多少机时。两份产品资料没有披露某颗 GPU 的独家订单。",
+    "sourceSha256": "645a1fbdc48a713e83a8798014168303a0f5517910f94211891d4baafa9ad484"
+  },
+  {
+    "image": 88,
+    "chapter": "chip-testing",
+    "after": "chip-testing-p3",
+    "kind": "inline",
+    "figure": "chip-testing-archive-figure-88",
+    "paragraphExcerpt": "日月光（ASE）列出的服务包括晶圆探测、封装终测和系统级测试。爱德万（Advantest）的 V93000 资料描述了测试机、探针台接口和探针卡的配合。前者的服务机会取决于客户外包多少工序，后者的设备机会取决于测试厂或芯片厂要补多少机时。两份产品资料没有披露某颗 GPU 的独家订单。",
+    "sourceSha256": "94a3058bb8ce7e9073c99e48144a6b78b0c760b96c42178ac9d4766fe5ab3547"
+  },
+  {
+    "image": 89,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p40",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-89",
+    "paragraphExcerpt": "量测关注尺寸、厚度等指标；检测寻找缺陷，反馈用于改善良率。两者相关但不完全相同。",
+    "sourceSha256": "e47279553dfc25aacb5ffefd07e319efef69168dd0bf37ae55eb069d14002915"
+  },
+  {
+    "image": 90,
+    "chapter": "basics-equipment",
+    "after": "basics-equipment-p40",
+    "kind": "inline",
+    "figure": "basics-equipment-archive-figure-90",
+    "paragraphExcerpt": "量测关注尺寸、厚度等指标；检测寻找缺陷，反馈用于改善良率。两者相关但不完全相同。",
+    "sourceSha256": "322c2d53423f687f99d4617b4d0e67b1b88a7b6f95842de0bf88521f56f5a18e"
+  },
+  {
+    "image": 91,
+    "chapter": "basics-materials",
+    "after": "basics-materials-p31",
+    "kind": "inline",
+    "figure": "basics-materials-archive-figure-91",
+    "paragraphExcerpt": "半导体材料更像持续消耗的食材，但不同材料并无统一利润率和统一的国产化比例。",
+    "sourceSha256": "1c3ef1e6133151f286519ada9276f2eb5ecc7d8187185eec77018274efe22622"
+  },
+  {
+    "image": 92,
+    "chapter": "basics-materials",
+    "after": "basics-materials-p31",
+    "kind": "inline",
+    "figure": "basics-materials-archive-figure-92",
+    "paragraphExcerpt": "半导体材料更像持续消耗的食材，但不同材料并无统一利润率和统一的国产化比例。",
+    "sourceSha256": "3f7f3ee62fb9f517369caf531311371e227176d3da411237f5a3677d17feea69"
+  },
+  {
+    "image": 93,
+    "chapter": "framework",
+    "after": "framework-p1",
+    "kind": "inline",
+    "figure": "framework-archive-figure-93",
+    "paragraphExcerpt": "从需求和供应入手，依次核对份额、利润和市场预期，最后写下什么变化会让你修正判断。行业空间、企业收入、企业利润和市值是四个不同的数。",
+    "sourceSha256": "d83ab090ed3951fac8b3f7c3f00aef5a1364bed932ddbb19a0d8ac6d7789b136"
+  },
+  {
+    "image": 94,
+    "chapter": "framework",
+    "after": "framework-p1",
+    "kind": "inline",
+    "figure": "framework-archive-figure-94",
+    "paragraphExcerpt": "从需求和供应入手，依次核对份额、利润和市场预期，最后写下什么变化会让你修正判断。行业空间、企业收入、企业利润和市值是四个不同的数。",
+    "sourceSha256": "3f490f6217b36a6ee5b6b497debb2ba15fda8e6d3a6f9e31c8358ddfc15944bf"
+  },
+  {
+    "image": 95,
+    "chapter": "framework",
+    "after": "framework-p1",
+    "kind": "inline",
+    "figure": "framework-archive-figure-95",
+    "paragraphExcerpt": "从需求和供应入手，依次核对份额、利润和市场预期，最后写下什么变化会让你修正判断。行业空间、企业收入、企业利润和市值是四个不同的数。",
+    "sourceSha256": "df33aadc72583c836475627958e09b005902bb9fe7f34420ca10b337074044ac"
+  },
+  {
+    "image": 96,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p35",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-96",
+    "paragraphExcerpt": "速率、端口数量、单位价格与架构变动共同决定行业空间；一条光链路两端可能都有端口，统计时要统一口径。",
+    "sourceSha256": "c6234adb755c09b619dc5f3f55af78c8417a521f38c407a3b22325e9b36ea203"
+  },
+  {
+    "image": 97,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p76",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-97",
+    "paragraphExcerpt": "价格上涨会改变客户备货与企业利润，进而刺激扩产；当供给集中释放或客户去库存时，价格和利润可能回落。判断要同时看价格、需求和库存。",
+    "sourceSha256": "b02401058447d48a9811bd4fabaf2449ccd58fc2ffe8959c081c6d209969a622"
+  },
+  {
+    "image": 98,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p36",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-98",
+    "paragraphExcerpt": "更高速和复杂设计可能抬高单板价值，但更多层数、更复杂加工也可能增加报废和材料成本。",
+    "sourceSha256": "21b3c239c719d1f47b8da6789e123754823ef96dad55d0730e89991f03dc22a0"
+  },
+  {
+    "image": 99,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p110",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-99",
+    "paragraphExcerpt": "电机负责提供动力；减速器调整速度与扭矩；编码器反馈位置；传感器帮助识别接触或环境。不同产品可采用不同传动、关节和手部方案。研究公司时，要查具体产品规格、认证、定点、量产和实际收入，而不是只根据“机器人概念”归类。",
+    "sourceSha256": "4d945f80191a62244464529928740314baea76c55171ed9b65cd08401d2278ca"
+  },
+  {
+    "image": 100,
+    "chapter": "basics-server",
+    "after": "basics-server-p109",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-100",
+    "paragraphExcerpt": "客户账： 服务收入能否覆盖折旧、电费和运营成本。 供应链账： 设备商拿到多少订单、多久交付、利润率多少。 投资者账： 增长、利润率及持续时间是否已反映在买入价格中。订单和产能扩张也可能在需求放缓后带来资产闲置。",
+    "sourceSha256": "73172d1b2299f44dda5529caeb70006f5c98f9db94d155eb1472540f49524058"
+  },
+  {
+    "image": 101,
+    "chapter": "method-25",
+    "after": "method-25-p4",
+    "kind": "inline",
+    "figure": "method-25-archive-figure-101",
+    "paragraphExcerpt": "两种情景利润差 13.5 亿元；即使未来估值倍数不变，市场愿意给出的价值也可能不同。但股价还由利率、风险偏好、利润持续性和其他业务决定，不存在业绩差异与股价变化的一一对应。",
+    "sourceSha256": "7179a72185dcf2762c4f5c79f942a5b90013eb14f5bb47632cc78a22beb58f4e"
+  },
+  {
+    "image": 102,
+    "chapter": "method-21",
+    "after": "method-21-p7",
+    "kind": "inline",
+    "figure": "method-21-archive-figure-102",
+    "paragraphExcerpt": "写下数据来源、观察时间、乐观与压力情景，以及什么事实会让判断改变。",
+    "sourceSha256": "9936f0de2db807e373d3b420f7df5feab9b941863635db6f163846b1ef4c14a9"
+  },
+  {
+    "image": 103,
+    "chapter": "method-21",
+    "after": "method-21-p1",
+    "kind": "inline",
+    "figure": "method-21-archive-figure-103",
+    "paragraphExcerpt": "把信息按以下顺序写下来，先检查逻辑，再判断价格。每项都可以写“尚未确认”，也可以附原始资料链接。",
+    "sourceSha256": "67660b59573c719d5b6208df2d0d186ae0953c500aad4e8fcb2f07beeb0d26bc"
+  },
+  {
+    "image": 104,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p1",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-104",
+    "paragraphExcerpt": "光通信由器件、模块、交换系统和连接组成，客户架构、端口数、速率升级与传输距离决定需求。",
+    "sourceSha256": "34daf91981c409952d33cd908c370342a7e691b04abe4ebec40a1aca214c3c74"
+  },
+  {
+    "image": 105,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p187",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-105",
+    "paragraphExcerpt": "一座集群里，设备连接方式、交换层级、端口速度、连接距离、是否使用铜缆或光缆，以及每个光链路两端的配置，共同决定模块需求。",
+    "sourceSha256": "8716c015c4ff2089f0918a1d58eb154617f7eed00c4ea5d18ad64e5005f70025"
+  },
+  {
+    "image": 106,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p45",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-106",
+    "paragraphExcerpt": "光路耦合、连接、散热和封装影响信号质量与良率。",
+    "sourceSha256": "66240f6033ccdc53cb56990c99f8ebcf33220bae1fd84b3a55851e75a317d2ad"
+  },
+  {
+    "image": 107,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p29",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-107",
+    "paragraphExcerpt": "光模块整合光器件、电芯片和控制功能，为交换机等设备提供光接口；高速连接还涉及 DSP、封装和散热。",
+    "sourceSha256": "e0ab2af97a3ef0569c9d428302242a677eb1faddf132a2277cfc933a18e94d7d"
+  },
+  {
+    "image": 108,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p29",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-108",
+    "paragraphExcerpt": "光模块整合光器件、电芯片和控制功能，为交换机等设备提供光接口；高速连接还涉及 DSP、封装和散热。",
+    "sourceSha256": "7cbde05736d43124bdb5b6dbab602b5faa4efc568a6149096e358ccb245c5f1f"
+  },
+  {
+    "image": 109,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p29",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-original-figure-2"
+  },
+  {
+    "image": 110,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p29",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-110",
+    "paragraphExcerpt": "光模块整合光器件、电芯片和控制功能，为交换机等设备提供光接口；高速连接还涉及 DSP、封装和散热。",
+    "sourceSha256": "d6aac9e12a6225a45507b2828efcf7be4555952f3a1d41825d2a28dee8c1ab49"
+  },
+  {
+    "image": 111,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p29",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-archive-figure-108"
+  },
+  {
+    "image": 112,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p29",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-archive-figure-110"
+  },
+  {
+    "image": 113,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p161",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-113",
+    "paragraphExcerpt": "一束光从芯片到服务器，需要经过哪些关？",
+    "sourceSha256": "7c54b150036e13459916a3910265b0d11b71f38e71279c9c5ae42358c33edbed"
+  },
+  {
+    "image": 114,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p167",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-114",
+    "paragraphExcerpt": "封装把光芯片、透镜或波导、光纤与支撑结构对准并固定。高速传输对对准、温度、振动、清洁和批次一致性提出要求；封装良率影响单位成本。",
+    "sourceSha256": "0a39cf58cd24ad691908ef8c66e0c276517fbc64e6aa5073652bcb1cc9f21788"
+  },
+  {
+    "image": 115,
+    "chapter": "basics-packaging",
+    "after": "basics-packaging-p40",
+    "kind": "inline",
+    "figure": "basics-packaging-archive-figure-115",
+    "paragraphExcerpt": "中介层提供高密度连线，局部硅桥把高密度连接集中在关键区域。硅中介层、RDL 和局部硅桥不是同一物件。",
+    "sourceSha256": "71169279eaa96a76ae1cdc401981099c351104208ec6a94b134dafbf89a2b566"
+  },
+  {
+    "image": 116,
+    "chapter": "basics-packaging",
+    "after": "basics-packaging-p40",
+    "kind": "inline",
+    "figure": "basics-packaging-archive-figure-116",
+    "paragraphExcerpt": "中介层提供高密度连线，局部硅桥把高密度连接集中在关键区域。硅中介层、RDL 和局部硅桥不是同一物件。",
+    "sourceSha256": "a263ad1a271c47ac6e0a6dfbd789714d5b40576d4f3436cce34dead55dfa947f"
+  },
+  {
+    "image": 117,
+    "chapter": "basics-packaging",
+    "after": "basics-packaging-p40",
+    "kind": "inline",
+    "figure": "basics-packaging-archive-figure-117",
+    "paragraphExcerpt": "中介层提供高密度连线，局部硅桥把高密度连接集中在关键区域。硅中介层、RDL 和局部硅桥不是同一物件。",
+    "sourceSha256": "9bf3d71802ffb807d44aa54a012e01a37c9005c835241770bdb8cd96d3958fc6"
+  },
+  {
+    "image": 118,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p35",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-archive-figure-22"
+  },
+  {
+    "image": 119,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p35",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-original-figure-3"
+  },
+  {
+    "image": 120,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p129",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-archive-figure-6"
+  },
+  {
+    "image": 121,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p129",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-121",
+    "paragraphExcerpt": "公开业务位置用于认识分工，不能推断未披露客户关系；比较份额时必须使用同一产品、区域和时间口径。",
+    "sourceSha256": "2bfc1ea22047bb6726efd747b0a8acf377e5e225a21b542cc65de99e5d75e828"
+  },
+  {
+    "image": 122,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p79",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-122",
+    "paragraphExcerpt": "可插拔方案维护灵活；LPO 减少部分数字处理以降低功耗但对链路条件有要求；CPO 把光引擎与交换芯片更紧密结合。实际路线取决于距离、功耗、可靠性与维修成本。",
+    "sourceSha256": "cf597c369bca56fec3cbb83c238ac833296615469a60286b315d573ff287f47a"
+  },
+  {
+    "image": 123,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p79",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-123",
+    "paragraphExcerpt": "可插拔方案维护灵活；LPO 减少部分数字处理以降低功耗但对链路条件有要求；CPO 把光引擎与交换芯片更紧密结合。实际路线取决于距离、功耗、可靠性与维修成本。",
+    "sourceSha256": "4247d09ebb7c11678a186288a105b1075585b996e87b52c5f9bd2dc10af2084f"
+  },
+  {
+    "image": 124,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p190",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-124",
+    "paragraphExcerpt": "可插拔方案便于按端口更换；LPO 等方案改变电信号处理位置；CPO 将光学部分更靠近或共同封装到交换芯片附近。不同方案需要在功耗、距离、良率、散热、维护和成本之间权衡，并非只要技术发布就会立刻全面替代。",
+    "sourceSha256": "129ac8b85d605bf4f1927fb0437ac1afd9e00f9513184b8c22d233ade2258272"
+  },
+  {
+    "image": 125,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p40",
+    "kind": "duplicate-reference",
+    "figure": "basics-memory-archive-figure-10"
+  },
+  {
+    "image": 126,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p44",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-126",
+    "paragraphExcerpt": "颗粒厂制造存储芯片；控制器管理读写；模组和 SSD 企业组合颗粒与其他组件。采购颗粒不代表自有晶圆产能。",
+    "sourceSha256": "11e137135364a0c59eac343ee8259b6a010ca03951139fc3b38e72eb507e5759"
+  },
+  {
+    "image": 127,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p27",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-127",
+    "paragraphExcerpt": "颗粒厂制造核心存储芯片；模组厂采购颗粒、控制芯片和 PCB，再做封装组合或销售，部分企业也拥有自研控制器。",
+    "sourceSha256": "97bad8832bafb53813abb219cc97192fbf80a7ad21bea1c605b96e9989ebb369"
+  },
+  {
+    "image": 128,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p73",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-128",
+    "paragraphExcerpt": "晶圆生产决定供给基础；HBM 还涉及多层堆叠、测试和与计算芯片协同封装。成熟产品有产能，也不意味着高端产品已经通过客户认证。",
+    "sourceSha256": "2c6656c2d23761d61999bc195b3e8a0c5e9741ed650b86fc758fe9e7baa03879"
+  },
+  {
+    "image": 129,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p75",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-129",
+    "paragraphExcerpt": "SSD 控制器管理数据写入、纠错和磨损；模组企业采购颗粒和配件，业务可能包括设计、品牌与渠道。高存储价格对颗粒厂和模组厂的影响不同。",
+    "sourceSha256": "a5af9cd6e553ca2db14c43c6bce4d0fe272bd8337e0947410ea34d67e76f32a9"
+  },
+  {
+    "image": 130,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p75",
+    "kind": "duplicate-reference",
+    "figure": "basics-memory-archive-figure-127"
+  },
+  {
+    "image": 131,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p46",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-131",
+    "paragraphExcerpt": "新建产能耗时，需求或库存变化会使价格大幅波动。高价格刺激扩产，后续供应释放也可能压低价格。",
+    "sourceSha256": "fe9c7c9c8db344613e74a4b0087871c3d37513627fd67d83023d22e707cd85c0"
+  },
+  {
+    "image": 132,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p46",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-132",
+    "paragraphExcerpt": "新建产能耗时，需求或库存变化会使价格大幅波动。高价格刺激扩产，后续供应释放也可能压低价格。",
+    "sourceSha256": "b6daa9666bf8610f2ee4d2db575594ea1aed220b82b72fb23e2666a06e6b9edd"
+  },
+  {
+    "image": 133,
+    "chapter": "basics-memory",
+    "after": "basics-memory-p42",
+    "kind": "inline",
+    "figure": "basics-memory-archive-figure-133",
+    "paragraphExcerpt": "多层 DRAM 通过高密度垂直连接组合，贴近计算芯片以提供高带宽；测试和良率也更复杂。",
+    "sourceSha256": "bf1f3feb7e8f806233947bdb725c70f32b0087ee37bd1820a5365df4477b4d1e"
+  },
+  {
+    "image": 134,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p81",
+    "kind": "duplicate-reference",
+    "figure": "basics-pcb-original-figure-1"
+  },
+  {
+    "image": 135,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p81",
+    "kind": "duplicate-reference",
+    "figure": "basics-pcb-original-figure-2"
+  },
+  {
+    "image": 136,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p50",
+    "kind": "duplicate-reference",
+    "figure": "basics-pcb-original-figure-3"
+  },
+  {
+    "image": 137,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p50",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-137",
+    "paragraphExcerpt": "通过压合、钻孔、电镀、图形加工与测试形成多层连接；层数、尺寸、良率和交付条件影响成本。",
+    "sourceSha256": "d08b51d5ddbeab006e035fbffb44ed1989e54070512b41591e261f1c27a90ef3"
+  },
+  {
+    "image": 138,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p36",
+    "kind": "duplicate-reference",
+    "figure": "basics-pcb-archive-figure-34"
+  },
+  {
+    "image": 139,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p75",
+    "kind": "duplicate-reference",
+    "figure": "basics-robot-original-figure-3"
+  },
+  {
+    "image": 141,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p75",
+    "kind": "duplicate-reference",
+    "figure": "basics-robot-original-figure-2"
+  },
+  {
+    "image": 140,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p110",
+    "kind": "duplicate-reference",
+    "figure": "basics-robot-archive-figure-47"
+  },
+  {
+    "image": 142,
+    "chapter": "basics-server",
+    "after": "basics-server-p69",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-142",
+    "paragraphExcerpt": "主板连接 CPU、加速器、内存、存储和管理芯片；电源模块、风扇与机箱保证持续运行。硬件性能需结合具体负载和软件。",
+    "sourceSha256": "c996a14c42284a658cc875c742995a7e33be6dbbc483d9b7b715cadee6c3dc5a"
+  },
+  {
+    "image": 143,
+    "chapter": "basics-server",
+    "after": "basics-server-p109",
+    "kind": "duplicate-reference",
+    "figure": "basics-server-archive-figure-65"
+  },
+  {
+    "image": 144,
+    "chapter": "basics-server",
+    "after": "basics-server-p109",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-144",
+    "paragraphExcerpt": "客户账： 服务收入能否覆盖折旧、电费和运营成本。 供应链账： 设备商拿到多少订单、多久交付、利润率多少。 投资者账： 增长、利润率及持续时间是否已反映在买入价格中。订单和产能扩张也可能在需求放缓后带来资产闲置。",
+    "sourceSha256": "7951120b2250f8509019f482ae133d6ed1309e27c1fbee79aaae775695eed3c2"
+  },
+  {
+    "image": 145,
+    "chapter": "basics-server",
+    "after": "basics-server-p109",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-145",
+    "paragraphExcerpt": "客户账： 服务收入能否覆盖折旧、电费和运营成本。 供应链账： 设备商拿到多少订单、多久交付、利润率多少。 投资者账： 增长、利润率及持续时间是否已反映在买入价格中。订单和产能扩张也可能在需求放缓后带来资产闲置。",
+    "sourceSha256": "d83ab090ed3951fac8b3f7c3f00aef5a1364bed932ddbb19a0d8ac6d7789b136"
+  },
+  {
+    "image": 146,
+    "chapter": "rack-builders",
+    "after": "rack-builders-p3",
+    "kind": "inline",
+    "figure": "rack-builders-archive-figure-146",
+    "paragraphExcerpt": "鸿海披露旗下 Ingrasys 参与英伟达 GB200 NVL72、MGX 等产品制造。英伟达也在生产回顾中点名鸿海与纬创参与 GB200 计算板量产准备。板级制造、整柜集成和园区安装是不同合同边界；某企业出现在计算板环节，不能据此给它分配全部整柜订单。",
+    "sourceSha256": "1dcb77375d9953c8160bf142f7cb1d929f053fc76327a9737e8581f4b994780a"
+  },
+  {
+    "image": 147,
+    "chapter": "rack-builders",
+    "after": "rack-builders-p3",
+    "kind": "inline",
+    "figure": "rack-builders-archive-figure-147",
+    "paragraphExcerpt": "鸿海披露旗下 Ingrasys 参与英伟达 GB200 NVL72、MGX 等产品制造。英伟达也在生产回顾中点名鸿海与纬创参与 GB200 计算板量产准备。板级制造、整柜集成和园区安装是不同合同边界；某企业出现在计算板环节，不能据此给它分配全部整柜订单。",
+    "sourceSha256": "adfe79536ae92dec506572cbbec341b262139c0ff1028a4960a151efb925d719"
+  },
+  {
+    "image": 148,
+    "chapter": "ai-compute-choice",
+    "after": "ai-compute-choice-p0",
+    "kind": "inline",
+    "figure": "ai-compute-choice-archive-figure-148",
+    "paragraphExcerpt": "云厂商同时扮演设备采购方和算力出租方。它要解决的是：对给定的模型、准确度和响应时间，哪套系统能以更低成本，稳定完成客户愿意付钱的工作？训练可用达到相同模型质量所需的时间来比；推理可用满足延迟要求的每百万个输出 token 成本来比。",
+    "sourceSha256": "362725396b7c0a72a07bfa9bbd5c0b16fe28d1f700c1964a1ebb587b40c810ca"
+  },
+  {
+    "image": 149,
+    "chapter": "ai-compute-choice",
+    "after": "ai-compute-choice-p0",
+    "kind": "inline",
+    "figure": "ai-compute-choice-archive-figure-149",
+    "paragraphExcerpt": "云厂商同时扮演设备采购方和算力出租方。它要解决的是：对给定的模型、准确度和响应时间，哪套系统能以更低成本，稳定完成客户愿意付钱的工作？训练可用达到相同模型质量所需的时间来比；推理可用满足延迟要求的每百万个输出 token 成本来比。",
+    "sourceSha256": "bc554e1cd05cc10f8a7bf2532f4fa5b0c022688ee5f141b1ddb48710482d8f15"
+  },
+  {
+    "image": 150,
+    "chapter": "ai-compute-choice",
+    "after": "ai-compute-choice-p0",
+    "kind": "inline",
+    "figure": "ai-compute-choice-archive-figure-150",
+    "paragraphExcerpt": "云厂商同时扮演设备采购方和算力出租方。它要解决的是：对给定的模型、准确度和响应时间，哪套系统能以更低成本，稳定完成客户愿意付钱的工作？训练可用达到相同模型质量所需的时间来比；推理可用满足延迟要求的每百万个输出 token 成本来比。",
+    "sourceSha256": "d768c57e0d8efa4880969706817319a4992ed288938d7829e51975fd1b268554"
+  },
+  {
+    "image": 151,
+    "chapter": "rack-builders",
+    "after": "rack-builders-p5",
+    "kind": "inline",
+    "figure": "rack-builders-archive-figure-151",
+    "paragraphExcerpt": "教学情景：每周板卡能配 110 柜，液冷套件能配 90 柜，整柜测试能放行 80 柜，实际可交付上限为 80 柜。若只把测试提升到 100 柜，新上限是 90 柜。若客户当周仅能验收 70 柜，已完成的设备还可能停在库存或运输环节。想上调供应商预测，应先找到这一周是哪一步限制了出货。",
+    "sourceSha256": "f25af7c0ac4ac6810fc3f58d471e862223165d106092d22ce433413cb0ce1047"
+  },
+  {
+    "image": 152,
+    "chapter": "rack-builders",
+    "after": "rack-builders-p5",
+    "kind": "inline",
+    "figure": "rack-builders-archive-figure-152",
+    "paragraphExcerpt": "教学情景：每周板卡能配 110 柜，液冷套件能配 90 柜，整柜测试能放行 80 柜，实际可交付上限为 80 柜。若只把测试提升到 100 柜，新上限是 90 柜。若客户当周仅能验收 70 柜，已完成的设备还可能停在库存或运输环节。想上调供应商预测，应先找到这一周是哪一步限制了出货。",
+    "sourceSha256": "5e5ca1fa3553ded0ee687669c7692ebce6050b387cd6f40f9b316fb8d3f579a1"
+  },
+  {
+    "image": 153,
+    "chapter": "basics-server",
+    "after": "basics-server-p22",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-153",
+    "paragraphExcerpt": "GPU、CPU、内存、存储、PCB、电源和散热组件组合成服务器。AI 服务器通常要更加重视加速器供电、通信和散热。",
+    "sourceSha256": "06680d17cb50e0522ec161fa9161abf5bc8ad97feb98b387217145923c2ef20f"
+  },
+  {
+    "image": 154,
+    "chapter": "basics-server",
+    "after": "basics-server-p22",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-154",
+    "paragraphExcerpt": "GPU、CPU、内存、存储、PCB、电源和散热组件组合成服务器。AI 服务器通常要更加重视加速器供电、通信和散热。",
+    "sourceSha256": "40b2d462ea07ab378711841448c85d4f1ffcff1b07947407d9adbed332658e7b"
+  },
+  {
+    "image": 155,
+    "chapter": "basics-server",
+    "after": "basics-server-p77",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-155",
+    "paragraphExcerpt": "只说明公开业务位置；不构成指定客户供货证明，个别公司业务需要结合最新公告核实。",
+    "sourceSha256": "42736983937a762b4c32f1b5b6b5e10af00c55ee3cba241bbef1e98182942f38"
+  },
+  {
+    "image": 156,
+    "chapter": "basics-server",
+    "after": "basics-server-p77",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-156",
+    "paragraphExcerpt": "只说明公开业务位置；不构成指定客户供货证明，个别公司业务需要结合最新公告核实。",
+    "sourceSha256": "d1acb9ef13ac90e306b3c2ba9b29ae1b2f53b61e6885e8f74516ec6b8001ef5b"
+  },
+  {
+    "image": 157,
+    "chapter": "basics-server",
+    "after": "basics-server-p77",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-157",
+    "paragraphExcerpt": "只说明公开业务位置；不构成指定客户供货证明，个别公司业务需要结合最新公告核实。",
+    "sourceSha256": "8ee664f4a043abc1bc844dd3adb5572b2b11124ae3d7d8036550ffa85fdbcfd9"
+  },
+  {
+    "image": 158,
+    "chapter": "rack-builders",
+    "after": "rack-builders-p7",
+    "kind": "inline",
+    "figure": "rack-builders-archive-figure-158",
+    "paragraphExcerpt": "假设客户改为自供 GPU，ODM 交柜数和测试工作量可以不动，代采金额却会显著变化。比较厂商时应看设计责任、每柜加工与测试价值、返修和质保责任，以及同一平台上能否获第二批订单。对行业天花板，用可验收整柜数 × 对应合同价值；加上游芯片、板卡和整柜收入时，须处理重复计算。",
+    "sourceSha256": "2b2430d99d529e5c5b771dd2313ca4eb66e638bcdd2498980d75cdd4ed939860"
+  },
+  {
+    "image": 159,
+    "chapter": "rack-builders",
+    "after": "rack-builders-p7",
+    "kind": "inline",
+    "figure": "rack-builders-archive-figure-159",
+    "paragraphExcerpt": "假设客户改为自供 GPU，ODM 交柜数和测试工作量可以不动，代采金额却会显著变化。比较厂商时应看设计责任、每柜加工与测试价值、返修和质保责任，以及同一平台上能否获第二批订单。对行业天花板，用可验收整柜数 × 对应合同价值；加上游芯片、板卡和整柜收入时，须处理重复计算。",
+    "sourceSha256": "275a8c2d231fe429cda527b707cc2a05fe6dc20f4578954c449f20f785d77c5a"
+  },
+  {
+    "image": 160,
+    "chapter": "scenario-lab",
+    "after": "scenario-lab-p2",
+    "kind": "inline",
+    "figure": "scenario-lab-archive-figure-160",
+    "paragraphExcerpt": "可服务市场比例描述公司在产品、地区和认证限制下理论能进入的市场，净利率仅用于示例；实际多业务公司需要分业务计算。",
+    "sourceSha256": "c95ffa2147666ee9c7385928fc6163f0faae3fa2dd9d9cb694dc9339efb64c5b"
+  },
+  {
+    "image": 161,
+    "chapter": "basics-server",
+    "after": "basics-server-p105",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-161",
+    "paragraphExcerpt": "云厂商计划提供 AI 服务 → 采购加速服务器与网络 → 服务器需要 PCB、内存、电源和散热 → 机房建设需要供配电与制冷。不同环节确认收入的时间、供货周期和价格机制不同，不能把同一笔建设资金重复相加成最终市场。",
+    "sourceSha256": "2088f59449d6307b79cac6a6b9dc2e172e3abacea2437a8c6633a70198b5f250"
+  },
+  {
+    "image": 162,
+    "chapter": "basics-server",
+    "after": "basics-server-p105",
+    "kind": "inline",
+    "figure": "basics-server-archive-figure-162",
+    "paragraphExcerpt": "云厂商计划提供 AI 服务 → 采购加速服务器与网络 → 服务器需要 PCB、内存、电源和散热 → 机房建设需要供配电与制冷。不同环节确认收入的时间、供货周期和价格机制不同，不能把同一笔建设资金重复相加成最终市场。",
+    "sourceSha256": "fdd872334b17a213809cb4d468b732608479cfac153812759f42b619a5428bcf"
+  },
+  {
+    "image": 163,
+    "chapter": "method-22",
+    "after": "method-22-p32",
+    "kind": "inline",
+    "figure": "method-22-archive-figure-163",
+    "paragraphExcerpt": "每次记录日期、来源、上期值和本期值；对于未公开数据写“未知”，不要以概念板块走势替代行业供需证据。",
+    "sourceSha256": "4341f024ed6ce27d11c4d4fb72eb2c7e3f3c4341fe7cc8449b8c9d61df804f8f"
+  },
+  {
+    "image": 164,
+    "chapter": "order-atlas",
+    "after": "order-atlas-p10",
+    "kind": "inline",
+    "figure": "order-atlas-archive-figure-164",
+    "paragraphExcerpt": "下表按采购环节归纳。点第一列回到相应章节；有些披露能点名终端平台，而直接向供应商下单的法人仍待核实。表中“公开实例”指资料点名的平台、产品或客户；“行业分工”表示商业角色，具体买卖双方、合同和份额还需单独验证。",
+    "sourceSha256": "0f0fb74e9d469ababcf97db5013ca22bc2c4bd04b6172a67d5ee04f80dc1b89f"
+  },
+  {
+    "image": 165,
+    "chapter": "memory-layers",
+    "after": "observe-montage",
+    "kind": "inline",
+    "figure": "memory-layers-archive-figure-165",
+    "paragraphExcerpt": "HBM 给加速器提供高带宽。主机内存则要看平台选什么：美光披露与英伟达为 GB300 合作开发模块化 LPDDR5X 方案 SOCAMM。澜起的 RCD、MRCD、MDB 面向特定 DDR 内存模组。查澜起时先数兼容模组的插槽和装配数量，再乘每条含几颗接口芯片；不能把每颗 GPU 的 HBM 容量当作接口芯片销量。",
+    "sourceSha256": "bd3e41a0ddac617c8268058baa5d1001b71b9aebdac74bcd3bdd5d10bab6707b"
+  },
+  {
+    "image": 166,
+    "chapter": "ai-network-orders",
+    "after": "ai-network-orders-p39",
+    "kind": "inline",
+    "figure": "ai-network-orders-archive-figure-166",
+    "paragraphExcerpt": "原始资料（联网核对） 中际旭创公告第二部分 · 英伟达对 TFC 分工的说明 · 英伟达与 Lumentum 协议 · Credo 1.6T AEC",
+    "sourceSha256": "ee792eec869e1769f322eb8dcbfbec319569be5be275d520a454d58774644da0"
+  },
+  {
+    "image": 167,
+    "chapter": "memory-layers",
+    "after": "observe-giga",
+    "kind": "inline",
+    "figure": "memory-layers-archive-figure-167",
+    "paragraphExcerpt": "美光 9550 企业级 SSD 进入 GB200 NVL72 推荐供应商清单，验证了平台准入，实际采用数量仍看整机配置。闪迪披露的数据中心 SSD 路线使用 NAND；应跟踪企业盘认证、可用容量、耐久度和交货。兆易有 NOR、SLC NAND、利基 DRAM 和 MCU，普冉披露 NOR 可承载启动代码，另有 EEPROM、2D NAND 等业务。比较两家公",
+    "sourceSha256": "0f30aff7e7c58926f9dc2b077315ff566386d3b9425e3cb55a4f4c15b2d3999c"
+  },
+  {
+    "image": 168,
+    "chapter": "board-materials",
+    "after": "board-materials-p5",
+    "kind": "inline",
+    "figure": "board-materials-archive-figure-168",
+    "paragraphExcerpt": "沪电要拆交换机板与服务器板，前者跟设备台数、端口规格和板级设计；深南还需拆 PCB、封装基板和装联；胜宏披露部分 ASIC 相关 PCB 量产，应继续核对新增板型、订单份额及良率。客户认定一个新材料体系后，板厂仍要把良率跑稳，板材出货与板厂交付可能跨季度。具体披露见 第③章的三家板厂对照 。",
+    "sourceSha256": "50fe14d97a528af0a14deb53156ea94bb0a8afb02188e64d5caa2b2e34d6acc5"
+  },
+  {
+    "image": 169,
+    "chapter": "basics-robot",
+    "after": "basics-robot-p46",
+    "kind": "inline",
+    "figure": "basics-robot-archive-figure-169",
+    "paragraphExcerpt": "整机需控制成本、故障率和维护；实际客户要比较机器人的总拥有成本与替代方案。",
+    "sourceSha256": "49ef4e360a75839b3ee35f37b3977ea9fbef667b89ef819ae7ae52710d431b22"
+  },
+  {
+    "image": 170,
+    "chapter": "rack-builders",
+    "after": "rack-builders-p3",
+    "kind": "inline",
+    "figure": "rack-builders-archive-figure-170",
+    "paragraphExcerpt": "鸿海披露旗下 Ingrasys 参与英伟达 GB200 NVL72、MGX 等产品制造。英伟达也在生产回顾中点名鸿海与纬创参与 GB200 计算板量产准备。板级制造、整柜集成和园区安装是不同合同边界；某企业出现在计算板环节，不能据此给它分配全部整柜订单。",
+    "sourceSha256": "6c80644c349f262607cc750207d87261cbc0f89030c1dfec6b2bbb0f1a13f95a"
+  },
+  {
+    "image": 171,
+    "chapter": "ai-network-orders",
+    "after": "ai-network-orders-p0",
+    "kind": "inline",
+    "figure": "ai-network-orders-archive-figure-171",
+    "paragraphExcerpt": "你看到“云厂商又采购了一批 GPU”，接下来最值得找的是网络物料表。顺着一次训练任务的数据流走：同一组 GPU 要频繁交换中间结果，跨计算节点时，数据从网卡出发，经过接入交换机（Leaf）；目的节点接在另一台 Leaf 时，还要经过上层汇聚交换机（Spine）。每一段的距离、带宽和设备接口，都可能改变买的是铜缆、可插拔模块，还是带光引擎的交换机。",
+    "sourceSha256": "e8b17f1e27ee5a85a5426a3574f97ed26be1ffe5e5e481f4ec0f539a41a8fb38"
+  },
+  {
+    "image": 174,
+    "chapter": "ai-network-orders",
+    "after": "ai-network-orders-p0",
+    "kind": "inline",
+    "figure": "ai-network-orders-archive-figure-174",
+    "paragraphExcerpt": "你看到“云厂商又采购了一批 GPU”，接下来最值得找的是网络物料表。顺着一次训练任务的数据流走：同一组 GPU 要频繁交换中间结果，跨计算节点时，数据从网卡出发，经过接入交换机（Leaf）；目的节点接在另一台 Leaf 时，还要经过上层汇聚交换机（Spine）。每一段的距离、带宽和设备接口，都可能改变买的是铜缆、可插拔模块，还是带光引擎的交换机。",
+    "sourceSha256": "d6aac9e12a6225a45507b2828efcf7be4555952f3a1d41825d2a28dee8c1ab49"
+  },
+  {
+    "image": 172,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p198",
+    "kind": "duplicate-reference",
+    "figure": "basics-optics-archive-figure-108"
+  },
+  {
+    "image": 173,
+    "chapter": "basics-packaging",
+    "after": "basics-packaging-p40",
+    "kind": "duplicate-reference",
+    "figure": "basics-packaging-archive-figure-115"
+  },
+  {
+    "image": 175,
+    "chapter": "board-materials",
+    "after": "board-materials-p1",
+    "kind": "inline",
+    "figure": "board-materials-archive-figure-175",
+    "paragraphExcerpt": "从服务器里抽出一块裸板，铜走线之间是绝缘介质。材料厂把铜箔与绝缘基材做成覆铜板，另供用于粘结的半固化片；板厂切割、成像、压合、钻孔、电镀、检测，得到符合客户叠层与走线设计的 PCB。最终客户可以指定材料体系，但实际采购板材的往往是板厂。",
+    "sourceSha256": "f1acc3c739eea33c91fab9b8a01bb89a720e4a45dc606484790c7170a4484fde"
+  },
+  {
+    "image": 176,
+    "chapter": "board-materials",
+    "after": "board-materials-p7",
+    "kind": "inline",
+    "figure": "board-materials-archive-figure-176",
+    "paragraphExcerpt": "假设 1 万块合格板，每块 0.10 平方米，叠层中实际有 4 张目标等级芯板，综合有效利用率 80%，则需买约 5,000 平方米这一等级的覆铜板。若订单量降至 8,000 块但每块改用 6 张，需求反升至 6,000 平方米。铜层数与芯板张数并不相等，混压方案还要区分不同等级。",
+    "sourceSha256": "cd0c493d45a611e13f2263ccf678537828bf7d353cc671ad53360e17538b0713"
+  },
+  {
+    "image": 177,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p33",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-177",
+    "paragraphExcerpt": "多层电路经过压合、钻孔、电镀、图形加工和测试形成板件；不同结构工序并不完全相同。",
+    "sourceSha256": "80960fb08951fb054869f3117a1a4bb7940c2dda2feec067111f601fa0c9163a"
+  },
+  {
+    "image": 178,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p48",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-178",
+    "paragraphExcerpt": "铜箔形成导电线路；覆铜板由铜箔及树脂增强材料等加工而成。高速条件下铜表面、材料和线路设计共同影响损耗。",
+    "sourceSha256": "5f9c4527300d91555350564e8850e32f78e928890571159210245970f8d2c12a"
+  },
+  {
+    "image": 179,
+    "chapter": "ai-hbm-capacity",
+    "after": "ai-hbm-capacity-p0",
+    "kind": "inline",
+    "figure": "ai-hbm-capacity-archive-figure-179",
+    "paragraphExcerpt": "一颗可交付的加速器要把计算芯片和高速存储接起来。存储厂把多层 DRAM 堆叠成 HBM；封装厂用中介层等结构连接逻辑芯片和 HBM，再完成集成与测试。换计算芯片品牌后，这两类需求往往仍在，但每颗装多少内存、封装占用多少资源、哪家通过认证，都可能改变。",
+    "sourceSha256": "bf1f3feb7e8f806233947bdb725c70f32b0087ee37bd1820a5365df4477b4d1e"
+  },
+  {
+    "image": 180,
+    "chapter": "ai-hbm-capacity",
+    "after": "ai-hbm-capacity-p0",
+    "kind": "inline",
+    "figure": "ai-hbm-capacity-archive-figure-180",
+    "paragraphExcerpt": "一颗可交付的加速器要把计算芯片和高速存储接起来。存储厂把多层 DRAM 堆叠成 HBM；封装厂用中介层等结构连接逻辑芯片和 HBM，再完成集成与测试。换计算芯片品牌后，这两类需求往往仍在，但每颗装多少内存、封装占用多少资源、哪家通过认证，都可能改变。",
+    "sourceSha256": "8f294f02f081646a7ab51dd278e57060352a136d0d65a4c4ac802dd269606382"
+  },
+  {
+    "image": 181,
+    "chapter": "ai-network-orders",
+    "after": "ai-network-orders-p2",
+    "kind": "inline",
+    "figure": "ai-network-orders-archive-figure-181",
+    "paragraphExcerpt": "GB300 NVL72 的 Spectrum-X 双平面参考设计有 4 个机柜、288 颗 GPU。这里只数用于计算节点相互通信的东西向网络。参考物料表 6 列出 16 台 Leaf 和 8 台 Spine，收发器分成三行来读。",
+    "sourceSha256": "571c5d279b4baf5c7c778e531b420dc23a2d4466594f6e32a66338ad819fa945"
+  },
+  {
+    "image": 182,
+    "chapter": "rack-builders",
+    "after": "rack-builders-p3",
+    "kind": "duplicate-reference",
+    "figure": "rack-builders-archive-figure-146"
+  },
+  {
+    "image": 183,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p33",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-183",
+    "paragraphExcerpt": "多层电路经过压合、钻孔、电镀、图形加工和测试形成板件；不同结构工序并不完全相同。",
+    "sourceSha256": "6b49202e6984cd5168c69834bdb53da383b7c1aa981bdc593842e9072d3aad9b"
+  },
+  {
+    "image": 184,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p33",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-184",
+    "paragraphExcerpt": "多层电路经过压合、钻孔、电镀、图形加工和测试形成板件；不同结构工序并不完全相同。",
+    "sourceSha256": "0b08ff916e172e6ebef55e8a6124e77a9fa97f853579696d7907eb3be44d917a"
+  },
+  {
+    "image": 185,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p33",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-185",
+    "paragraphExcerpt": "多层电路经过压合、钻孔、电镀、图形加工和测试形成板件；不同结构工序并不完全相同。",
+    "sourceSha256": "b1221cfb82c21937afd2e69a1bdd6133a2e21d64a26425b81e0419807a102af6"
+  },
+  {
+    "image": 186,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p54",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-186",
+    "paragraphExcerpt": "以下为业务位置示例，不代表同一市场份额、客户关系或投资推荐。各公司具体产品和份额需要核查。",
+    "sourceSha256": "4fdf047ad81250d9e820dc7b1a9a412a5388d39a2c8d48c7e343bcb8f13d7bb7"
+  },
+  {
+    "image": 187,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p83",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-187",
+    "paragraphExcerpt": "封装基板将芯片封装接入更大系统，精度与工艺要求不同。IC 载板、中介层和服务器主板是不同层级，不能把它们的市场空间相加后再当作同一产品。",
+    "sourceSha256": "ed16f722a45cdbf04080d89c659fcce330e7d2325b3326147e291ab208a941b2"
+  },
+  {
+    "image": 188,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p83",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-188",
+    "paragraphExcerpt": "封装基板将芯片封装接入更大系统，精度与工艺要求不同。IC 载板、中介层和服务器主板是不同层级，不能把它们的市场空间相加后再当作同一产品。",
+    "sourceSha256": "0e1e43db68a4ce5a2539ca9f03e7e150b00ae091c7f699a6a9fb8623b6d4907d"
+  },
+  {
+    "image": 189,
+    "chapter": "basics-pcb",
+    "after": "basics-pcb-p83",
+    "kind": "inline",
+    "figure": "basics-pcb-archive-figure-189",
+    "paragraphExcerpt": "封装基板将芯片封装接入更大系统，精度与工艺要求不同。IC 载板、中介层和服务器主板是不同层级，不能把它们的市场空间相加后再当作同一产品。",
+    "sourceSha256": "3ec02ed7bee84531af53f2c12d6ab873576888953ae9a22f0e4072f8b9c04146"
+  },
+  {
+    "image": 190,
+    "chapter": "chip-testing",
+    "after": "chip-testing-p0",
+    "kind": "inline",
+    "figure": "chip-testing-archive-figure-190",
+    "paragraphExcerpt": "HBM 和逻辑芯片都到货，为什么仍组不成合格加速器？",
+    "sourceSha256": "5c01e60b69fdaf2827221f48e80bceb1e71af89f41b9b61f8e8c703228b8cdbd"
+  },
+  {
+    "image": 191,
+    "chapter": "chip-testing",
+    "after": "chip-testing-p0",
+    "kind": "inline",
+    "figure": "chip-testing-archive-figure-191",
+    "paragraphExcerpt": "HBM 和逻辑芯片都到货，为什么仍组不成合格加速器？",
+    "sourceSha256": "23c463250a69e4666905aad2af96eca1d1014748b5067b1d039b82087816ae86"
+  },
+  {
+    "image": 192,
+    "chapter": "chip-testing",
+    "after": "chip-testing-p0",
+    "kind": "inline",
+    "figure": "chip-testing-archive-figure-192",
+    "paragraphExcerpt": "HBM 和逻辑芯片都到货，为什么仍组不成合格加速器？",
+    "sourceSha256": "aafc0a22dc2bfac4df6d22fe299aabca1d5aa71a97075d4c89569aab01393809"
+  },
+  {
+    "image": 193,
+    "chapter": "chip-testing",
+    "after": "chip-testing-p0",
+    "kind": "inline",
+    "figure": "chip-testing-archive-figure-193",
+    "paragraphExcerpt": "HBM 和逻辑芯片都到货，为什么仍组不成合格加速器？",
+    "sourceSha256": "b89ecc2b94598d05cccbb5eaa38a17305359c95bceb1ddb9107da06789508e48"
+  },
+  {
+    "image": 194,
+    "chapter": "wafer-tools",
+    "after": "wafer-tools-p3",
+    "kind": "inline",
+    "figure": "wafer-tools-archive-figure-194",
+    "paragraphExcerpt": "假设某工序的稳定产能是每月 10 万片等效加工量，原来用了 7 万，后来升到 8.4 万。在工艺配方相同的情况下，相关材料用量可能上升约 20%，现有设备却仍有余量。按当期负荷，该工序足以交货。决定今天是否订机，还要预测设备交付、安装和认证完成时的负荷；若产品转向新节点，旧设备即便空闲也可能无法复用。",
+    "sourceSha256": "4382d5d1e70c189c217c1bfc6e264e03c09ec916ce9ed2b4cb547f1bdea38748"
+  },
+  {
+    "image": 195,
+    "chapter": "wafer-tools",
+    "after": "wafer-tools-p3",
+    "kind": "inline",
+    "figure": "wafer-tools-archive-figure-195",
+    "paragraphExcerpt": "假设某工序的稳定产能是每月 10 万片等效加工量，原来用了 7 万，后来升到 8.4 万。在工艺配方相同的情况下，相关材料用量可能上升约 20%，现有设备却仍有余量。按当期负荷，该工序足以交货。决定今天是否订机，还要预测设备交付、安装和认证完成时的负荷；若产品转向新节点，旧设备即便空闲也可能无法复用。",
+    "sourceSha256": "2a17863de6e25da76112e6e8ed13234517621ad0c60fd33d66bb731af8595436"
+  },
+  {
+    "image": 196,
+    "chapter": "ai-compute-choice",
+    "after": "ai-compute-choice-p14",
+    "kind": "inline",
+    "figure": "ai-compute-choice-archive-figure-196",
+    "paragraphExcerpt": "成熟模型若调用量大、负载可预测、算子稳定，迁移团队可以反复摊薄开发成本。若模型频繁更换、需要大量新算子，或者不同客户的任务差异很大，通用 GPU 的库、调试工具与调度灵活性更有价值。AWS 的 Trainium 已用于训练，说明“推理用自研、训练用 GPU”过于粗糙。真正要看的是工作负载和软件可迁移性。",
+    "sourceSha256": "9568c84893a6f504ba13eaf6b3a9b48c7db729560d130e82fe92cbddcf5a629a"
+  },
+  {
+    "image": 197,
+    "chapter": "macro-cycle",
+    "after": "macro-cycle-p23",
+    "kind": "inline",
+    "figure": "macro-cycle-archive-figure-197",
+    "paragraphExcerpt": "市场交易的是哪一道预期差？ 把“上次市场认为会花多少”“本次公司承诺花多少”“实际签了哪些不可撤销订单”分三列记。假设原预期从 100 增至 150，管理层改指引为 125：开支仍增长 25%，却比原预期低约 17%。依赖新增产能的供应商可能先被下调盈利预测。相反，若砍掉的项目原本预期回报低，云厂商自由现金流预期可能改善。两者股价没有必然同向关系。",
+    "sourceSha256": "7e281413ec23ed49220ee17752c0474613ba0b2ca56a71c6c7a297fb008cd0d0"
+  },
+  {
+    "image": 198,
+    "chapter": "method-21",
+    "after": "method-21-p7",
+    "kind": "inline",
+    "figure": "method-21-archive-figure-198",
+    "paragraphExcerpt": "写下数据来源、观察时间、乐观与压力情景，以及什么事实会让判断改变。",
+    "sourceSha256": "d9862c78ec6082e48c344828de5d8e90b972e8906cf92296838807a5a7767956"
+  },
+  {
+    "image": 199,
+    "chapter": "method-22",
+    "after": "method-22-p32",
+    "kind": "inline",
+    "figure": "method-22-archive-figure-199",
+    "paragraphExcerpt": "每次记录日期、来源、上期值和本期值；对于未公开数据写“未知”，不要以概念板块走势替代行业供需证据。",
+    "sourceSha256": "8bb2b49eb8baed032a4c539818a26d10f5fb822e2363141e9f9bed35109c0b40"
+  },
+  {
+    "image": 200,
+    "chapter": "method-22",
+    "after": "method-22-p32",
+    "kind": "duplicate-reference",
+    "figure": "method-22-archive-figure-199"
+  },
+  {
+    "image": 201,
+    "chapter": "method-22",
+    "after": "method-22-p32",
+    "kind": "duplicate-reference",
+    "figure": "method-22-archive-figure-199"
+  },
+  {
+    "image": 202,
+    "chapter": "method-22",
+    "after": "method-22-p32",
+    "kind": "duplicate-reference",
+    "figure": "method-22-archive-figure-199"
+  },
+  {
+    "image": 203,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p129",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-203",
+    "paragraphExcerpt": "公开业务位置用于认识分工，不能推断未披露客户关系；比较份额时必须使用同一产品、区域和时间口径。",
+    "sourceSha256": "9fdd35e642a4372dcee4e157cff214cb687f7495c7307b8e80e9c67c6b2cca68"
+  },
+  {
+    "image": 204,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p129",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-204",
+    "paragraphExcerpt": "公开业务位置用于认识分工，不能推断未披露客户关系；比较份额时必须使用同一产品、区域和时间口径。",
+    "sourceSha256": "8ddddb9be224f107188bb944e806cbba89bb192e97228f9d4edef0b83e6370f8"
+  },
+  {
+    "image": 205,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p129",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-205",
+    "paragraphExcerpt": "公开业务位置用于认识分工，不能推断未披露客户关系；比较份额时必须使用同一产品、区域和时间口径。",
+    "sourceSha256": "5895ef07b4fd6005eb11dfdb8c93c0acd9c99b7c95288031f7eb6aed9b74d0c1"
+  },
+  {
+    "image": 206,
+    "chapter": "basics-optics",
+    "after": "basics-optics-p129",
+    "kind": "inline",
+    "figure": "basics-optics-archive-figure-206",
+    "paragraphExcerpt": "公开业务位置用于认识分工，不能推断未披露客户关系；比较份额时必须使用同一产品、区域和时间口径。",
+    "sourceSha256": "0b92ec6dea54db01ddba70cb7ad51bb038a769f42976e58b4ef216e711807014"
+  },
+  {
+    "image": 207,
+    "chapter": "method-25",
+    "after": "method-25-p4",
+    "kind": "inline",
+    "figure": "method-25-archive-figure-207",
+    "paragraphExcerpt": "两种情景利润差 13.5 亿元；即使未来估值倍数不变，市场愿意给出的价值也可能不同。但股价还由利率、风险偏好、利润持续性和其他业务决定，不存在业绩差异与股价变化的一一对应。",
+    "sourceSha256": "cf0aa241256e8fa8555e5418f3e2227f7d5f91553535f011d53ffeff59acb894"
+  },
+  {
+    "image": 208,
+    "chapter": "method-22",
+    "after": "method-22-p31",
+    "kind": "inline",
+    "figure": "method-22-archive-figure-208",
+    "paragraphExcerpt": "需求加速、供给滞后： 关注交期与价格是否改善。 需求仍强、供给追赶： 关注新增产能什么时候真正形成可用产出。 需求放缓、库存上升： 分辨暂时消化与趋势变化。 库存去化、扩产收缩： 关注终端需求是否企稳。它们是分析框架，不是机械的买卖信号。",
+    "sourceSha256": "193bbab27dac9cc5f3ba334a2977cac47041335bdcd2f357056b67e7f89683eb"
+  },
+  {
+    "chapter": "capacitor-grades",
+    "after": "capacitor-grades-p1",
+    "kind": "same-topic-original",
+    "figure": "capacitor-grades-source-figure",
+    "sourceChapter": "basics-mlcc"
+  },
+  {
+    "chapter": "ai-compute-choice",
+    "after": "ai-compute-choice-p0",
+    "kind": "same-topic-original",
+    "figure": "ai-compute-choice-source-figure",
+    "sourceChapter": "basics-gpu"
+  },
+  {
+    "chapter": "ai-hbm-capacity",
+    "after": "ai-hbm-capacity-p0",
+    "kind": "same-topic-original",
+    "figure": "ai-hbm-capacity-source-figure",
+    "sourceChapter": "basics-packaging"
+  },
+  {
+    "chapter": "memory-layers",
+    "after": "memory-layers-p1",
+    "kind": "same-topic-original",
+    "figure": "memory-layers-source-figure",
+    "sourceChapter": "basics-memory"
+  },
+  {
+    "chapter": "board-materials",
+    "after": "board-materials-p1",
+    "kind": "same-topic-original",
+    "figure": "board-materials-source-figure",
+    "sourceChapter": "basics-pcb"
+  },
+  {
+    "chapter": "wafer-tools",
+    "after": "wafer-tools-p3",
+    "kind": "same-topic-original",
+    "figure": "wafer-tools-source-figure",
+    "sourceChapter": "basics-equipment"
+  },
+  {
+    "chapter": "chip-testing",
+    "after": "chip-testing-p0",
+    "kind": "same-topic-original",
+    "figure": "chip-testing-source-figure",
+    "sourceChapter": "basics-packaging"
+  },
+  {
+    "chapter": "ai-network-orders",
+    "after": "ai-network-orders-p0",
+    "kind": "same-topic-original",
+    "figure": "ai-network-orders-source-figure",
+    "sourceChapter": "basics-optics"
+  }
+]
