@@ -1950,8 +1950,8 @@
   {
     "chapter": "board-materials",
     "after": "board-materials-p1",
-    "kind": "same-topic-original",
-    "figure": "board-materials-source-figure",
+    "kind": "duplicate-reference",
+    "figure": "board-materials-archive-figure-175",
     "sourceChapter": "basics-pcb"
   },
   {
