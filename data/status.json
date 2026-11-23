@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-11-23T16:54:29.815Z",
+  "origin": "https://zy-research-lab-2jwhxpli.edgeone.dev",
+  "results": [
+    {
+      "route": "etf-quality",
+      "status": "missing",
+      "error": "Error: HTTP 400"
+    },
+    {
+      "route": "etf-rotation",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:01.461Z",
+      "asOf": "2026-11-23"
+    },
+    {
+      "route": "watchlist-daily",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:01.567Z",
+      "asOf": "2026-11-23"
+    },
+    {
+      "route": "market-quotes",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:04.706Z",
+      "asOf": null
+    },
+    {
+      "route": "publish-weekly-review",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:06.537Z",
+      "asOf": null
+    },
+    {
+      "route": "turnover-signal-log",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:06.582Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sh000001",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:07.096Z",
+      "asOf": null
+    },
+    {
+      "route": "turnover-estimate",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:23.985Z",
+      "asOf": "2026-11-23"
+    },
+    {
+      "route": "index-candles/sh000688",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:25.884Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sh000300",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:26.046Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sz399006",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:26.442Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sh000905",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:26.462Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/hkHSTECH",
+      "status": "missing",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "route": "market-history/sp500",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:28.246Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/usIXIC",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:28.417Z",
+      "asOf": null
+    },
+    {
+      "route": "market-history/vix",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:54:29.173Z",
+      "asOf": null
+    },
+    {
+      "route": "market-history/sp500-crowding",
+      "status": "missing",
+      "error": "Error: HTTP 404"
+    }
+  ]
+}
