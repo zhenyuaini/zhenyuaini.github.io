@@ -1,112 +1,113 @@
 {
-  "checkedAt": "2026-11-23T17:03:38.898Z",
+  "checkedAt": "2026-11-23T17:36:28.183Z",
   "origin": "https://zy-research-lab-2jwhxpli.edgeone.dev",
   "results": [
     {
+      "route": "watchlist-daily",
+      "status": "updated",
+      "publishedAt": "2026-11-23T17:35:54.988Z",
+      "asOf": "2026-11-23"
+    },
+    {
       "route": "market-quotes",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:04.552Z",
+      "publishedAt": "2026-11-23T17:35:55.355Z",
       "asOf": null
     },
     {
       "route": "etf-rotation",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:05.297Z",
-      "asOf": "2026-11-23"
-    },
-    {
-      "route": "watchlist-daily",
-      "status": "updated",
-      "publishedAt": "2026-11-23T17:03:05.500Z",
+      "publishedAt": "2026-11-23T17:35:55.363Z",
       "asOf": "2026-11-23"
     },
     {
       "route": "turnover-estimate",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:10.950Z",
+      "publishedAt": "2026-11-23T17:36:09.345Z",
       "asOf": "2026-11-23"
-    },
-    {
-      "route": "turnover-signal-log",
-      "status": "updated",
-      "publishedAt": "2026-11-23T17:03:12.174Z",
-      "asOf": null
-    },
-    {
-      "route": "publish-weekly-review",
-      "status": "updated",
-      "publishedAt": "2026-11-23T17:03:12.190Z",
-      "asOf": null
     },
     {
       "route": "index-candles/sh000300",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:12.430Z",
+      "publishedAt": "2026-11-23T17:36:10.819Z",
+      "asOf": null
+    },
+    {
+      "route": "turnover-signal-log",
+      "status": "updated",
+      "publishedAt": "2026-11-23T17:36:11.215Z",
       "asOf": null
     },
     {
       "route": "index-candles/sh000001",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:15.337Z",
+      "publishedAt": "2026-11-23T17:36:11.254Z",
       "asOf": null
     },
     {
-      "route": "index-candles/sh000688",
+      "route": "publish-weekly-review",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:16.298Z",
+      "publishedAt": "2026-11-23T17:36:11.294Z",
       "asOf": null
     },
     {
       "route": "index-candles/sh000905",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:16.757Z",
+      "publishedAt": "2026-11-23T17:36:12.600Z",
       "asOf": null
     },
     {
       "route": "index-candles/sz399006",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:16.773Z",
+      "publishedAt": "2026-11-23T17:36:12.699Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sh000688",
+      "status": "updated",
+      "publishedAt": "2026-11-23T17:36:12.733Z",
       "asOf": null
     },
     {
       "route": "index-candles/hkHSTECH",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:17.474Z",
+      "publishedAt": "2026-11-23T17:36:13.390Z",
       "asOf": null
-    },
-    {
-      "route": "market-history/cot",
-      "status": "missing",
-      "error": "Error: HTTP 502"
     },
     {
       "route": "index-candles/usIXIC",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:18.811Z",
+      "publishedAt": "2026-11-23T17:36:14.488Z",
       "asOf": null
     },
     {
       "route": "market-history/sp500",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:18.870Z",
+      "publishedAt": "2026-11-23T17:36:15.226Z",
       "asOf": null
     },
     {
       "route": "market-history/vix",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:19.551Z",
+      "publishedAt": "2026-11-23T17:36:15.437Z",
       "asOf": null
-    },
-    {
-      "route": "etf-quality",
-      "status": "updated",
-      "asOf": "2026-11-23",
-      "publishedAt": "2026-11-23T17:03:37.544Z"
     },
     {
       "route": "/research/review/2026-11-20",
       "status": "updated",
-      "publishedAt": "2026-11-23T17:03:38.897Z"
+      "publishedAt": "2026-11-23T17:36:28.183Z"
+    },
+    {
+      "route": "etf-quality",
+      "status": "updated",
+      "publishedAt": "2026-11-23T17:36:28.227Z",
+      "asOf": "2026-11-23"
+    },
+    {
+      "route": "market-history/cot",
+      "status": "updated",
+      "publishedAt": "2026-11-23T17:36:28.227Z",
+      "asOf": "2026-11-17"
     }
   ]
 }
