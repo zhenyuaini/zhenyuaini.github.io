@@ -2,6 +2,7 @@
 window.addEventListener('click',event=>{const a=event.target.closest?.('a');if(!a||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||a.target==='_blank'||a.hasAttribute('download'))return;const url=new URL(a.href,location.href);if(url.origin===location.origin&&url.pathname!==location.pathname){event.preventDefault();event.stopImmediatePropagation();location.assign(url.href);}},true);
 // Static hosting adapter. Public data only; credentials never enter the browser.
 (()=>{
+ const companion=document.createElement('link');companion.rel='stylesheet';companion.href='/public-overrides.css';document.head.append(companion);
  const nativeFetch=window.fetch.bind(window);
  const symbols=['sh000001','sh000300','sz399006','sh000688','sh000905','hkHSTECH','usIXIC','sh688008','sh603986','sz300308','sz300394','sz002409','sh688766','sz000636','sh600183'];
  const routes=new Set(['market-quotes','etf-rotation','watchlist-daily','etf-quality','turnover-estimate','turnover-signal-log','publish-weekly-review',...symbols.slice(0,7).map(s=>'index-candles/'+s),...['vix','cot','sp500'].map(s=>'market-history/'+s)]);

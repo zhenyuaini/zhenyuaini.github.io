@@ -1,0 +1,3 @@
+/* Public-host companion styles, kept in the private development repository. */
+dialog[class]{box-sizing:border-box;max-width:calc(100vw - 24px);overflow-x:hidden}
+dialog[class] img{max-width:100%;height:auto}

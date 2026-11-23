@@ -1,7 +1,9 @@
-# ZY研究室公开阅读版
+# ZY研究室
 
-《科技产业链投资手册》公开成品资源，支持章节导航、全文搜索和图片放大。原开发仓库保持私有。
+公开整站：https://zhenyuaini.github.io/
 
-手册入口：https://zhenyuaini.github.io/research/handbook/
+GitHub Pages 托管前端和公共数据，浏览器每分钟读取免费行情。原 EdgeOne 免费云后台继续计算收盘数据、14:30采样、份额配对和周报；GitHub Actions 自动发布到此站，访客无需登录或访问受限的后台默认域名。
 
-此仓库用于免费静态阅读，不运行原网站动态行情服务；原云端数据及更新任务保留在现有服务中。正文与资料按页面标注日期判断，原稿变更后需要重新导出。
+盘中估算按约10分钟发布；ETF与自选股收盘后更新。排队和构建可能延迟，以每项的实际数据日期为准。失败保留原存档或显示缺失，不伪造行情。原开发仓库保持私有。
+
+运行 node scripts/verify-public-data.mjs 检查匿名数据与最新周报。发布状态见 /data/status.json；工作流见 .github/workflows/publish-data.yml。
