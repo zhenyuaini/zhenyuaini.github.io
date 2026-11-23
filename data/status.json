@@ -1,76 +1,59 @@
 {
-  "checkedAt": "2026-11-23T16:54:29.815Z",
+  "checkedAt": "2026-11-23T16:59:38.563Z",
   "origin": "https://zy-research-lab-2jwhxpli.edgeone.dev",
   "results": [
     {
-      "route": "etf-quality",
-      "status": "missing",
-      "error": "Error: HTTP 400"
+      "route": "watchlist-daily",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:58:54.868Z",
+      "asOf": "2026-11-23"
     },
     {
       "route": "etf-rotation",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:54:01.461Z",
-      "asOf": "2026-11-23"
-    },
-    {
-      "route": "watchlist-daily",
-      "status": "updated",
-      "publishedAt": "2026-11-23T16:54:01.567Z",
+      "publishedAt": "2026-11-23T16:58:55.551Z",
       "asOf": "2026-11-23"
     },
     {
       "route": "market-quotes",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:54:04.706Z",
-      "asOf": null
-    },
-    {
-      "route": "publish-weekly-review",
-      "status": "updated",
-      "publishedAt": "2026-11-23T16:54:06.537Z",
-      "asOf": null
-    },
-    {
-      "route": "turnover-signal-log",
-      "status": "updated",
-      "publishedAt": "2026-11-23T16:54:06.582Z",
-      "asOf": null
-    },
-    {
-      "route": "index-candles/sh000001",
-      "status": "updated",
-      "publishedAt": "2026-11-23T16:54:07.096Z",
+      "publishedAt": "2026-11-23T16:58:56.096Z",
       "asOf": null
     },
     {
       "route": "turnover-estimate",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:54:23.985Z",
+      "publishedAt": "2026-11-23T16:59:11.931Z",
       "asOf": "2026-11-23"
     },
     {
-      "route": "index-candles/sh000688",
+      "route": "turnover-signal-log",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:54:25.884Z",
+      "publishedAt": "2026-11-23T16:59:13.043Z",
+      "asOf": null
+    },
+    {
+      "route": "publish-weekly-review",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:59:13.560Z",
       "asOf": null
     },
     {
       "route": "index-candles/sh000300",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:54:26.046Z",
+      "publishedAt": "2026-11-23T16:59:14.000Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sh000001",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:59:14.458Z",
       "asOf": null
     },
     {
       "route": "index-candles/sz399006",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:54:26.442Z",
-      "asOf": null
-    },
-    {
-      "route": "index-candles/sh000905",
-      "status": "updated",
-      "publishedAt": "2026-11-23T16:54:26.462Z",
+      "publishedAt": "2026-11-23T16:59:15.737Z",
       "asOf": null
     },
     {
@@ -79,27 +62,50 @@
       "error": "Error: HTTP 502"
     },
     {
-      "route": "market-history/sp500",
+      "route": "index-candles/sh000688",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:54:28.246Z",
+      "publishedAt": "2026-11-23T16:59:16.428Z",
       "asOf": null
+    },
+    {
+      "route": "index-candles/sh000905",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:59:16.510Z",
+      "asOf": null
+    },
+    {
+      "route": "market-history/cot",
+      "status": "missing",
+      "error": "Error: HTTP 502"
     },
     {
       "route": "index-candles/usIXIC",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:54:28.417Z",
+      "publishedAt": "2026-11-23T16:59:17.833Z",
+      "asOf": null
+    },
+    {
+      "route": "market-history/sp500",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:59:18.766Z",
       "asOf": null
     },
     {
       "route": "market-history/vix",
       "status": "updated",
-      "publishedAt": "2026-11-23T16:54:29.173Z",
+      "publishedAt": "2026-11-23T16:59:19.206Z",
       "asOf": null
     },
     {
-      "route": "market-history/sp500-crowding",
-      "status": "missing",
-      "error": "Error: HTTP 404"
+      "route": "etf-quality",
+      "status": "updated",
+      "asOf": "2026-11-23",
+      "publishedAt": "2026-11-23T16:59:36.847Z"
+    },
+    {
+      "route": "/research/review/2026-11-20",
+      "status": "updated",
+      "publishedAt": "2026-11-23T16:59:38.563Z"
     }
   ]
 }
