@@ -49,15 +49,6 @@
     "src": "/handbook/diagrams/e5efa23e5e7dd46f1350.svg"
   },
   {
-    "chapter": "chain-guide",
-    "kind": "curated-diagram",
-    "key": "leaf-spine",
-    "figure": "chain-guide-diagram-leaf-spine",
-    "after": "chain-guide-p8",
-    "paragraphExcerpt": "服务器之间要交换训练数据。云厂商与集群运营方确定网络拓扑、总带宽和建设节奏，设备商或代工伙伴按设计采购、集成，光模块也可能由客户单独认证和采购。同样是建设网络，交换芯片、交换机电路板与光模块处在不同的位置。",
-    "src": "/handbook/diagrams/00cc616c931bf1e9923c.svg"
-  },
-  {
     "chapter": "ai-compute-choice",
     "kind": "curated-diagram",
     "key": "workload-choice",
@@ -164,15 +155,6 @@
     "after": "memory-layers-p1",
     "paragraphExcerpt": "让模型回答一个长问题，会用到不同位置的存储。权重和正在运算的数据要靠近加速器；主机还要运行操作系统、准备数据；训练集、检查点和日志需要断电后继续保存；设备启动时又要读取固件。把这些容量并成一个“AI 存储市场”，就无法判断订单究竟落在哪里。",
     "src": "/handbook/diagrams/eb57cc76abeaf10bccbc.svg"
-  },
-  {
-    "chapter": "board-materials",
-    "kind": "curated-diagram",
-    "key": "pcb-stack",
-    "figure": "board-materials-diagram-pcb-stack",
-    "after": "board-materials-p1",
-    "paragraphExcerpt": "从服务器里抽出一块裸板，铜走线之间是绝缘介质。材料厂把铜箔与绝缘基材做成覆铜板，另供用于粘结的半固化片；板厂切割、成像、压合、钻孔、电镀、检测，得到符合客户叠层与走线设计的 PCB。最终客户可以指定材料体系，但实际采购板材的往往是板厂。",
-    "src": "/handbook/diagrams/787a939759a2b386ca29.svg"
   },
   {
     "chapter": "board-materials",
@@ -335,24 +317,6 @@
     "after": "basics-optics-p1",
     "paragraphExcerpt": "光通信由器件、模块、交换系统和连接组成，客户架构、端口数、速率升级与传输距离决定需求。",
     "src": "/handbook/diagrams/cb8be50c8078fced79d4.svg"
-  },
-  {
-    "chapter": "basics-optics",
-    "kind": "curated-diagram",
-    "key": "cpo-boundary",
-    "figure": "basics-optics-diagram-cpo-boundary",
-    "after": "basics-optics-p119",
-    "paragraphExcerpt": "把可插拔模块想成设备面板上的独立接口：坏了可以按系统设计更换。CPO 则把光引擎与交换芯片封装得更近，潜在好处是缩短高速电连接并改善系统功耗；但系统集成、维修方式、良率和成本都要重新权衡。",
-    "src": "/handbook/diagrams/62cb03f84c66b262df65.svg"
-  },
-  {
-    "chapter": "basics-optics",
-    "kind": "curated-diagram",
-    "key": "leaf-spine",
-    "figure": "basics-optics-diagram-leaf-spine",
-    "after": "basics-optics-p188",
-    "paragraphExcerpt": "一座集群里，设备连接方式、交换层级、端口速度、连接距离、是否使用铜缆或光缆，以及每个光链路两端的配置，共同决定模块需求。",
-    "src": "/handbook/diagrams/00cc616c931bf1e9923c.svg"
   },
   {
     "chapter": "basics-pcb",
