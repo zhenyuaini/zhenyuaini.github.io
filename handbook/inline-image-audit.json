@@ -58,15 +58,6 @@
     "src": "/handbook/diagrams/a480139b0da0e640fd96.svg"
   },
   {
-    "chapter": "ai-hbm-capacity",
-    "kind": "curated-diagram",
-    "key": "package-section",
-    "figure": "ai-hbm-capacity-diagram-package-section",
-    "after": "ai-hbm-capacity-p0",
-    "paragraphExcerpt": "一颗可交付的加速器要把计算芯片和高速存储接起来。存储厂把多层 DRAM 堆叠成 HBM；封装厂用中介层等结构连接逻辑芯片和 HBM，再完成集成与测试。换计算芯片品牌后，这两类需求往往仍在，但每颗装多少内存、封装占用多少资源、哪家通过认证，都可能改变。",
-    "src": "/handbook/diagrams/893940b374d6254c4527.svg"
-  },
-  {
     "chapter": "ai-china-orders",
     "kind": "curated-diagram",
     "key": "order-changes",
@@ -256,15 +247,6 @@
     "src": "/handbook/diagrams/2020fe4ecaa56c5b3c15.svg"
   },
   {
-    "chapter": "method-26",
-    "kind": "curated-diagram",
-    "key": "package-section",
-    "figure": "method-26-diagram-package-section",
-    "after": "method-26-p7",
-    "paragraphExcerpt": "晶圆是一整片加工基底，上面通常有多颗芯片；切割后的单颗芯片称裸片，封装把芯片连接并保护起来。",
-    "src": "/handbook/diagrams/893940b374d6254c4527.svg"
-  },
-  {
     "chapter": "basics-gpu",
     "kind": "curated-diagram",
     "key": "gpu-journey",
@@ -272,15 +254,6 @@
     "after": "basics-gpu-p1",
     "paragraphExcerpt": "GPU 由大量并行计算单元组成，擅长同时处理大量类似计算。训练需要反复调整模型参数；推理则是使用已训练好的模型处理问题。两者都需要计算，也需要不断读取和移动数据。",
     "src": "/handbook/diagrams/f4c86905f581d0f5fb3a.svg"
-  },
-  {
-    "chapter": "basics-gpu",
-    "kind": "curated-diagram",
-    "key": "package-section",
-    "figure": "basics-gpu-diagram-package-section",
-    "after": "basics-gpu-p25",
-    "paragraphExcerpt": "高端加速器可能把 GPU 与 HBM 通过先进封装紧密连接，让数据更快进入芯片。不是所有 GPU 都采用 HBM，也不是所有先进封装都相同。",
-    "src": "/handbook/diagrams/893940b374d6254c4527.svg"
   },
   {
     "chapter": "basics-packaging",
@@ -296,8 +269,8 @@
     "kind": "curated-diagram",
     "key": "packaging-types",
     "figure": "basics-packaging-diagram-packaging-types",
-    "after": "basics-packaging-p71",
-    "paragraphExcerpt": "以部分 2.5D 方案为例，计算裸片与 HBM 放在硅中介层等结构上，由精细线路连接。中介层不是 GPU 晶圆本身，封装方式也不只有一种。",
+    "after": "basics-packaging-p163",
+    "paragraphExcerpt": "2D、2.5D、3D 与 CoWoS 路线",
     "src": "/handbook/diagrams/c3fe9e2ba72557232563.svg"
   },
   {
@@ -362,24 +335,6 @@
     "after": "basics-materials-p65",
     "paragraphExcerpt": "高纯硅制成单晶硅棒，切片、研磨和抛光形成硅片。不同尺寸、缺陷水平与先进工艺要求对应不同产品。",
     "src": "/handbook/diagrams/3a0c6d55c51e8985d767.svg"
-  },
-  {
-    "chapter": "basics-server",
-    "kind": "curated-diagram",
-    "key": "power-path",
-    "figure": "basics-server-diagram-power-path",
-    "after": "basics-server-p207",
-    "paragraphExcerpt": "一家云厂商准备部署一万张加速卡。芯片运抵机房以后，还要解决电网接入、供配电、服务器供电、散热和网络连接。任何一环延误，都可能让设备无法按计划投入使用。",
-    "src": "/handbook/diagrams/1162444d9915bd829802.svg"
-  },
-  {
-    "chapter": "basics-server",
-    "kind": "curated-diagram",
-    "key": "cooling-loops",
-    "figure": "basics-server-diagram-cooling-loops",
-    "after": "basics-server-p215",
-    "paragraphExcerpt": "冷板式液冷通过冷板带走芯片热量，再经管路和热交换系统传递到外部冷源；浸没式则采用不同结构。比较时要看功率密度、系统效率、维护、改造成本与可靠性。机柜液冷零件、分配单元和机房冷源是不同市场。",
-    "src": "/handbook/diagrams/701aaf6f567fbd8dc42d.svg"
   },
   {
     "chapter": "basics-robot",
