@@ -49,15 +49,6 @@
     "src": "/handbook/diagrams/e5efa23e5e7dd46f1350.svg"
   },
   {
-    "chapter": "ai-compute-choice",
-    "kind": "curated-diagram",
-    "key": "workload-choice",
-    "figure": "ai-compute-choice-diagram-workload-choice",
-    "after": "ai-compute-choice-p15",
-    "paragraphExcerpt": "成熟模型若调用量大、负载可预测、算子稳定，迁移团队可以反复摊薄开发成本。若模型频繁更换、需要大量新算子，或者不同客户的任务差异很大，通用 GPU 的库、调试工具与调度灵活性更有价值。AWS 的 Trainium 已用于训练，说明“推理用自研、训练用 GPU”过于粗糙。真正要看的是工作负载和软件可迁移性。",
-    "src": "/handbook/diagrams/a480139b0da0e640fd96.svg"
-  },
-  {
     "chapter": "ai-china-orders",
     "kind": "curated-diagram",
     "key": "order-changes",
@@ -175,24 +166,6 @@
     "src": "/handbook/diagrams/b2855086b1d8ecc01fff.svg"
   },
   {
-    "chapter": "inference-market",
-    "kind": "curated-diagram",
-    "key": "inference-example",
-    "figure": "inference-market-diagram-inference-example",
-    "after": "inference-market-p7",
-    "paragraphExcerpt": "设基期每天完成 100 万次同质任务，优化后每次占用的加速器有效时间降至原来的 60%，在利用率和服务质量相同时，日任务量须超过约 166.7 万次，忙碌机时才增长。若只增至 140 万次，机时为原来的 84%；若增至 200 万次，则为 120%。扩机前还要看峰值并发和现有空余容量。",
-    "src": "/handbook/diagrams/7843551ab49d4df6d4e4.svg"
-  },
-  {
-    "chapter": "ai-buyers",
-    "kind": "curated-diagram",
-    "key": "retention-example",
-    "figure": "ai-buyers-diagram-retention-example",
-    "after": "ai-buyers-p7",
-    "paragraphExcerpt": "教学例：一家公司有 1 万名员工，其中 3,000 人的岗位适用。若 60% 获批购买、续约时保留其中 80%，且无新客补入，次年留存 1,440 席。席位收入按实际净价算；按任务收费的产品另用成功完成且可计费的任务数。推广到行业，要先筛适用岗位、预算与合规条件，再乘渗透率。",
-    "src": "/handbook/diagrams/8fd21951fe0bc9f78ab2.svg"
-  },
-  {
     "chapter": "order-atlas",
     "kind": "curated-diagram",
     "key": "procurement-map",
@@ -245,33 +218,6 @@
     "after": "method-25-p1",
     "paragraphExcerpt": "以一家虚构的光模块公司为例。假设市场原来期待未来一年收入增长 80%、净利率 20%；公司实际收入增长 50%、净利率 15%。实际增长依然很快，但如果此前价格已反映更高增长，市场可能重新定价。",
     "src": "/handbook/diagrams/2020fe4ecaa56c5b3c15.svg"
-  },
-  {
-    "chapter": "basics-gpu",
-    "kind": "curated-diagram",
-    "key": "gpu-journey",
-    "figure": "basics-gpu-diagram-gpu-journey",
-    "after": "basics-gpu-p1",
-    "paragraphExcerpt": "GPU 由大量并行计算单元组成，擅长同时处理大量类似计算。训练需要反复调整模型参数；推理则是使用已训练好的模型处理问题。两者都需要计算，也需要不断读取和移动数据。",
-    "src": "/handbook/diagrams/f4c86905f581d0f5fb3a.svg"
-  },
-  {
-    "chapter": "basics-packaging",
-    "kind": "curated-diagram",
-    "key": "package-section",
-    "figure": "basics-packaging-diagram-package-section",
-    "after": "basics-packaging-p0",
-    "paragraphExcerpt": "一颗 GPU 怎么与周围的 HBM 高速连接？如果一颗芯片太大、造不出来，能否拆成几块再组装？",
-    "src": "/handbook/diagrams/893940b374d6254c4527.svg"
-  },
-  {
-    "chapter": "basics-packaging",
-    "kind": "curated-diagram",
-    "key": "packaging-types",
-    "figure": "basics-packaging-diagram-packaging-types",
-    "after": "basics-packaging-p163",
-    "paragraphExcerpt": "2D、2.5D、3D 与 CoWoS 路线",
-    "src": "/handbook/diagrams/c3fe9e2ba72557232563.svg"
   },
   {
     "chapter": "basics-memory",
@@ -481,21 +427,93 @@
     "src": "/handbook/diagrams/65942c35088285a59b82.svg"
   },
   {
+    "chapter": "ai-buyers",
+    "kind": "curated-diagram",
+    "key": "app-workflow",
+    "figure": "ai-buyers-diagram-app-workflow",
+    "after": "ai-buyers-p3",
+    "paragraphExcerpt": "把一份摘要接到项目系统，中间至少有记录、生成、审核与入库四步。 工作流 就是这些按顺序执行的步骤，包含出错时谁处理。技术进步如果只让摘要更流畅，采购预算未必会变。如果它让人不用逐项重新核对，或者让一个小团队可以服务更多客户，就打开了更大的需求。",
+    "src": "/handbook/diagrams/8a88eef279b3713bc33a.svg"
+  },
+  {
+    "chapter": "ai-buyers",
+    "kind": "curated-diagram",
+    "key": "app-paid-seats",
+    "figure": "ai-buyers-diagram-app-paid-seats",
+    "after": "ai-buyers-p6",
+    "paragraphExcerpt": "估市场上限时，先数有这一流程、允许使用相关数据、愿意为解决方案付费的岗位。 教学假设 ：一家企业有 1 万名员工，其中 3,000 人经常处理这类会议。1,800 人获批购买，第二年其中 80% 续约，又有 500 人新购。期末付费席位是 1,940 个。这个数可以观察净扩张。它没有考虑购买日期和折扣，不能直接乘单价当作全年收入。",
+    "src": "/handbook/diagrams/4ab08466a4911d37c2e4.svg"
+  },
+  {
+    "chapter": "inference-market",
+    "kind": "curated-diagram",
+    "key": "model-request",
+    "figure": "inference-market-diagram-model-request",
+    "after": "inference-market-p3",
+    "paragraphExcerpt": "对常见逐步生成的模型， 预填充 是先处理纪要和指令，构建后续生成需要的内部状态。接下来进入 解码 ，根据输入和已经写出的内容，逐步生成后续片段。为了省去反复计算，模型存下部分中间结果，称为 KV 缓存 。长纪要会增加输入处理量，长回复会增加生成步骤，更多请求同时在线也会让缓存占用上升。面对用户，要分开看多久出现第一个字，以及整份输出多久完成。 [1]",
+    "src": "/handbook/diagrams/cfb0a7925b5e8a47442d.svg"
+  },
+  {
+    "chapter": "inference-market",
+    "kind": "curated-diagram",
+    "key": "model-cost-routing",
+    "figure": "inference-market-diagram-model-cost-routing",
+    "after": "inference-market-p7",
+    "paragraphExcerpt": "教学假设 ：一百份同样的纪要，全部用较强模型，每份调用 0.10 元。若 80 份先用每次 0.02 元的轻量模型，其中 10 份要再用较强模型；其余 20 份直接用较强模型，总调用费是 4.60 元，原来是 10 元。这个比较要求最终验收率和交付速度相当，并且还要另外计入分流、复核和重做成本。常用的核算分母是 通过验收的任务数 ，即把同批任务的全部交付成本除以最终合格份数。",
+    "src": "/handbook/diagrams/16f3ed31fe7368c41f1b.svg"
+  },
+  {
+    "chapter": "ai-compute-choice",
+    "kind": "curated-diagram",
+    "key": "compute-peak",
+    "figure": "ai-compute-choice-diagram-compute-peak",
+    "after": "ai-compute-choice-p8",
+    "paragraphExcerpt": "教学假设 ：稳定运行时，同一设备在规定质量和等待时间内每分钟可交付 10 份纪要。全天平均每分钟 20 份，忙时连续多分钟达到 60 份。只按平均配两台，忙时队列会堆积。按给定持续峰值粗算需要六台在线设备，实际还要验证突发波动、故障备用和不同文档的耗时。此时改善调度、把可延迟的任务挪开，也可能比买更多机器划算。",
+    "src": "/handbook/diagrams/00861399ac9d0bca03d9.svg"
+  },
+  {
     "chapter": "basics-gpu",
     "kind": "curated-diagram",
-    "key": "gpu-workload-first",
-    "figure": "basics-gpu-diagram-gpu-workload-first",
+    "key": "gpu-system",
+    "figure": "basics-gpu-diagram-gpu-system",
     "after": "gpu-route-intro",
-    "paragraphExcerpt": "训练、批量推理和低延迟推理分开建模。对同一模型、精度、输入输出长度和服务等级，比较每单位任务成本、延迟、有效利用率和迁移时间。芯片峰值算力适合定位规格，要估采购仍需看整柜、内存、网络、软件及可交付时间。",
-    "src": "/handbook/diagrams/d95025838f2e922d2299.svg"
+    "paragraphExcerpt": "计算单元负责算， 显存 是计算芯片附近临时存放模型权重和中间结果的内存，运行软件负责把任务分给芯片。显存 容量 决定能放多少， 带宽 决定每秒能搬多少数据。大模型要在多颗芯片上分工时，它们之间的连接速度也会影响结果。芯片纸面最高运算速度只是一个规格，实际要测同样质量、同样响应要求下的整机吞吐、功耗和可用时间。 [1]",
+    "src": "/handbook/diagrams/a1019ee7dc5832d5f2ae.svg"
+  },
+  {
+    "chapter": "basics-gpu",
+    "kind": "curated-diagram",
+    "key": "workload-choice",
+    "figure": "basics-gpu-diagram-workload-choice",
+    "after": "basics-gpu-p59",
+    "paragraphExcerpt": "教学假设 ：同等服务条件下，转向定制方案每交付一百万个合格任务省 2 万元，迁移、验证和维护多花 200 万元。忽略折现，仅靠这项节约打平，需要累计 1 亿个合格任务。量达不到，账就不划算。即使能达到，也要考虑需求增长时间、硬件供应与下一代模型能否顺利上机。算账用预计可迁移的任务，不能把客户所有调用都算进去。",
+    "src": "/handbook/diagrams/a480139b0da0e640fd96.svg"
+  },
+  {
+    "chapter": "basics-packaging",
+    "kind": "curated-diagram",
+    "key": "package-section",
+    "figure": "basics-packaging-diagram-package-section",
+    "after": "basics-packaging-p148",
+    "paragraphExcerpt": "从加工好的晶圆上分割下来、还没加外部连接的单颗芯片叫 裸片 。HBM 先把多个内存裸片堆起来，用穿过硅片的细导电通道（ 硅通孔 ，TSV）连接上下层，再做堆栈测试。之后可以把通过测试的 HBM 与计算裸片并排放在带密集布线的连接结构上，常称 中介层 。下方的 封装基板 把整包接到板卡，并连接外部电源和信号。整包还要经过测试，装到系统里验证。",
+    "src": "/handbook/diagrams/893940b374d6254c4527.svg"
+  },
+  {
+    "chapter": "basics-packaging",
+    "kind": "curated-diagram",
+    "key": "packaging-types",
+    "figure": "basics-packaging-diagram-packaging-types",
+    "after": "basics-packaging-p163",
+    "paragraphExcerpt": "从图上看，常见的 2D 封装 可以把芯片并排放在基板上。 2.5D 封装 也可以并排放，但在下方增加更密集的连接结构。 3D 堆叠 则让芯片直接向上叠。一个产品可以同时用到两种做法：HBM 内部垂直堆叠，再和计算芯片并排集成。 CoWoS 是台积电的一族先进封装方案，不同版本采用的连接结构有差异。平台换代是否多用硅中介层、桥接结构、基板材料或者测试，要看具体设计。 [1] [2]",
+    "src": "/handbook/diagrams/c3fe9e2ba72557232563.svg"
   },
   {
     "chapter": "basics-packaging",
     "kind": "curated-diagram",
     "key": "packaging-moving-bottleneck",
     "figure": "basics-packaging-diagram-packaging-moving-bottleneck",
-    "after": "packaging-bottleneck-intro",
-    "paragraphExcerpt": "先确定平台结构与需要通过认证的规格。CoWoS-S、CoWoS-R、CoWoS-L 采用不同互连结构，容量、走线、尺寸、散热与良率各有约束。平台迁移要经历设计、样片、验证和良率爬坡，不能把一种路线的名义产能平移到另一种路线。",
+    "after": "basics-packaging-p186",
+    "paragraphExcerpt": "教学假设 ：一个月的合格部件和工序能力都按同一型号换算成整包当量。组装线能支撑 10 万套，已认证 HBM 够 7 万套，测试能交出 9 万套；其他环节充足时，最多交 7 万套。只给组装线加设备，出货上限不动。HBM 够到 10 万套，测试成为下一道约束，最多交 9 万套。实际还要用破损、返工、排期和客户提货核对产能能否兑现。",
     "src": "/handbook/diagrams/417af91797f86d02cb6f.svg"
   },
   {
