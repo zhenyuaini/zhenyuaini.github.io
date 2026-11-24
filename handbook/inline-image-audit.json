@@ -371,5 +371,59 @@
     "after": "basics-mcu-p1",
     "paragraphExcerpt": "MCU 是把处理器、内存和外设接口等整合在一颗芯片上的控制器；NOR Flash 是非易失性存储器，两者功能不同。",
     "src": "/handbook/diagrams/42228a7575ca577e2d2b.svg"
+  },
+  {
+    "chapter": "case-micron-cycle",
+    "kind": "curated-diagram",
+    "key": "micron-margin-points",
+    "figure": "case-micron-cycle-diagram-micron-margin-points",
+    "after": "basics-memory-p236",
+    "paragraphExcerpt": "沿 2022—2024 年这一轮下行与复苏，按日期逐关展开。每关先读当日以前已公开的线索，写下你会调整的一个参数，再揭晓后续证据。季度采用美光财年，毛利率并列 GAAP 和调整后数据，各期保持同口径比较。",
+    "src": "/handbook/diagrams/f4a684f5032091a11682.svg"
+  },
+  {
+    "chapter": "case-micron-cycle",
+    "kind": "curated-diagram",
+    "key": "micron-return-windows",
+    "figure": "case-micron-cycle-diagram-micron-return-windows",
+    "after": "basics-memory-p272",
+    "paragraphExcerpt": "2023 年 3 月报出严重亏损，窗口内股价上涨；9 月毛利改善，窗口内股价却下跌。表格区分前一交易日到后一交易日，以及披露日收盘到后一交易日。两种窗口都包含期间的其他市场信息。单次反应能帮助检查“市场此前期待什么”，无法单独证明涨跌原因。2024 年 1 月是行业调查节点，未混入财报窗口。",
+    "src": "/handbook/diagrams/9fa33ccb33ebdbbd36b0.svg"
+  },
+  {
+    "chapter": "case-pcb-comparison",
+    "kind": "curated-diagram",
+    "key": "pcb-quarter-margin-trend",
+    "figure": "case-pcb-comparison-diagram-pcb-quarter-margin-trend",
+    "after": "basics-pcb-p376",
+    "paragraphExcerpt": "金额为人民币亿元。流量按累计值相减还原单季；存货为季末余额。毛利率以单季收入减营业成本，再除以收入。滚动经营现金流含当季及此前三季。",
+    "src": "/handbook/diagrams/478cc1c110c4de1bacea.svg"
+  },
+  {
+    "chapter": "case-pcb-comparison",
+    "kind": "curated-diagram",
+    "key": "pcb-ah-capitalization",
+    "figure": "case-pcb-comparison-diagram-pcb-ah-capitalization",
+    "after": "basics-pcb-p597",
+    "paragraphExcerpt": "取 2026 年 11 月 20 日收盘。深南 A 股为 210.00 元，行情商显示的总市值约 1,430.38 亿元。胜宏按 A、H 分开计价：A 股 108.22 元 × 约 8.7234 亿股，H 股 86.75 港元 × 约 1.1023 亿股，再按当日中间价 0.85618 换算人民币。采用 10 月末已发行股份（扣除库存股），估算合计市值约 1,025.92 亿元。汇率采用中间价，与实时成交口径可能略有差异。",
+    "src": "/handbook/diagrams/94f2987628beb3af7d70.svg"
+  },
+  {
+    "chapter": "basics-pcb",
+    "kind": "curated-diagram",
+    "key": "pcb-market-definitions",
+    "figure": "basics-pcb-diagram-pcb-market-definitions",
+    "after": "basics-pcb-p218",
+    "paragraphExcerpt": "2024 年 Prismark 排名中建滔、生益、联茂位列硬质覆铜板前三；2025 年联茂升至第一。比较排名时要同时看年份、价格、产品结构、统计口径和市场区域，不能把某一年的位置当作永久地位。",
+    "src": "/handbook/diagrams/f8636d9fe1fc42541f75.svg"
+  },
+  {
+    "chapter": "basics-mlcc",
+    "kind": "curated-diagram",
+    "key": "mlcc-sample-to-revenue",
+    "figure": "basics-mlcc-diagram-mlcc-sample-to-revenue",
+    "after": "basics-mlcc-p146",
+    "paragraphExcerpt": "再看 5.6 亿元里装了什么。 公司对高端品的定义包含高容量、车规、中高压等类别。被问到某批 AI 服务器样品的抗老化测试时，公司仅概述了新品陆续通过客户认证。该答复没有给出该料号的测试结论、供货客户或采购金额。模型中可单列 AI 服务器一行，保留为待核实。",
+    "src": "/handbook/diagrams/c564bb2093bd0913167a.svg"
   }
 ]
