@@ -85,33 +85,6 @@
     "src": "/handbook/diagrams/37520435de1fd045591e.svg"
   },
   {
-    "chapter": "design-rights",
-    "kind": "curated-diagram",
-    "key": "design-clock",
-    "figure": "design-rights-diagram-design-clock",
-    "after": "design-rights-p1",
-    "paragraphExcerpt": "云厂商要做一颗推理芯片，先要决定哪些电路自己设计、哪些模块可以授权复用，再把设计验证到足以送去制造。EDA 是工程师用来设计和验证的工具，IP 是可以嵌入芯片的设计模块。同一家公司可以同时卖两者，两笔钱的触发条件却不同。",
-    "src": "/handbook/diagrams/4f9a0a0ce6dff2920bf2.svg"
-  },
-  {
-    "chapter": "wafer-tools",
-    "kind": "curated-diagram",
-    "key": "fab-process",
-    "figure": "wafer-tools-diagram-fab-process",
-    "after": "wafer-tools-p1",
-    "paragraphExcerpt": "设计定版后，晶圆厂在硅片上反复形成薄膜、曝光图形、刻掉选定区域，最后留下晶体管和互连。台积电承接客户设计的制造。ASML 提供光刻设备，泛林（Lam Research）提供包括刻蚀在内的工艺设备，前驱体供应商则提供形成特定薄膜所需的材料。判断三类生意，分别看新设备、在役设备和实际投片。",
-    "src": "/handbook/diagrams/063d53f81bdc6991eedc.svg"
-  },
-  {
-    "chapter": "chip-testing",
-    "kind": "curated-diagram",
-    "key": "test-gates",
-    "figure": "chip-testing-diagram-test-gates",
-    "after": "chip-testing-p1",
-    "paragraphExcerpt": "一颗昂贵逻辑裸片和多组 HBM 进入同一个封装，任一关键部件或互连失败，都可能拖累整套成品。封装前尽量筛出合格裸片，封装后再测功能、速率和功耗，在更接近系统的条件下抽查或验证。这里多一道测试既增加机时，也可能避免把优质 HBM 装到有缺陷的逻辑芯片上。",
-    "src": "/handbook/diagrams/baac70183b3bcf94b117.svg"
-  },
-  {
     "chapter": "memory-layers",
     "kind": "curated-diagram",
     "key": "memory-map",
@@ -200,33 +173,6 @@
     "after": "method-25-p1",
     "paragraphExcerpt": "以一家虚构的光模块公司为例。假设市场原来期待未来一年收入增长 80%、净利率 20%；公司实际收入增长 50%、净利率 15%。实际增长依然很快，但如果此前价格已反映更高增长，市场可能重新定价。",
     "src": "/handbook/diagrams/2020fe4ecaa56c5b3c15.svg"
-  },
-  {
-    "chapter": "basics-equipment",
-    "kind": "curated-diagram",
-    "key": "fab-process",
-    "figure": "basics-equipment-diagram-fab-process",
-    "after": "basics-equipment-p1",
-    "paragraphExcerpt": "设备是晶圆厂的生产工具，不同工序之间相互依赖。新厂扩产、技术升级、备件和维护都会产生需求。",
-    "src": "/handbook/diagrams/063d53f81bdc6991eedc.svg"
-  },
-  {
-    "chapter": "basics-equipment",
-    "kind": "curated-diagram",
-    "key": "proof-ladder",
-    "figure": "basics-equipment-diagram-proof-ladder",
-    "after": "basics-equipment-p107",
-    "paragraphExcerpt": "样机进入客户产线 → 对指定工序测试 → 稳定性与良率验证 → 客户复购和扩展工序。某公司在某一工序突破，并不意味着已覆盖所有先进节点或所有刻蚀类型。设备的长期服务、零部件及工艺协同也影响竞争力。",
-    "src": "/handbook/diagrams/d73b5475dac616c7f52b.svg"
-  },
-  {
-    "chapter": "basics-materials",
-    "kind": "curated-diagram",
-    "key": "materials-use",
-    "figure": "basics-materials-diagram-materials-use",
-    "after": "basics-materials-p65",
-    "paragraphExcerpt": "高纯硅制成单晶硅棒，切片、研磨和抛光形成硅片。不同尺寸、缺陷水平与先进工艺要求对应不同产品。",
-    "src": "/handbook/diagrams/3a0c6d55c51e8985d767.svg"
   },
   {
     "chapter": "basics-robot",
@@ -578,6 +524,96 @@
     "after": "pcb-yield-math",
     "paragraphExcerpt": "教学假设 ：旧板每投产一块成本 80 元，95% 合格，每块合格品卖 120 元。新板成本 100 元，75% 合格，合格品每块卖 150 元。忽略返工和报废残值，每块合格品成本从约 84.21 元变成 133.33 元，单块毛利从约 35.79 元降到 16.67 元 。在新板价格和投入成本不变时，要恢复旧板的单块毛利，新板良率要升到约 87.6%。这笔账没有计入扩产折旧和期间费用。",
     "src": "/handbook/diagrams/e501b6ab3c8bf0dd7bb4.svg"
+  },
+  {
+    "chapter": "design-rights",
+    "kind": "curated-diagram",
+    "key": "design-clock",
+    "figure": "design-rights-diagram-design-clock",
+    "after": "design-tapeout",
+    "paragraphExcerpt": "模拟把测试数据喂给设计，检验输出是否符合预期。之后还要查信号能否在规定时间内到达、峰值供电够不够、线路有没有违反制造规则。完成检查并把定版数据交给晶圆厂，通常称为 流片（tape-out） 。试产芯片回来，还要跑软件、在高负载下压测并验证可靠性。若设计错误需改版，可能重做一部分制造图形模板（掩模），再安排试产。迁移到新工艺时，一部分原有 IP 需要重新适配。若把不同功能分别做成 芯粒 ，也就是可组合的小裸片，再装到一起，还要验证它们之间的接口和整包运行。 [3]",
+    "src": "/handbook/diagrams/4f9a0a0ce6dff2920bf2.svg"
+  },
+  {
+    "chapter": "design-rights",
+    "kind": "curated-diagram",
+    "key": "ip-royalty-volume",
+    "figure": "design-rights-diagram-ip-royalty-volume",
+    "after": "design-rights-p7",
+    "paragraphExcerpt": "教学假设 ：这颗芯片的年度目标为 100 万颗，采用的某个 IP 按每颗实际计费出货收 0.20 元。若只出了 60 万颗，版税从目标对应的 20 万元降到 12 万元。固定授权与 EDA 许可仍要按各自合同计价。Arm 的公开文件列举了按芯片售价的一定比例、或按颗收固定金额的版税模式；这里的 0.20 元只是算例费率。 [4]",
+    "src": "/handbook/diagrams/e9ec5ea1974fb9808dde.svg"
+  },
+  {
+    "chapter": "wafer-tools",
+    "kind": "curated-diagram",
+    "key": "wafer-pattern-loop",
+    "figure": "wafer-tools-diagram-wafer-pattern-loop",
+    "after": "wafer-tools-p1",
+    "paragraphExcerpt": "晶圆 是用来加工电路的圆片，这里以硅片为例。 沉积 是在上面加薄膜； 光刻 利用光和带图案的 掩模 ，把图形定义在感光胶上；显影后，可用 刻蚀 移走指定区域的材料，把图形留在下面的膜里。有些步骤还会改变硅的电性、填入金属、磨平表面。 量测 核对线宽、厚度或不同层的位置偏差， 缺陷检测 寻找颗粒和异常。这样的循环按工艺反复进行。 [1]",
+    "src": "/handbook/diagrams/9e922ad45a5b25f6f8aa.svg"
+  },
+  {
+    "chapter": "wafer-tools",
+    "kind": "curated-diagram",
+    "key": "wafer-good-dies",
+    "figure": "wafer-tools-diagram-wafer-good-dies",
+    "after": "wafer-tools-p3",
+    "paragraphExcerpt": "裸片 是封装前的单颗芯片。 教学假设 ：旧工艺每片排 200 颗，90% 达到要求，合格 180 颗。新设计面积更小，每片可排 250 颗，试产时良率只有 72%，仍是 180 颗。完成 良率爬坡 ，即稳定提高合格比例，达到 80% 后，每片才交出 200 颗。数字只算通过这一阶段筛选的裸片，整包还要另测。",
+    "src": "/handbook/diagrams/0cfe110e79eba42228b7.svg"
+  },
+  {
+    "chapter": "basics-equipment",
+    "kind": "curated-diagram",
+    "key": "tool-step-capacity",
+    "figure": "basics-equipment-diagram-tool-step-capacity",
+    "after": "equipment-step-capacity",
+    "paragraphExcerpt": "教学假设 ：某类刻蚀设备每台每月可处理 10 万次晶圆过机。旧工艺每月投 4 万片，每片进这类设备 2 次，需要 8 万次，一台能承接。新工艺每月投 4.5 万片，每片进 3 次，需要 13.5 万次，现有一台不够。若新旧加工可共用同一合格机型、单台吞吐不变且不另计备用，至少要两台。实际订单还要扣除同型号闲置设备、可升级机台和调拨能力，并核对是否有不同的工艺资格。",
+    "src": "/handbook/diagrams/612e6c7fd9f35246926d.svg"
+  },
+  {
+    "chapter": "basics-equipment",
+    "kind": "curated-diagram",
+    "key": "proof-ladder",
+    "figure": "basics-equipment-diagram-proof-ladder",
+    "after": "equipment-acceptance",
+    "paragraphExcerpt": "先查机型能否在客户的具体工序稳定运行，再跟踪选定供应商、下单、出货、安装、验收和重复采购。确认收入遵守合同与会计口径。设备厂卖整机、备件、维修和升级，各有不同的收入节奏。难替代的设备可能获得较高净价，也要付出研发、关键零件和服务成本。如果付款和验收后移，积压订单与当期现金会分开。把市场空间写到客户、工序和可替代机型，才能判断换代到底为谁增加了收入。机器开起来以后，材料又是另一张采购单。",
+    "src": "/handbook/diagrams/d73b5475dac616c7f52b.svg"
+  },
+  {
+    "chapter": "basics-materials",
+    "kind": "curated-diagram",
+    "key": "materials-use",
+    "figure": "basics-materials-diagram-materials-use",
+    "after": "materials-roles",
+    "paragraphExcerpt": "高纯硅经晶体生长、切片、抛光，制成待加工硅片。 光刻胶 在曝光后改变性质，配合显影留下指定图形。 前驱体 是沉积时形成薄膜的起始物质；一些电子气体参与加工或提供受控环境； 湿电子化学品 用于清洗、显影等液相工序。做某些金属薄膜时会消耗 靶材 ，即供应所需原子的固体材料。抛光液和抛光垫则在磨平表面的工序中消耗。硅片、胶、气体、靶材和抛光液的计量单位不同，要分别估。 [1] [2]",
+    "src": "/handbook/diagrams/3a0c6d55c51e8985d767.svg"
+  },
+  {
+    "chapter": "basics-materials",
+    "kind": "curated-diagram",
+    "key": "material-usage-shift",
+    "figure": "basics-materials-diagram-material-usage-shift",
+    "after": "materials-step-units",
+    "paragraphExcerpt": "教学假设 ：沿用设备章的同一座工厂，月投片由 4 万变 4.5 万。这次看另一道图形化工序，旧法每片用两次某一规格的胶，每次记 1 份，共 8 万份；新法只留一次用胶，同样按每次 1 份归一化，变成 4.5 万份，减少 43.75%。若新法需更高规格的胶，采购金额取决于新的单位净价，还要按真实用量和损耗修正。若另一层新增沉积，前驱体用量可能在同一时间上升。",
+    "src": "/handbook/diagrams/94fc3ffde65370ab7696.svg"
+  },
+  {
+    "chapter": "chip-testing",
+    "kind": "curated-diagram",
+    "key": "test-gates",
+    "figure": "chip-testing-diagram-test-gates",
+    "after": "chip-testing-p1",
+    "paragraphExcerpt": "晶圆测试 用探针在晶圆上接触指定位置，筛出符合该阶段条件的裸片。切割分离后，把合格计算裸片与已筛选的内存等部件按设计组装。封装同时负责电连接、防护和一部分导热。 终测 检查整包功能、速率、功耗等。部分产品还做 系统级测试 ，在更接近实际使用的硬件和软件环境下验证。各阶段覆盖范围不同，晶圆阶段合格后，整包仍可能在连接或热条件下失效。 [1] [2]",
+    "src": "/handbook/diagrams/baac70183b3bcf94b117.svg"
+  },
+  {
+    "chapter": "chip-testing",
+    "kind": "curated-diagram",
+    "key": "testing-machine-hours",
+    "figure": "chip-testing-diagram-testing-machine-hours",
+    "after": "chip-testing-p5",
+    "paragraphExcerpt": "教学假设 ：按最初的年度目标测 100 万套，每台设备一年净可用 6,000 小时。旧产品一次测一套，每批 120 秒，总共约 33,333 机时，向上取整需 6 台。新产品每批 180 秒，仍一次一套则需 50,000 机时，向上取整需 9 台。若设备和工装可以 并测 ，即同时测两套且每批仍是 180 秒，降到 25,000 机时，至少 5 台。这一算例只覆盖一个测试环节，实际还要查可并测数量、换线和插拔时间、高功率下控温能力及重测。",
+    "src": "/handbook/diagrams/d12c71fcfb3dfc0f6bbf.svg"
   },
   {
     "chapter": "macro-cycle",
