@@ -425,5 +425,50 @@
     "after": "basics-mlcc-p146",
     "paragraphExcerpt": "再看 5.6 亿元里装了什么。 公司对高端品的定义包含高容量、车规、中高压等类别。被问到某批 AI 服务器样品的抗老化测试时，公司仅概述了新品陆续通过客户认证。该答复没有给出该料号的测试结论、供货客户或采购金额。模型中可单列 AI 服务器一行，保留为待核实。",
     "src": "/handbook/diagrams/c564bb2093bd0913167a.svg"
+  },
+  {
+    "chapter": "basics-optics",
+    "kind": "curated-diagram",
+    "key": "optics-architecture-map",
+    "figure": "basics-optics-diagram-optics-architecture-map",
+    "after": "optics-route-intro",
+    "paragraphExcerpt": "从一条具体链路开始。写下交换机或服务器端、前端或后端网络、每通道速率、距离、每机箱端口数和维修要求。光引擎搬近交换芯片，会缩短高速电通道，也会改变散热、测试和维修的责任边界。设备两端可以采用不同方案。",
+    "src": "/handbook/diagrams/b8bfacc814d2a584b97c.svg"
+  },
+  {
+    "chapter": "method-22",
+    "kind": "curated-diagram",
+    "key": "shortage-branch-check",
+    "figure": "method-22-diagram-shortage-branch-check",
+    "after": "shortage-diagnosis-intro",
+    "paragraphExcerpt": "同一周的缺货可能来自终端增量、恐慌补库、重复下单、物流、某工序良率或合格供应商不足。用同规格、同区域、同一交付期限比数据。先看客户实际消耗与持续提货，再看合格产出和真正可以替换的产能。",
+    "src": "/handbook/diagrams/65942c35088285a59b82.svg"
+  },
+  {
+    "chapter": "basics-gpu",
+    "kind": "curated-diagram",
+    "key": "gpu-workload-first",
+    "figure": "basics-gpu-diagram-gpu-workload-first",
+    "after": "gpu-route-intro",
+    "paragraphExcerpt": "训练、批量推理和低延迟推理分开建模。对同一模型、精度、输入输出长度和服务等级，比较每单位任务成本、延迟、有效利用率和迁移时间。芯片峰值算力适合定位规格，要估采购仍需看整柜、内存、网络、软件及可交付时间。",
+    "src": "/handbook/diagrams/d95025838f2e922d2299.svg"
+  },
+  {
+    "chapter": "basics-packaging",
+    "kind": "curated-diagram",
+    "key": "packaging-moving-bottleneck",
+    "figure": "basics-packaging-diagram-packaging-moving-bottleneck",
+    "after": "packaging-bottleneck-intro",
+    "paragraphExcerpt": "先确定平台结构与需要通过认证的规格。CoWoS-S、CoWoS-R、CoWoS-L 采用不同互连结构，容量、走线、尺寸、散热与良率各有约束。平台迁移要经历设计、样片、验证和良率爬坡，不能把一种路线的名义产能平移到另一种路线。",
+    "src": "/handbook/diagrams/417af91797f86d02cb6f.svg"
+  },
+  {
+    "chapter": "macro-cycle",
+    "kind": "curated-diagram",
+    "key": "ai-market-deliverability",
+    "figure": "macro-cycle-diagram-ai-market-deliverability",
+    "after": "ai-ceiling-intro",
+    "paragraphExcerpt": "产业空间先看付费任务量、单位价格与可续约性。再问云厂商是否能用项目回报覆盖资本成本，以及电力、网络和芯片能否在客户期限内到位。增长预期可以很大，公司能参与的市场仍取决于区域、产品、客户和认证。",
+    "src": "/handbook/diagrams/1454cee3fb17eb1973cb.svg"
   }
 ]
