@@ -76,24 +76,6 @@
     "src": "/handbook/diagrams/62cb03f84c66b262df65.svg"
   },
   {
-    "chapter": "rack-power",
-    "kind": "curated-diagram",
-    "key": "power-path",
-    "figure": "rack-power-diagram-power-path",
-    "after": "rack-power-p0",
-    "paragraphExcerpt": "机柜送到机房，GPU 还要等两件事：电送得到芯片，热送得出园区。先沿供电线走。电网接入后，园区经变压器和开关柜变压、保护并分路；采用交流 UPS 的方案，由不间断电源在市电切换时维持负载。电送到机柜，电源框再把交流变成直流，沿金属母排分到托盘，板上电源继续降到芯片所需电压。",
-    "src": "/handbook/diagrams/1162444d9915bd829802.svg"
-  },
-  {
-    "chapter": "rack-heat",
-    "kind": "curated-diagram",
-    "key": "cooling-loops",
-    "figure": "rack-heat-diagram-cooling-loops",
-    "after": "rack-heat-p0",
-    "paragraphExcerpt": "先看热量怎么离开芯片：冷板贴近发热点，冷却液流经冷板带走热量，经分流排和管路汇入冷量分配单元（CDU）。在液对液方案中，CDU 用泵维持设备侧循环，再通过换热器把热量交给设施侧水路，最后由园区冷源和室外散热设备排出。机柜里的冷板、机房里的 CDU、园区室外的散热设备，分别由不同的工程决策决定。",
-    "src": "/handbook/diagrams/701aaf6f567fbd8dc42d.svg"
-  },
-  {
     "chapter": "campus-delivery",
     "kind": "curated-diagram",
     "key": "project-gates",
@@ -218,42 +200,6 @@
     "after": "method-25-p1",
     "paragraphExcerpt": "以一家虚构的光模块公司为例。假设市场原来期待未来一年收入增长 80%、净利率 20%；公司实际收入增长 50%、净利率 15%。实际增长依然很快，但如果此前价格已反映更高增长，市场可能重新定价。",
     "src": "/handbook/diagrams/2020fe4ecaa56c5b3c15.svg"
-  },
-  {
-    "chapter": "basics-memory",
-    "kind": "curated-diagram",
-    "key": "memory-map",
-    "figure": "basics-memory-diagram-memory-map",
-    "after": "basics-memory-p160",
-    "paragraphExcerpt": "DRAM 用电容及晶体管保存状态，断电丢失且需要刷新；NAND 用存储单元保存电荷，断电后仍可保留数据。服务器 DRAM、HBM 和 SSD 都离不开存储芯片，但它们不是同一种产品。",
-    "src": "/handbook/diagrams/eb57cc76abeaf10bccbc.svg"
-  },
-  {
-    "chapter": "basics-optics",
-    "kind": "curated-diagram",
-    "key": "optical-path",
-    "figure": "basics-optics-diagram-optical-path",
-    "after": "basics-optics-p1",
-    "paragraphExcerpt": "光通信由器件、模块、交换系统和连接组成，客户架构、端口数、速率升级与传输距离决定需求。",
-    "src": "/handbook/diagrams/cb8be50c8078fced79d4.svg"
-  },
-  {
-    "chapter": "basics-pcb",
-    "kind": "curated-diagram",
-    "key": "pcb-stack",
-    "figure": "basics-pcb-diagram-pcb-stack",
-    "after": "basics-pcb-p1",
-    "paragraphExcerpt": "覆铜板是 PCB 的核心材料之一。高频高速和高层数会增加材料、加工、测试与良率要求。",
-    "src": "/handbook/diagrams/787a939759a2b386ca29.svg"
-  },
-  {
-    "chapter": "basics-pcb",
-    "kind": "curated-diagram",
-    "key": "pcb-process",
-    "figure": "basics-pcb-diagram-pcb-process",
-    "after": "basics-pcb-p233",
-    "paragraphExcerpt": "制造一般涉及线路图形、蚀刻、层压、钻孔、孔金属化、表面处理与测试等。高层数和高速高频应用往往提高设计及制造难度，但层数不是唯一判断标准：良率、交期、可靠性和客户认证也很重要。",
-    "src": "/handbook/diagrams/3d568ff2afd7c85f5d70.svg"
   },
   {
     "chapter": "basics-equipment",
@@ -414,7 +360,7 @@
     "key": "optics-architecture-map",
     "figure": "basics-optics-diagram-optics-architecture-map",
     "after": "optics-route-intro",
-    "paragraphExcerpt": "从一条具体链路开始。写下交换机或服务器端、前端或后端网络、每通道速率、距离、每机箱端口数和维修要求。光引擎搬近交换芯片，会缩短高速电通道，也会改变散热、测试和维修的责任边界。设备两端可以采用不同方案。",
+    "paragraphExcerpt": "传统可插拔方案的光模块在面板上，信号先在电路板上走一段。交换 ASIC 指专用于交换数据的芯片。 近封装光学（NPO） 把负责光电转换的光引擎移到交换芯片封装旁边。 共封装光学（CPO） 把光引擎和交换芯片集成到同一个封装体系，缩短高速电通道，可能减少这一段的损耗和功耗。两条新路线也要解决光纤连接、光源维护、散热和整机良率。哪条更合适，要在相同端口速率、距离和维修条件下比较。 [2]",
     "src": "/handbook/diagrams/b8bfacc814d2a584b97c.svg"
   },
   {
@@ -515,6 +461,123 @@
     "after": "basics-packaging-p186",
     "paragraphExcerpt": "教学假设 ：一个月的合格部件和工序能力都按同一型号换算成整包当量。组装线能支撑 10 万套，已认证 HBM 够 7 万套，测试能交出 9 万套；其他环节充足时，最多交 7 万套。只给组装线加设备，出货上限不动。HBM 够到 10 万套，测试成为下一道约束，最多交 9 万套。实际还要用破损、返工、排期和客户提货核对产能能否兑现。",
     "src": "/handbook/diagrams/417af91797f86d02cb6f.svg"
+  },
+  {
+    "chapter": "basics-memory",
+    "kind": "curated-diagram",
+    "key": "memory-file-journey",
+    "figure": "basics-memory-diagram-memory-file-journey",
+    "after": "basics-memory-p159",
+    "paragraphExcerpt": "SSD 是固态硬盘，通常用断电后还能保存内容的 NAND 闪存 存数据。录音、模型文件、日志和训练中途保存的进度都可以放这里，也可以从远端存储读取。 普通内存 是服务器运行程序时的工作空间，常见方案用 DDR5 等类型的 DRAM ，一种需要通电和定期刷新的内存。它供 中央处理器（CPU） 运行系统、整理请求与准备数据。 HBM 是贴近部分 GPU 的堆叠式高带宽 DRAM，断电也会丢失内容。它容纳运行中的模型权重和生成过程中暂存的中间结果，重点是每秒能给 GPU 搬多少数据。上一章的先进封装解决了 HBM 怎样接上计算芯片。 [1]",
+    "src": "/handbook/diagrams/b5ea5528245b7ddd4304.svg"
+  },
+  {
+    "chapter": "basics-memory",
+    "kind": "curated-diagram",
+    "key": "memory-drive-count",
+    "figure": "basics-memory-diagram-memory-drive-count",
+    "after": "basics-memory-p184",
+    "paragraphExcerpt": "教学示例 ：同一批 100 台服务器，若每台需把本地可用存储从 8 TB（太字节）增到 16 TB，需求从 800 TB 增至 1,600 TB。若同时把单盘可用容量从 4 TB 提到 8 TB，仍是每台两块盘。这里假设不设冗余、各盘吞吐满足要求。这一轮增的是 NAND 容量需求，负责管理闪存读写的 SSD 控制器，数量是否也增加要按实际盘数再算。",
+    "src": "/handbook/diagrams/f9200c62927bac92fb0b.svg"
+  },
+  {
+    "chapter": "basics-server",
+    "kind": "curated-diagram",
+    "key": "server-three-paths",
+    "figure": "basics-server-diagram-server-three-paths",
+    "after": "basics-server-data-path",
+    "paragraphExcerpt": "数据 从网络接口进来。CPU 运行系统和服务程序，在普通内存里暂存工作，再用高速连接把计算任务交给加速器。加速器的 HBM 就近保存它要反复读的数据。结果可以返回客户端，也可以写到存储。 电 由电源转换后分到各块电路板，板上的稳压电路继续把电压调整到器件所需的范围。 热 则从处理器移到散热器或冷板，再交给空气或循环液体带走。三条路径里任何一条跟不上，可用产出都会低于芯片的纸面能力。",
+    "src": "/handbook/diagrams/2eed501783a8fcbe697e.svg"
+  },
+  {
+    "chapter": "ai-cluster-primer",
+    "kind": "curated-diagram",
+    "key": "leaf-spine",
+    "figure": "ai-cluster-primer-diagram-leaf-spine",
+    "after": "cluster-switching",
+    "paragraphExcerpt": "交换机 负责把数据送往目标设备。部分系统用专用互连让柜内 GPU 紧密协作，跨柜再接入数据中心网络。常见的两层结构中， Leaf 是直接连接计算设备的接入交换机， Spine 是连接多个 Leaf 的汇聚交换机。不同 Leaf 下的计算设备通信时，数据可经过 Spine 转发。短距离可能用铜缆，具体用光还是铜还要看接口、功耗、速率和长度。 [1]",
+    "src": "/handbook/diagrams/00cc616c931bf1e9923c.svg"
+  },
+  {
+    "chapter": "ai-cluster-primer",
+    "kind": "curated-diagram",
+    "key": "cluster-uplink-limit",
+    "figure": "ai-cluster-primer-diagram-cluster-uplink-limit",
+    "after": "cluster-uplink",
+    "paragraphExcerpt": "教学假设 ：8 台机器同时向柜外发送数据，每台每秒发 1 GB（千兆字节），总需求 8 GB/s。柜外可用通道刚好能承接。若设备换代后每台都要持续发 2 GB/s，总需求变成 16 GB/s，柜外通道仍只有 8 GB/s。数据在柜外通道入口排队后换更快的 GPU 并不能解决等待。若软件能让大多数数据留在本地，跨柜压力就会小于这笔账。",
+    "src": "/handbook/diagrams/77e15de1634c212cf7c4.svg"
+  },
+  {
+    "chapter": "rack-power",
+    "kind": "curated-diagram",
+    "key": "power-path",
+    "figure": "rack-power-diagram-power-path",
+    "after": "rack-power-path-text",
+    "paragraphExcerpt": "园区从电网或其他电源接入，经变压器和配电设施变换电压并分路。 UPS 是不间断电源，可在断电等情况下维持负载一段时间，具体系统也可能采用其他备电架构。机柜或列级电源把电变为设备可用的直流。 母排 是用来给多台设备分配大电流的金属导体。板上的电压调节电路再把电压降到芯片工作所需水平。 [1]",
+    "src": "/handbook/diagrams/1162444d9915bd829802.svg"
+  },
+  {
+    "chapter": "rack-power",
+    "kind": "curated-diagram",
+    "key": "fixed-rack-power",
+    "figure": "rack-power-diagram-fixed-rack-power",
+    "after": "rack-power-capacity",
+    "paragraphExcerpt": "教学假设 ：留给计算机柜的功率预算固定为 960 kW。旧柜每柜 40 kW，可放 24 柜。新柜每柜 80 kW，只能放 12 柜。这里已经扣除了不分给计算柜的其他负载，不计现场布线和冗余细节。每柜用电翻倍，按柜购买的设备可能更少，按兆瓦选型的设施则要按项目功率和冗余重新测算。",
+    "src": "/handbook/diagrams/70ec5d8f2bdc86d22c60.svg"
+  },
+  {
+    "chapter": "rack-heat",
+    "kind": "curated-diagram",
+    "key": "cooling-loops",
+    "figure": "rack-heat-diagram-cooling-loops",
+    "after": "rack-cooling-flow",
+    "paragraphExcerpt": "冷板 贴近芯片，里面的流道让冷却液接走热量。管路和 分流排 把液体分给不同托盘。 CDU 是冷却液分配单元。在常见的液对液方案中，它通过泵推动设备侧冷却液循环，再通过 换热器 把热传给设施侧水路，两边液体各自循环。园区设施最终对外排热。未覆盖的器件仍可能用风冷，所以机柜采用液冷后，也要查空气侧余热。 [1]",
+    "src": "/handbook/diagrams/701aaf6f567fbd8dc42d.svg"
+  },
+  {
+    "chapter": "rack-heat",
+    "kind": "curated-diagram",
+    "key": "cooling-fixed-rack-load",
+    "figure": "rack-heat-diagram-cooling-fixed-rack-load",
+    "after": "rack-heat-p5",
+    "paragraphExcerpt": "沿用上一章的 教学假设 ，两代机柜的计算设备总功率同为 960 kW。旧方案 24 柜，液路带走 25%，即 240 kW。新方案 12 柜，液路带走 75%，即 720 kW。若每台 CDU 在同一项目工况下可换热 120 kW，全场可共享一组设备且另需一台备用，旧方案是 2 用 1 备 ，新方案是 6 用 1 备 。如果分流排每柜一套，采购却从 24 套降到 12 套。这是同一项目里两类设备数量朝相反方向走的情形。",
+    "src": "/handbook/diagrams/0a154eb9ddc984edad71.svg"
+  },
+  {
+    "chapter": "basics-optics",
+    "kind": "curated-diagram",
+    "key": "optical-path",
+    "figure": "basics-optics-diagram-optical-path",
+    "after": "optics-signal-path",
+    "paragraphExcerpt": "发送端用 激光器 提供光源，再把电信号写到光上，这一步叫 调制 。光沿光纤到另一端， 光探测器 将它转回电信号。双向通信时，两端通常都要收也要发。常见的 可插拔光模块 把收发器件装进可从设备面板装卸的模块。一些方案使用 数字信号处理器（DSP） 来恢复和整理信号，器件实际放在哪一端要看设计。 [1]",
+    "src": "/handbook/diagrams/cb8be50c8078fced79d4.svg"
+  },
+  {
+    "chapter": "basics-optics",
+    "kind": "curated-diagram",
+    "key": "optics-port-migration",
+    "figure": "basics-optics-diagram-optics-port-migration",
+    "after": "optics-port-example",
+    "paragraphExcerpt": "教学假设 ：100 条光链路，两端原先都用可插拔，共 200 只。60 条链路只把交换机这一端改成 CPO，剩下 140 只可插拔 ，另有 60 个共封装光端口。端口数不能直接当光引擎颗数，一个引擎可能服务多个端口。对端还在原位置，所以不能把单侧换代按整条链路的两端扣减。",
+    "src": "/handbook/diagrams/9fdfc53fd634717516f7.svg"
+  },
+  {
+    "chapter": "basics-pcb",
+    "kind": "curated-diagram",
+    "key": "pcb-stack",
+    "figure": "basics-pcb-diagram-pcb-stack",
+    "after": "pcb-layers",
+    "paragraphExcerpt": "常见刚性 PCB 的材料之一是 覆铜板（CCL） ，通常由树脂、玻纤布等构成的绝缘层覆上铜箔。板厂用成像与蚀刻留下所需线路，再把多层材料压合、钻孔、在孔壁镀铜，最后检查电气与可靠性。封装基板则紧贴芯片封装，把精细的内部连接转接到较大的电路板。服务器主板、AI 加速板和交换机主板各有线路、用料和验收标准。 [1]",
+    "src": "/handbook/diagrams/787a939759a2b386ca29.svg"
+  },
+  {
+    "chapter": "basics-pcb",
+    "kind": "curated-diagram",
+    "key": "pcb-yield-profit",
+    "figure": "basics-pcb-diagram-pcb-yield-profit",
+    "after": "pcb-yield-math",
+    "paragraphExcerpt": "教学假设 ：旧板每投产一块成本 80 元，95% 合格，每块合格品卖 120 元。新板成本 100 元，75% 合格，合格品每块卖 150 元。忽略返工和报废残值，每块合格品成本从约 84.21 元变成 133.33 元，单块毛利从约 35.79 元降到 16.67 元 。在新板价格和投入成本不变时，要恢复旧板的单块毛利，新板良率要升到约 87.6%。这笔账没有计入扩产折旧和期间费用。",
+    "src": "/handbook/diagrams/e501b6ab3c8bf0dd7bb4.svg"
   },
   {
     "chapter": "macro-cycle",
