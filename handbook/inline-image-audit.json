@@ -378,8 +378,8 @@
     "key": "beginner-ai-layers",
     "figure": "ai-overview-diagram-beginner-ai-layers",
     "after": "ai-overview-start",
-    "paragraphExcerpt": "假设你在手机上输入「把这份会议纪要整理成三点」。你看到的是一个应用。它把你的任务交给能读懂文字的模型，模型在一台或多台计算设备上生成回答，那些设备还需要内存、网络、电力和散热。再往上追，才会到芯片设计、晶圆制造、封装、设备和材料。这篇按五层讲清这些工作是谁做的、为什么需要它，以及钱怎样沿着它们流动。",
-    "src": "/handbook/diagrams/9018568412fb57de3b46.svg"
+    "paragraphExcerpt": "你把会议纪要发给 AI，请它整理出三项待办。几秒后，屏幕上出现一份清单。沿着这份清单往下看，会遇到五层分工：应用接下任务，模型生成回答，计算设备运行模型，零部件让设备工作，工厂把零部件造出来。再沿着付款往下看，一次使用要经过 愿意付费、需要扩容、能够交付 ，才有机会变成供应商的收入。",
+    "src": "/handbook/diagrams/c70e74d924b2eed31e6c.svg"
   },
   {
     "chapter": "ai-overview",
@@ -387,7 +387,7 @@
     "key": "beginner-server-jobs",
     "figure": "ai-overview-diagram-beginner-server-jobs",
     "after": "ai-overview-part-power",
-    "paragraphExcerpt": "持续运行。 供电网络把电送到机柜再送到芯片。芯片运行会发热，空气冷却或液冷系统负责把热排出去。买到芯片只完成了采购的一部分，设备投入使用还取决于整机、网络、通电和散热。",
+    "paragraphExcerpt": "最后持续供电、把热排掉。 芯片和网络设备消耗电，也会发热。供电系统把电送到机柜和芯片，散热系统用空气或液体把热带走。高密度设备是否能装进去并稳定运行，要看机房能给多少电，以及可排掉多少热。",
     "src": "/handbook/diagrams/58c6aeb9ace7b998f585.svg"
   },
   {
@@ -396,8 +396,17 @@
     "key": "beginner-chip-making",
     "figure": "ai-overview-diagram-beginner-chip-making",
     "after": "ai-overview-process",
-    "paragraphExcerpt": "先看芯片的一条路线。芯片公司完成设计，设计工具帮助把逻辑变成可制造的图样，这类软件常称 电子设计自动化（EDA） 工具。晶圆厂在圆形硅片上反复加工出电路。加工完成后切成多颗裸芯片，再封装、连接和测试。 先进封装 可以用更密的互连把不同芯片、内存等部件接在一起，适合对带宽和空间有更高要求的产品。设备和材料贯穿这些工序，PCB 等部件也有各自的材料、生产和检测链条。 ASML 芯片制造过程 [2]",
+    "paragraphExcerpt": "为了造出一颗芯片，设计公司先确定芯片要做哪些工作，再用 电子设计自动化（EDA） 软件画出可制造的电路。工厂在圆形硅片上加工电路。这种加工用的圆片叫 晶圆 。把一整片切开就得到多颗裸芯片，再做 封装 ，让芯片受到保护、接得上外面的电路。 先进封装 可以把计算芯片和高带宽内存等部件靠得很近，并用密集线路连在一起。设备、材料和检测贯穿这些工序。 [3]",
     "src": "/handbook/diagrams/f19573e45f3eb9195270.svg"
+  },
+  {
+    "chapter": "ai-overview",
+    "kind": "curated-diagram",
+    "key": "beginner-demand-and-capacity",
+    "figure": "ai-overview-diagram-beginner-demand-and-capacity",
+    "after": "ai-overview-order",
+    "paragraphExcerpt": "回到这份会议纪要。假设一个软件每天处理的任务从 100 份增到 200 份。新模型做同等质量的摘要，每份所占用的计算时间降到原来的六成。在任务难度与服务要求相同的假设下，总计算时间变成原来的 1.2 倍 。如果现有设备能承接这点增量，供应商当期可能还等不到新采购。等同等服务要求下的负载持续超过现有容量，才有理由继续查预算、通电和采购排程。",
+    "src": "/handbook/diagrams/cd4780b5937723867b34.svg"
   },
   {
     "chapter": "case-micron-cycle",
