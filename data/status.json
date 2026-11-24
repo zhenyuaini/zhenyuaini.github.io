@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T17:43:18.191Z",
+  "checkedAt": "2026-11-24T10:50:27.307Z",
   "origin": "https://zy-research-lab-2jwhxpli.edgeone.dev",
   "results": [
     {
@@ -15,27 +15,9 @@
       "asOf": "2026-11-23"
     },
     {
-      "route": "market-quotes",
-      "status": "updated",
-      "publishedAt": "2026-11-23T17:42:39.800Z",
-      "asOf": null
-    },
-    {
-      "route": "turnover-estimate",
-      "status": "updated",
-      "publishedAt": "2026-11-23T17:42:55.716Z",
-      "asOf": "2026-11-23"
-    },
-    {
       "route": "publish-weekly-review",
       "status": "updated",
       "publishedAt": "2026-11-23T17:42:56.746Z",
-      "asOf": null
-    },
-    {
-      "route": "turnover-signal-log",
-      "status": "updated",
-      "publishedAt": "2026-11-23T17:42:56.795Z",
       "asOf": null
     },
     {
@@ -108,6 +90,24 @@
       "status": "updated",
       "publishedAt": "2026-11-23T17:43:18.233Z",
       "asOf": "2026-11-17"
+    },
+    {
+      "route": "turnover-signal-log",
+      "status": "updated",
+      "publishedAt": "2026-11-24T10:50:09.468Z",
+      "asOf": null
+    },
+    {
+      "route": "market-quotes",
+      "status": "updated",
+      "publishedAt": "2026-11-24T10:50:11.864Z",
+      "asOf": null
+    },
+    {
+      "route": "turnover-estimate",
+      "status": "updated",
+      "publishedAt": "2026-11-24T10:50:27.306Z",
+      "asOf": "2026-11-24"
     }
   ]
 }
