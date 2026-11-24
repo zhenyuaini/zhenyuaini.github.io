@@ -616,6 +616,60 @@
     "src": "/handbook/diagrams/d12c71fcfb3dfc0f6bbf.svg"
   },
   {
+    "chapter": "case-gb200-nvl72",
+    "kind": "curated-diagram",
+    "key": "gb200-silicon-chain",
+    "figure": "case-gb200-nvl72-diagram-gb200-silicon-chain",
+    "after": "gb200-packaging",
+    "paragraphExcerpt": "合格计算裸片到位后，还要配 HBM 和连接结构、做先进封装与测试。 CoWoS 是台积电的一族高密度封装服务，能把多个计算芯片和 HBM 组合在同一个封装上。英伟达 FY2025 年报披露公司采用 CoWoS，美光也披露其 8 层、24 GB HBM3E 可用于 GB200 NVL72。这里能确认技术路线和美光的适用产品。不同批次具体由谁供货、各家 HBM 的份额、封装与测试的供应商分单、加工费及良率均 未披露 。设备和材料的订单还要沿着代工厂的投片、实际工序和可用产能查，不能从 GPU 数直接算某种设备或耗材收入。 [7] [8] [9]",
+    "src": "/handbook/diagrams/22ac4612a8da5fd631fd.svg"
+  },
+  {
+    "chapter": "case-gb200-nvl72",
+    "kind": "curated-diagram",
+    "key": "gb200-rack-build",
+    "figure": "case-gb200-nvl72-diagram-gb200-rack-build",
+    "after": "gb200-rack-bom",
+    "paragraphExcerpt": "参考配置 · 英伟达 DGX GB200 手册列出 18 个计算托盘，每个装 2 颗 Grace CPU 和 4 颗 Blackwell GPU，所以全柜是 36 颗 CPU、72 颗 GPU 。另有 9 个 NVLink 交换托盘和 2 台机柜顶部管理交换机。GPU 内的 HBM 负责高速供数，CPU 侧的普通内存负责整理数据。固态硬盘（SSD）则用于保存数据或启动系统。按手册的每托盘配置推算，一柜有 72 块数据缓存盘和 18 块启动盘。美光披露其部分 SSD 型号进入推荐名单。客户实际采用的配置和品牌，以及板卡和 PCB 供应商份额 未披露 。 [10] [11]",
+    "src": "/handbook/diagrams/0231485930adbf6f4137.svg"
+  },
+  {
+    "chapter": "case-gb200-nvl72",
+    "kind": "curated-diagram",
+    "key": "gb200-two-power-numbers",
+    "figure": "case-gb200-nvl72-diagram-gb200-two-power-numbers",
+    "after": "gb200-power-cooling",
+    "paragraphExcerpt": "手册所列机柜功耗约 120 kW 。机柜有 8 个电源框、每框 6 个额定 5.5 kW 的模块，共 48 个模块，铭牌合计 264 kW ，配置包含两套能各自承担所需负荷的电源容量。电源框把交流变成约 50–51 V 直流，母排再把电分到托盘。冷板贴着 CPU、GPU 带走热，柜内部分其他器件仍靠空气散热。机柜标称功耗适合做设施规划的起点，园区还需计入外部网络、存储和供电制冷损耗。实际项目的冷却回路配置、换热设备台数和采购额 未披露 。 [13]",
+    "src": "/handbook/diagrams/1134976ea06a204651b6.svg"
+  },
+  {
+    "chapter": "case-gb200-nvl72",
+    "kind": "curated-diagram",
+    "key": "gb200-launch-events",
+    "figure": "case-gb200-nvl72-diagram-gb200-launch-events",
+    "after": "gb200-milestones",
+    "paragraphExcerpt": "公司披露 · 2024 年 12 月 9 日，戴尔与 CoreWeave 公告称，装有 GB200 NVL72 的戴尔 PowerEdge XE9712 机柜已开始出货，支持 CoreWeave 的云服务。2025 年 2 月 4 日，CoreWeave 宣布 GB200 NVL72 实例正式可用。2025 年 4 月 15 日，CoreWeave 又点名 Cohere、IBM 和 Mistral AI 获得规模化系统及云服务的访问。这些时间点分别记录出货、服务可用和客户获得访问。整柜采购单价、同一批机柜的到场和验收日期、客户实际用量及利润 未披露 ，所以不能用公告之间的天数作标准交期。 [14] [15] [16]",
+    "src": "/handbook/diagrams/fe05dbe48ea8b17a4697.svg"
+  },
+  {
+    "chapter": "case-gb200-nvl72",
+    "kind": "curated-diagram",
+    "key": "gb200-bottleneck-ladder",
+    "figure": "case-gb200-nvl72-diagram-gb200-bottleneck-ladder",
+    "after": "gb200-bottleneck-example",
+    "paragraphExcerpt": "教学假设 · 同一批计划 100 柜。同一时点、同样规格下，合格芯片和封装能配 90 柜，整机通过测试 85 柜，跨柜网络就绪 80 柜，设施可供电并排热 70 柜。假设这些能力可配给同一批柜，能上线的上限是 70 柜 。若设施提高到 85 柜，其余环节维持原样，上限变成 80 柜 ，瓶颈转到网络。数字是用来说明如何按合格交付追瓶颈，并非任何客户的实际项目。",
+    "src": "/handbook/diagrams/d4db077066f6f083f4f0.svg"
+  },
+  {
+    "chapter": "case-gb200-nvl72",
+    "kind": "curated-diagram",
+    "key": "gb200-reported-financials",
+    "figure": "case-gb200-nvl72-diagram-gb200-reported-financials",
+    "after": "gb200-financials",
+    "paragraphExcerpt": "已披露实绩 · 截至 2025 年 1 月 26 日的英伟达 FY2025 第四季度，Blackwell 架构 收入为 110 亿美元 。该季英伟达 集团 按美国会计准则列报的毛利率从上一季 74.6% 降到 73.0%。公司解释，季度毛利率下降主要受数据中心转向更复杂、成本更高的系统影响。这两个披露各有口径。GB200 NVL72 的单柜售价和毛利率 未披露 ，也无法用集团毛利率反算。 [18]",
+    "src": "/handbook/diagrams/8048322e3a07ca511853.svg"
+  },
+  {
     "chapter": "macro-cycle",
     "kind": "curated-diagram",
     "key": "ai-market-deliverability",
