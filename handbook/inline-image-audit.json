@@ -470,5 +470,50 @@
     "after": "ai-ceiling-intro",
     "paragraphExcerpt": "产业空间先看付费任务量、单位价格与可续约性。再问云厂商是否能用项目回报覆盖资本成本，以及电力、网络和芯片能否在客户期限内到位。增长预期可以很大，公司能参与的市场仍取决于区域、产品、客户和认证。",
     "src": "/handbook/diagrams/1454cee3fb17eb1973cb.svg"
+  },
+  {
+    "chapter": "chain-guide",
+    "kind": "curated-diagram",
+    "key": "opening-capex-transmission",
+    "figure": "chain-guide-diagram-opening-capex-transmission",
+    "after": "ai-capex-takeaway",
+    "paragraphExcerpt": "核心判断 云厂商扩张先增加能通电、能供应、能被客户使用的机柜需求。对供应商而言，决定订单的是机柜方案里的具体部件及其交付时间。GPU 与封装看合格系统能交多少，光模块看哪些端口需要连接，PCB 看板的规格和价值量。",
+    "src": "/handbook/diagrams/5f108e2996a86544b746.svg"
+  },
+  {
+    "chapter": "chain-guide",
+    "kind": "curated-diagram",
+    "key": "opening-alphabet-capex",
+    "figure": "chain-guide-diagram-opening-alphabet-capex",
+    "after": "ai-capex-alphabet",
+    "paragraphExcerpt": "Alphabet 的单季资本开支从 2026 年第二季度的 449 亿美元 升至第三季度的 514 亿美元 。第三季度的大部分开支用于技术基础设施，其中约 65% 投向服务器与网络设备，其余约 35% 投向数据中心。这个比例的分母是当季的 技术基础设施投资 。服务器、网卡、交换机和光模块各占多少，公告未拆分。 [1] [2]",
+    "src": "/handbook/diagrams/9685ce2643abcd5cde9b.svg"
+  },
+  {
+    "chapter": "chain-guide",
+    "kind": "curated-diagram",
+    "key": "packaging-moving-bottleneck",
+    "figure": "chain-guide-diagram-packaging-moving-bottleneck",
+    "after": "ai-capex-packaging",
+    "paragraphExcerpt": "先进封装把计算芯片、HBM 堆栈和用于互连的结构组合起来。只有这些规格配齐、测试通过，才能交出合格产品。以教学情景为例：封装每月能做 10 万套，已认证的 HBM 只够 7 万套，测试能做 9 万套。此时系统最多交 7 万套，HBM 补齐后才有机会升到 9 万套。研究扩产应追「哪一环节的有效产量增加」，把设备进厂、合格出货和客户验收分别记下。",
+    "src": "/handbook/diagrams/417af91797f86d02cb6f.svg"
+  },
+  {
+    "chapter": "chain-guide",
+    "kind": "curated-diagram",
+    "key": "optics-architecture-map",
+    "figure": "chain-guide-diagram-optics-architecture-map",
+    "after": "ai-capex-optical-body",
+    "paragraphExcerpt": "光模块负责把电信号变成可以经光纤传输的光信号。服务器和交换机上有需要连接的端口，一条全光链路通常要考虑两端。前面板可插拔把光模块留在设备面板上，NPO 把光引擎挪到交换芯片附近，CPO 把两者做进同一封装结构。位置越近，电信号走的路通常越短，同时会改变散热、测试和坏件更换的方式。 [4]",
+    "src": "/handbook/diagrams/b8bfacc814d2a584b97c.svg"
+  },
+  {
+    "chapter": "chain-guide",
+    "kind": "curated-diagram",
+    "key": "opening-hudp-pcb-revenue",
+    "figure": "chain-guide-diagram-opening-hudp-pcb-revenue",
+    "after": "ai-capex-hudp",
+    "paragraphExcerpt": "沪电股份 2026 年半年报给出了一个可核对的业务结构：上半年数据通讯应用 PCB 收入约 113.30 亿元人民币 ，其中高速交换机及配套路由 71.39 亿元 ，AI 服务器与 HPC 18.28 亿元 。公开产品结构可以检验订单落在哪条线。该表未给出来自 Alphabet 的采购金额。 [5]",
+    "src": "/handbook/diagrams/939c64900521bdfef9a2.svg"
   }
 ]
