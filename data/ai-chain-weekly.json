@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "history": [
+    {
+      "asOf": "2026-11-26",
+      "start": "2026-11-20",
+      "checkedAt": "2026-11-25T20:43:46.975Z",
+      "coverage": [
+        {
+          "id": "amzn",
+          "status": "待核验",
+          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "events": []
+        },
+        {
+          "id": "googl",
+          "status": "待核验",
+          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "events": []
+        },
+        {
+          "id": "msft",
+          "status": "待核验",
+          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "events": []
+        },
+        {
+          "id": "meta",
+          "status": "待核验",
+          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "events": []
+        },
+        {
+          "id": "orcl",
+          "status": "待核验",
+          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "events": []
+        },
+        {
+          "id": "crwv",
+          "status": "待核验",
+          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "events": []
+        },
+        {
+          "id": "tfc",
+          "status": "已检索",
+          "detail": "已查巨潮资讯公告目录。新公告正文待判读。",
+          "events": [
+            {
+              "href": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682889.PDF",
+              "date": "2026-11-23",
+              "title": "关于公司签订产业项目投资发展合作协议的公告",
+              "reviewed": true
+            }
+          ]
+        },
+        {
+          "id": "wus",
+          "status": "已检索",
+          "detail": "已查巨潮资讯公告目录。新公告正文待判读。",
+          "events": []
+        }
+      ],
+      "market": null,
+      "metrics": {
+        "amzn": {},
+        "googl": {},
+        "msft": {},
+        "meta": {},
+        "orcl": {},
+        "crwv": {},
+        "tfc": {},
+        "wus": {}
+      },
+      "signals": {
+        "lead": "delay",
+        "demand": 0,
+        "delays": 1,
+        "marketPressure": false,
+        "evidence": [
+          {
+            "name": "微软",
+            "kind": "delay",
+            "label": "部分第三方产能交付后移",
+            "date": "2026-10-28",
+            "href": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+name: Update AI supply-chain board
+on:
+  workflow_dispatch:
+  schedule:
+    # Sunday 20:23 in Asia/Shanghai.
+    - cron: '23 12 * * 0'
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: public-data
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node scripts/refresh-ai-chain.mjs data
+      - name: Publish weekly snapshot and request Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          git config user.name 'ZY Research data publisher'
+          git config user.email 'data-publisher@users.noreply.github.com'
+          git add data/ai-chain-weekly.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update AI supply-chain weekly evidence'
+            git pull --rebase origin main
+            git push origin main
+            gh api --method POST "repos/$REPOSITORY/pages/builds"
+          fi

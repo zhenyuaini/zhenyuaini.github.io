@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "asOf": "2026-11-26",
+  "companies": [
+    {
+      "id": "amzn", "name": "亚马逊", "ticker": "AMZN", "group": "云厂商", "cik": "0001018724",
+      "overview": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+      "sources": {
+        "q3": ["2026-10-29", "2026 三季报", "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"]
+      },
+      "items": {
+        "capex": [["773 亿美元", "实绩", "2026 Q3 · 集团固定资产购置付现，未扣出售及补贴。", "q3"], ["约 2,200 亿美元", "指引", "2026 自然年 · 集团现金开支指引维持。包含 AWS 以外业务。", "q3"]],
+        "cash": [["424.22 亿美元", "实绩", "2026 Q3 · 集团经营现金流。AWS 客户回款未单列。", "q3"]]
+      }
+    },
+    {
+      "id": "googl", "name": "Alphabet", "ticker": "GOOGL", "group": "云厂商", "cik": "0001652044",
+      "overview": "https://abc.xyz/investor/",
+      "sources": {
+        "q3": ["2026-10-28", "2026 三季度电话会", "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx"]
+      },
+      "items": {
+        "capex": [["514 亿美元", "实绩", "2026 Q3 · 集团资本开支。", "q3"], ["1,950–2,050 亿美元", "指引", "2026 自然年 · 维持原区间。2027 年预计显著增加，未给金额。", "q3"]],
+        "delivery": [["开始使用第三方算力", "实绩", "2026 Q3 末 · 披露产能紧张并开始使用第三方算力。项目送电与验收未单列。", "q3"]],
+        "cash": [["−91 亿美元", "实绩", "2026 Q3 · 集团自由现金流，亦受 TPU 备货和欧盟罚款影响。客户回款未单列。", "q3"]]
+      }
+    },
+    {
+      "id": "msft", "name": "微软", "ticker": "MSFT", "group": "云厂商", "cik": "0000789019",
+      "overview": "https://www.microsoft.com/en-us/Investor/earnings/",
+      "sources": {
+        "q1": ["2026-10-28", "FY27 Q1 电话会", "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"]
+      },
+      "items": {
+        "capex": [["452 亿美元", "实绩", "FY27 Q1（2026 年 7–9 月）· 公司 CapEx 口径含融资租赁；固定资产购置付现另为 394 亿美元。", "q1"], ["约 1,700 亿美元", "指引", "2026 自然年 · 公司 CapEx 口径。公司将该预期与第三方产能延后关联。", "q1"]],
+        "delivery": [["部分第三方产能延后", "确认延期", "原预计 FY27 Q1 交付的部分产能延后，公司预计部分移至 FY27 下半年。未公布对应项目及规模。", "q1"]],
+        "cash": [["580 亿美元", "实绩", "FY27 Q1 · 集团经营现金流同比增 29%，公司称云业务账单与回款强劲，未给具体项目回款。", "q1"]]
+      },
+      "signals": [{"kind": "delay", "source": "q1", "label": "部分第三方产能交付后移"}]
+    },
+    {
+      "id": "meta", "name": "Meta", "ticker": "META", "group": "云厂商", "cik": "0001326801",
+      "overview": "https://investor.atmeta.com/financials/",
+      "sources": {
+        "q3": ["2026-10-21", "2026 三季报", "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"]
+      },
+      "items": {
+        "capex": [["349.1 亿美元", "实绩", "2026 Q3 · 含融资租赁本金偿付。", "q3"], ["1,350–1,450 亿美元", "指引", "2026 自然年 · 含融资租赁本金偿付；下限上调，上限不变。", "q3"]],
+        "cash": [["−21.2 亿美元", "实绩", "2026 Q3 · 集团自由现金流。AI 业务回款未单列。", "q3"]]
+      }
+    },
+    {
+      "id": "orcl", "name": "甲骨文", "ticker": "ORCL", "group": "云厂商", "cik": "0001341439",
+      "overview": "https://investor.oracle.com/financials/",
+      "sources": {
+        "q1": ["2026-09-10", "FY27 Q1 财报", "https://investor.oracle.com/files/content_files/1q27-pressrelease-September_FINAL.pdf"],
+        "day": ["2026-10-28", "2026 投资者日", "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx"]
+      },
+      "items": {
+        "capex": [["284.99 亿美元", "实绩", "FY27 Q1（2026 年 6–8 月）· 合并现金开支，未减客户预付。", "q1"], ["FY27–FY28 见顶", "指引", "2026-06 至 2028-05；FY29（2028-06 至 2029-05）预计回落。仅记录方向。", "day"]],
+        "finance": [["完成 200 亿美元股权融资", "实绩", "FY27 Q1 · 募集总额，未扣费用。对应单个项目放款未单列。", "q1"], ["新增融资上限 200 亿美元", "指引", "FY27–FY30 投资周期 · 在已完成融资之外，排除存量债再融资。", "day"]],
+        "delivery": [["交付逾 30 万颗 GPU", "实绩", "公司 9 月 10 日称，自 FY26 Q4 结束以来已向 AI 云客户交付。具体园区送电和验收分项未披露。", "q1"]],
+        "cash": [["113.63 亿美元", "实绩", "FY27 Q1 · 带重大融资成分的客户预付款。项目回款未单列。", "q1"]]
+      }
+    },
+    {
+      "id": "crwv", "name": "CoreWeave", "ticker": "CRWV", "group": "算力云", "cik": "0001769628",
+      "overview": "https://investors.coreweave.com/financials/quarterly-results/",
+      "sources": {
+        "q3": ["2026-11-10", "2026 三季度业绩", "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/"],
+        "loan": ["2026-08-25", "DDTL 5.5 贷款协议披露", "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/ex991pr.htm"]
+      },
+      "items": {
+        "capex": [["370–390 亿美元", "指引", "2026 自然年 · 公司口径；下限比上一版提高 20 亿美元，上限不变。", "q3"]],
+        "finance": [["完成 26 亿美元贷款额度", "实绩", "DDTL 5.5 延迟提款定贷，SOFR + 5.50%。授信额度与提款进度分开看。", "loan"]],
+        "delivery": [[">1.7 GW 已启用", "实绩", "2026 Q3 末 · 合同电力 >4.6 GW。两者的差额只反映阶段区别。公司另披露多机架 Vera Rubin 已上线。", "q3"]],
+        "cash": [["19.75 亿美元", "实绩", "2026 Q3 · 经营现金流；同期营业利润 2.07 亿美元，利息净费用 8.46 亿美元。项目回款未单列。", "q3"]]
+      }
+    },
+    {
+      "id": "tfc", "name": "天孚通信", "ticker": "300394", "group": "光通信", "org": "9900023911",
+      "overview": "https://www.cninfo.com.cn/new/disclosure/stock?orgId=9900023911&stockCode=300394",
+      "case": "/research/handbook/?chapter=case-tfc-profit",
+      "sources": {
+        "q3": ["2026-10-29", "2026 三季报", "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634414.PDF"],
+        "nov": ["2026-11-18", "近期经营情况公告", "https://static.cninfo.com.cn/finalpage/2026-11-18/1225678291.PDF"],
+        "project": ["2026-11-23", "南昌产业项目投资合作协议", "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682889.PDF"],
+        "h1": ["2026-08-19", "2026 半年报", "https://static.cninfo.com.cn/finalpage/2026-08-19/1225480328.PDF"]
+      },
+      "items": {
+        "capex": [["10.93 亿元人民币", "实绩", "2026 前三季度 · 集团购建固定资产、无形资产及其他长期资产付现。", "q3"]],
+        "finance": [["南昌项目签投资合作协议", "实绩", "拟建高速光器件项目。专项融资落地和放款未披露。", "project"]],
+        "delivery": [["CPO 配套开始批量交付", "实绩", "11 月经营公告口径；终端园区送电及验收未披露。", "nov"]],
+        "cash": [["收现 17.69 亿 · 经营净现金 4.61 亿", "财报推算", "2026 Q3 · 人民币。九个月累计减半年；上年同季分别为 16.03 亿、7.36 亿。", "q3", "h1"]]
+      }
+    },
+    {
+      "id": "wus", "name": "沪电股份", "ticker": "002463", "group": "PCB", "org": "9900013929",
+      "overview": "https://www.cninfo.com.cn/new/disclosure/stock?orgId=9900013929&stockCode=002463",
+      "case": "/research/handbook/?chapter=case-wus-profit",
+      "sources": {
+        "q3": ["2026-10-28", "2026 三季报", "https://disc.static.szse.cn/disc/disk03/finalpage/2026-10-28/676792ff-504e-4660-915a-c1b6867689e5.PDF"],
+        "h1": ["2026-08-26", "2026 半年报", "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-26/510ef2bf-102c-47af-aab9-ec715b88b306.PDF"]
+      },
+      "items": {
+        "capex": [["52.77 亿元人民币", "实绩", "2026 前三季度 · 集团购建固定资产、无形资产及其他长期资产付现。", "q3"]],
+        "delivery": [["1.6T 交换机板已批量出货", "实绩", "2026 H1 · 泰国 800G 交换机板处于打样。终端园区送电及验收未披露。", "h1"]],
+        "cash": [["收现 73.72 亿 · 经营净现金 15.53 亿", "财报推算", "2026 Q3 · 人民币，九个月累计减半年。前九个月经营净现金 27.04 亿，同比 −6.61%。", "q3", "h1"]]
+      }
+    }
+  ]
+}
