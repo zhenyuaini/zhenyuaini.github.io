@@ -3,43 +3,57 @@
   "history": [
     {
       "asOf": "2026-11-26",
-      "start": "2026-11-20",
-      "checkedAt": "2026-11-25T20:46:09.908Z",
+      "start": "2026-11-19",
+      "checkedAt": "2026-11-25T20:51:49.819Z",
       "coverage": [
         {
           "id": "amzn",
-          "status": "待核验",
-          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "status": "已检索",
+          "detail": "已查 SEC 近期申报目录。",
           "events": []
         },
         {
           "id": "googl",
-          "status": "待核验",
-          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
-          "events": []
+          "status": "已检索",
+          "detail": "已查 SEC 近期申报目录。",
+          "events": [
+            {
+              "date": "2026-11-24",
+              "title": "加元优先票据发行完成 · 8-K",
+              "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+              "reviewed": true
+            }
+          ]
         },
         {
           "id": "msft",
-          "status": "待核验",
-          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "status": "已检索",
+          "detail": "已查 SEC 近期申报目录。",
           "events": []
         },
         {
           "id": "meta",
-          "status": "待核验",
-          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
-          "events": []
+          "status": "已检索",
+          "detail": "已查 SEC 近期申报目录。",
+          "events": [
+            {
+              "date": "2026-11-23",
+              "title": "C 类股及 ATM 计划进度 · 8-K",
+              "href": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm",
+              "reviewed": true
+            }
+          ]
         },
         {
           "id": "orcl",
-          "status": "待核验",
-          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "status": "已检索",
+          "detail": "已查 SEC 近期申报目录。",
           "events": []
         },
         {
           "id": "crwv",
-          "status": "待核验",
-          "detail": "SEC 披露源不可用（HTTP 403），保留旧证据。",
+          "status": "已检索",
+          "detail": "已查 SEC 近期申报目录。",
           "events": []
         },
         {
@@ -50,7 +64,7 @@
             {
               "href": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682889.PDF",
               "date": "2026-11-23",
-              "title": "关于公司签订产业项目投资发展合作协议的公告",
+              "title": "南昌产业项目投资合作协议",
               "reviewed": true
             }
           ]
@@ -67,8 +81,8 @@
         "end": "2026-11-24",
         "sox": -11.66,
         "broad": -4.25,
-        "soxUrl": "https://finance.yahoo.com/quote/%5ESOX/history/",
-        "broadUrl": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+        "soxUrl": "https://fred.stlouisfed.org/series/NASDAQSOX",
+        "broadUrl": "https://fred.stlouisfed.org/series/SP500"
       },
       "metrics": {
         "amzn": {},
