@@ -670,6 +670,33 @@
     "src": "/handbook/diagrams/8048322e3a07ca511853.svg"
   },
   {
+    "chapter": "case-nvl72-generations",
+    "kind": "curated-diagram",
+    "key": "nvl72-generation-compare",
+    "figure": "case-nvl72-generations-diagram-nvl72-generation-compare",
+    "after": "nvl72-rack-compare",
+    "paragraphExcerpt": "三代均为 72 颗 GPU、36 颗 CPU 和 18 个计算托盘。GB200 和 GB300 保留 Grace CPU；Vera Rubin 换成 Vera CPU。真正拉开差距的是每柜的内存、柜内互连、跨柜计算网口和设施规格。下图的网口只数计算网络，带宽是规格值。功率是技嘉方案标注的单柜值，实际运行功耗要按部署测量。 [1] [2] [3] [4] [5]",
+    "src": "/handbook/diagrams/9f3b181ae879a546b215.svg"
+  },
+  {
+    "chapter": "case-nvl72-generations",
+    "kind": "curated-diagram",
+    "key": "nvl72-shelf-ratings",
+    "figure": "case-nvl72-generations-diagram-nvl72-shelf-ratings",
+    "after": "nvl72-power",
+    "paragraphExcerpt": "同一供应商的参考对照最容易看懂。技嘉 GIGAPOD 给相应的 GB200、GB300、Vera Rubin 方案标出每柜 130、140、240 kW 。另一个口径是英伟达 DGX 手册里的电源铭牌。GB200 的 8 个 33 kW 电源框合计 264 kW ，Vera Rubin 的 4 个 110 kW 框合计 440 kW ，输出 54 V 直流并采用液冷母排。框数减少、单框规格变大。铭牌加总含配置冗余，与整柜耗电使用不同口径。 [19] [20]",
+    "src": "/handbook/diagrams/9c3bb57d813196dba615.svg"
+  },
+  {
+    "chapter": "case-nvl72-generations",
+    "kind": "curated-diagram",
+    "key": "nvl72-budget-ports",
+    "figure": "case-nvl72-generations-diagram-nvl72-budget-ports",
+    "after": "nvl72-fixed-budget",
+    "paragraphExcerpt": "教学假设 · 只分给计算柜的功率预算固定为 2.4 MW，按技嘉 130 / 140 / 240 kW 规格向下取整，分别可放 18、17、10 柜 。先假设电力是唯一约束，并忽略站点布局、故障备用和网络、存储的额外负载。按柜卖的部件，项目总用量可能随柜数减少。按端口算，GB200 的 18 柜共有 1,296 个计算网口，GB300 的 17 柜 × 每柜 72 个计算网口 = 1,224 个 ，Vera Rubin 的 10 柜 × 144 个 = 1,440 个 。这只是可配网口的演算，请按实际开通端口与介质再估光模块。",
+    "src": "/handbook/diagrams/a0c5e51e2e019cec8c88.svg"
+  },
+  {
     "chapter": "macro-cycle",
     "kind": "curated-diagram",
     "key": "ai-market-deliverability",
