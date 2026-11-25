@@ -758,5 +758,41 @@
     "after": "ai-capex-hudp",
     "paragraphExcerpt": "沪电股份 2026 年半年报给出了一个可核对的业务结构：上半年数据通讯应用 PCB 收入约 113.30 亿元人民币 ，其中高速交换机及配套路由 71.39 亿元 ，AI 服务器与 HPC 18.28 亿元 。公开产品结构可以检验订单落在哪条线。该表未给出来自 Alphabet 的采购金额。 [5]",
     "src": "/handbook/diagrams/939c64900521bdfef9a2.svg"
+  },
+  {
+    "chapter": "case-tfc-profit",
+    "kind": "curated-diagram",
+    "key": "tfc-volume-price",
+    "figure": "case-tfc-profit-diagram-tfc-volume-price",
+    "after": "tfc-volume-bridge",
+    "paragraphExcerpt": "光互连元器件是传输、连接或处理光信号的部件。2026 年上半年销量从 1.2707 亿个增至 1.3530 亿个 （同比 +6.48%），同类收入从 24.29 增至 27.90 亿元（+14.87%）。把收入除以销量， 综合均价约从 19.12 增至 20.62 元/个 。用上年同期的均价给多卖的器件计价，约贡献 1.57 亿元 。以本期销量乘综合均价变化，约贡献 2.04 亿元 ，其中包含产品结构和实际价格变化。公司未披露同规格净售价，两种影响无法单独定量。两项合计约 3.61 亿元，使用的是财报取整后的销量。 [2]",
+    "src": "/handbook/diagrams/146a3a1912568d461bfb.svg"
+  },
+  {
+    "chapter": "case-tfc-profit",
+    "kind": "curated-diagram",
+    "key": "tfc-cash-quarters",
+    "figure": "case-tfc-profit-diagram-tfc-cash-quarters",
+    "after": "tfc-cash-read",
+    "paragraphExcerpt": "三季度营收 19.23 亿元 （+31.50%），归母 8.79 亿元 。用合并营收减营业成本后除以营收，单季合并毛利率约 65.05% ，覆盖全公司业务。单季销售收现同比增加，经营现金流净额从 7.36 亿降至 4.61 亿元。前九个月采购及劳务付现约从 16.70 亿增至 20.42 亿元，薪酬付现约从 3.93 亿增至 6.13 亿元，公司亦披露预付材料款及战略备货增加。仅靠集团现金流无法识别哪类产品回款变慢。 [1]",
+    "src": "/handbook/diagrams/e7c53517396741d1a00e.svg"
+  },
+  {
+    "chapter": "case-wus-profit",
+    "kind": "curated-diagram",
+    "key": "wus-datacom-mix",
+    "figure": "case-wus-profit-diagram-wus-datacom-mix",
+    "after": "wus-product-mix",
+    "paragraphExcerpt": "上半年 PCB 业务收入约 129.94 亿元 （+59.39%），PCB 毛利率约 40.52% （+4.06 个百分点）。其中数据通讯应用收入约 113.30 亿元（+73.46%），该应用毛利率同比增加约 4.60 个百分点。高速交换机和配套路由约 71.39 亿元，AI 服务器和高性能计算（HPC）约 18.28 亿元。两项都包含多种规格，1.6T 或特定 GPU 平台的收入和毛利未单列。按三季报累计减半年报的营收和营业成本，三季度 合并 毛利率约为 44.02% 。这一口径含其他业务，与半年报 PCB 专项毛利率分开看。 [1] [2]",
+    "src": "/handbook/diagrams/5b53aabb5afc51cc5717.svg"
+  },
+  {
+    "chapter": "case-wus-profit",
+    "kind": "curated-diagram",
+    "key": "wus-cash-quarters",
+    "figure": "case-wus-profit-diagram-wus-cash-quarters",
+    "after": "wus-cash-read",
+    "paragraphExcerpt": "三季度营收 95.36 亿元 （+90.02%），归母 26.99 亿元 ，销售收现与经营现金流净额同时上升。前九个月销售收现从 129.55 亿增到 185.12 亿元，但采购及劳务付现从 79.48 亿增到 129.24 亿元，薪酬付现从 22.12 亿增到 32.64 亿元，经营现金流净额仍同比下降 6.61%。9 月末应收账款净额约 96.50 亿元 ，较上年末 55.07 亿元增加。应收余额和销售收现分别是期末存量与期间流量，同时增长可以发生。继续对照账龄、存货周转和单季现金流，判断增长占用的资金何时释放。 [2]",
+    "src": "/handbook/diagrams/d2d2748f539ced802107.svg"
   }
 ]
