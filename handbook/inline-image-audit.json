@@ -697,6 +697,15 @@
     "src": "/handbook/diagrams/a0c5e51e2e019cec8c88.svg"
   },
   {
+    "chapter": "case-nvl72-a-share-map",
+    "kind": "curated-diagram",
+    "key": "nvl72-ashare-margin",
+    "figure": "case-nvl72-a-share-map-diagram-nvl72-ashare-margin",
+    "after": "ashare-pcb-margin",
+    "paragraphExcerpt": "PCB（印制电路板）要分算交换机主板和计算板。沪电股份 2026 年上半年披露，高速交换机及配套路由应用收入约 71.39 亿元 ，AI 服务器和高性能计算应用约 18.28 亿元 ，公司 PCB 业务毛利率约 40.52% ，同比增加约 4.06 个百分点 。从这组数可看量价与产品结构如何共同兑现。胜宏等高阶板供应商要用同样的办法查每个板位的材料、合格率和净价。若新设计缩短部分高速电路径，高等级板材的单位用量也需要往回调。 [6]",
+    "src": "/handbook/diagrams/b84a9e509fe02cf22854.svg"
+  },
+  {
     "chapter": "macro-cycle",
     "kind": "curated-diagram",
     "key": "ai-market-deliverability",
