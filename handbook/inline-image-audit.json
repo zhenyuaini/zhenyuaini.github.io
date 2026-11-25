@@ -794,5 +794,23 @@
     "after": "wus-cash-read",
     "paragraphExcerpt": "三季度营收 95.36 亿元 （+90.02%），归母 26.99 亿元 ，销售收现与经营现金流净额同时上升。前九个月销售收现从 129.55 亿增到 185.12 亿元，但采购及劳务付现从 79.48 亿增到 129.24 亿元，薪酬付现从 22.12 亿增到 32.64 亿元，经营现金流净额仍同比下降 6.61%。9 月末应收账款净额约 96.50 亿元 ，较上年末 55.07 亿元增加。应收余额和销售收现分别是期末存量与期间流量，同时增长可以发生。继续对照账龄、存货周转和单季现金流，判断增长占用的资金何时释放。 [2]",
     "src": "/handbook/diagrams/d2d2748f539ced802107.svg"
+  },
+  {
+    "chapter": "case-tfc-profit",
+    "kind": "curated-diagram",
+    "key": "coreweave-orders-cash",
+    "figure": "case-tfc-profit-diagram-coreweave-orders-cash",
+    "after": "tfc-repricing-credit",
+    "paragraphExcerpt": "同一个项目，可能在客户采购、云厂商合同和上游担保里各出现一次。 英伟达披露面向新型算力云厂商的附条件承诺上限 320 亿美元，取决于对方融资、部署、投运并获验收。Nscale 在 11 月 12 日招股书里披露，履行其 Anthropic 服务协议所需的融资当时尚无具约束力的承诺。CoreWeave 同期披露合同电力超 4.6 吉瓦、已启用电力超 1.7 吉瓦，三季度营业利润 2.07 亿美元、净利息费用 8.46 亿美元。订单、送电、收益和偿债处在不同阶段，估算硬件需求时应按独立项目、同一批设备去重。 [14] [15] [16]",
+    "src": "/handbook/diagrams/c26af0fb6d07dc3e0697.svg"
+  },
+  {
+    "chapter": "case-wus-profit",
+    "kind": "curated-diagram",
+    "key": "coreweave-orders-cash",
+    "figure": "case-wus-profit-diagram-coreweave-orders-cash",
+    "after": "wus-repricing-credit",
+    "paragraphExcerpt": "同一个项目，可能在客户采购、云厂商合同和上游担保里各出现一次。 英伟达披露面向新型算力云厂商的附条件承诺上限 320 亿美元，取决于对方融资、部署、投运并获验收。Nscale 在 11 月 12 日招股书里披露，履行其 Anthropic 服务协议所需的融资当时尚无具约束力的承诺。CoreWeave 同期披露合同电力超 4.6 吉瓦、已启用电力超 1.7 吉瓦，三季度营业利润 2.07 亿美元、净利息费用 8.46 亿美元。订单、送电、收益和偿债处在不同阶段，估算硬件需求时应按独立项目、同一批设备去重。 [12] [13] [14]",
+    "src": "/handbook/diagrams/c26af0fb6d07dc3e0697.svg"
   }
 ]
