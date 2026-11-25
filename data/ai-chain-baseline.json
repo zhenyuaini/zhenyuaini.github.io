@@ -17,10 +17,12 @@
       "id": "googl", "name": "Alphabet", "ticker": "GOOGL", "group": "云厂商", "cik": "0001652044",
       "overview": "https://abc.xyz/investor/",
       "sources": {
-        "q3": ["2026-10-28", "2026 三季度电话会", "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx"]
+        "q3": ["2026-10-28", "2026 三季度电话会", "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx"],
+        "notes": ["2026-11-24", "加元优先票据发行完成 · 8-K", "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm"]
       },
       "items": {
         "capex": [["514 亿美元", "实绩", "2026 Q3 · 集团资本开支。", "q3"], ["1,950–2,050 亿美元", "指引", "2026 自然年 · 维持原区间。2027 年预计显著增加，未给金额。", "q3"]],
+        "finance": [["完成 60 亿加元债券发行", "实绩", "集团层面融资。8-K 未把募集资金归属到具体算力项目。", "notes"]],
         "delivery": [["开始使用第三方算力", "实绩", "2026 Q3 末 · 披露产能紧张并开始使用第三方算力。项目送电与验收未单列。", "q3"]],
         "cash": [["−91 亿美元", "实绩", "2026 Q3 · 集团自由现金流，亦受 TPU 备货和欧盟罚款影响。客户回款未单列。", "q3"]]
       }
@@ -42,10 +44,12 @@
       "id": "meta", "name": "Meta", "ticker": "META", "group": "云厂商", "cik": "0001326801",
       "overview": "https://investor.atmeta.com/financials/",
       "sources": {
-        "q3": ["2026-10-21", "2026 三季报", "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"]
+        "q3": ["2026-10-21", "2026 三季报", "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"],
+        "atm": ["2026-11-23", "C 类股及 ATM 计划进度 · 8-K", "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm"]
       },
       "items": {
         "capex": [["349.1 亿美元", "实绩", "2026 Q3 · 含融资租赁本金偿付。", "q3"], ["1,350–1,450 亿美元", "指引", "2026 自然年 · 含融资租赁本金偿付；下限上调，上限不变。", "q3"]],
+        "finance": [["ATM 股权融资启动后移", "公司说明", "公司预计在 C 类股股息派发后才启动 ATM。案件审理期间暂不发行 C 类股，未披露园区融资或交付因此后移。", "atm"]],
         "cash": [["−21.2 亿美元", "实绩", "2026 Q3 · 集团自由现金流。AI 业务回款未单列。", "q3"]]
       }
     },

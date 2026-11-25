@@ -4,12 +4,13 @@ import { pathToFileURL } from 'node:url';
 
 const DAY = 86_400_000;
 const headers = { 'User-Agent': 'Mozilla/5.0 (compatible; ZY Research Lab; https://zhenyuaini.github.io/about/)' };
-const secHeaders = { 'User-Agent': 'ZY Research Lab research zy-research-lab@users.noreply.github.com', Accept: 'application/json' };
+const secHeaders = { 'User-Agent': 'Mozilla/5.0', From: 'zy-research-lab@users.noreply.github.com' };
 const localDay = (date, timeZone = 'Asia/Shanghai') => new Intl.DateTimeFormat('en-CA', { timeZone }).format(date);
 const iso = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value);
 const offset = (day, days) => new Date(Date.parse(day + 'T00:00:00Z') + days * DAY).toISOString().slice(0, 10);
 const asCurrency = n => (n / 1e8).toLocaleString('zh-CN', { maximumFractionDigits: 2 }) + ' 亿美元';
 const secUrl = (cik, accession, document) => `https://www.sec.gov/Archives/edgar/data/${Number(cik)}/${accession.replaceAll('-', '')}/${document}`;
+const sourceKey = href => href.match(/^https:\/\/www\.sec\.gov\/Archives\/edgar\/data\/\d+\/\d{18}\//)?.[0] ?? href;
 
 async function load(url, options, decode) {
   const response = await fetch(url, { ...options, signal: AbortSignal.timeout(12_000) });
@@ -76,7 +77,7 @@ async function scanSec(company, start, end) {
   let filings;
   let origin = 'SEC 近期申报目录';
   try {
-    const index = await load('https://data.sec.gov/submissions/CIK' + cik + '.json', { headers: secHeaders }, 'json');
+    const index = await load('https://data.sec.gov/submissions/CIK' + cik + '.json?latest=1', { headers: secHeaders }, 'json');
     if (Number(index.cik) !== Number(cik)) throw new Error('Issuer mismatch');
     filings = secFilings(index.filings?.recent, cik, start, end);
   } catch (error) {
@@ -148,15 +149,36 @@ async function priceHistory(symbol, now) {
   }));
 }
 
-async function marketData(now, asOf) {
-  const [chips, broad] = await Promise.all(['^SOX', '^GSPC'].map(symbol => priceHistory(symbol, now)));
+async function fredPrices(id) {
+  const csv = await load('https://fred.stlouisfed.org/graph/fredgraph.csv?id=' + id, {}, 'text');
+  const [head, ...lines] = csv.trim().split(/\r?\n/);
+  if (!/^(observation_date|DATE)$/.test(head.split(',')[0]) || head.split(',')[1] !== id) throw new Error('Invalid FRED series');
+  return new Map(lines.flatMap(line => {
+    const [date, value] = line.split(',');
+    const close = Number(value);
+    return iso(date) && Number.isFinite(close) && close > 0 ? [[date, close]] : [];
+  }));
+}
+
+export function marketReturns(chips, broad, asOf) {
   const dates = [...chips.keys()].filter(date => broad.has(date) && date <= asOf).sort();
   const end = dates.at(-1);
   const start = dates.at(-11);
   if (!start || !end || end < offset(asOf, -5)) throw new Error('Insufficient or stale market data');
   const change = prices => Math.round((prices.get(end) / prices.get(start) - 1) * 10_000) / 100;
-  return { start, end, sox: change(chips), broad: change(broad),
-    soxUrl: 'https://finance.yahoo.com/quote/%5ESOX/history/', broadUrl: 'https://finance.yahoo.com/quote/%5EGSPC/history/' };
+  return { start, end, sox: change(chips), broad: change(broad) };
+}
+
+async function marketData(now, asOf) {
+  try {
+    const [chips, broad] = await Promise.all(['NASDAQSOX', 'SP500'].map(fredPrices));
+    return { ...marketReturns(chips, broad, asOf), soxUrl: 'https://fred.stlouisfed.org/series/NASDAQSOX',
+      broadUrl: 'https://fred.stlouisfed.org/series/SP500' };
+  } catch {
+    const [chips, broad] = await Promise.all(['^SOX', '^GSPC'].map(symbol => priceHistory(symbol, now)));
+    return { ...marketReturns(chips, broad, asOf), soxUrl: 'https://finance.yahoo.com/quote/%5ESOX/history/',
+      broadUrl: 'https://finance.yahoo.com/quote/%5EGSPC/history/' };
+  }
 }
 
 export function classify(companies, market, asOf) {
@@ -164,11 +186,14 @@ export function classify(companies, market, asOf) {
   const evidence = companies.flatMap(company => (company.signals ?? []).flatMap(signal => {
     const source = company.sources[signal.source];
     if (!source || source[0] < validSince || source[0] > asOf || signal.resolved) return [];
-    return [{ name: company.name, kind: signal.kind, label: signal.label, date: source[0], href: source[2] }];
+    if (signal.kind === 'demand' && !signal.project) return [];
+    return [{ name: company.name, kind: signal.kind, label: signal.label, date: source[0], href: source[2], project: signal.project }];
   }));
-  const count = kind => new Set(evidence.filter(row => row.kind === kind).map(row => row.name)).size;
-  const delays = count('delay');
-  const demand = count('demand');
+  const delays = new Set(evidence.filter(row => row.kind === 'delay').map(row => row.name)).size;
+  const verifiedDemand = evidence.filter(row => row.kind === 'demand');
+  const distinctOrders = new Map();
+  for (const row of verifiedDemand) if (!distinctOrders.has(row.project)) distinctOrders.set(row.project, row.name);
+  const demand = new Set(distinctOrders.values()).size;
   const marketPressure = Boolean(market && market.sox < 0 && market.sox - market.broad <= -3);
   const lead = demand >= 2 ? 'demand' : delays >= 1 ? 'delay' : marketPressure ? 'valuation' : 'unknown';
   return { lead, demand, delays, marketPressure, evidence };
@@ -192,7 +217,8 @@ export async function update(baselineFile, outputFile, now = new Date()) {
   }
   const previous = await readPrevious(outputFile);
   const asOf = localDay(now);
-  const start = offset(asOf, -6);
+  // Include the prior cutoff day so late filings after the last run remain visible.
+  const start = offset(asOf, -7);
   const [coverage, market] = await Promise.all([
     Promise.all(baseline.companies.map(company => company.cik ? scanSec(company, start, asOf) : scanCn(company, start, asOf))),
     marketData(now, asOf).catch(() => null),
@@ -203,8 +229,11 @@ export async function update(baselineFile, outputFile, now = new Date()) {
   for (const company of coverage) {
     metrics[company.id] = { ...priorMetrics[company.id], ...company.updates };
     delete company.updates;
-    const reviewed = Object.values(baseline.companies.find(row => row.id === company.id).sources).map(source => source[2]);
-    company.events = company.events.map(event => ({ ...event, reviewed: reviewed.includes(event.href) }));
+    const reviewed = Object.values(baseline.companies.find(row => row.id === company.id).sources);
+    company.events = company.events.map(event => {
+      const source = reviewed.find(source => sourceKey(source[2]) === sourceKey(event.href));
+      return source ? { ...event, title: source[1], href: source[2], reviewed: true } : { ...event, reviewed: false };
+    });
   }
   const snapshot = { asOf, start, checkedAt: now.toISOString(), coverage, market, metrics,
     signals: classify(baseline.companies, market, asOf) };
