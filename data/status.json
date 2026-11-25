@@ -1,13 +1,7 @@
 {
-  "checkedAt": "2026-11-24T22:46:03.986Z",
+  "checkedAt": "2026-11-25T09:44:54.377Z",
   "origin": "https://zy-research-lab-2jwhxpli.edgeone.dev",
   "results": [
-    {
-      "route": "market-quotes",
-      "status": "updated",
-      "publishedAt": "2026-11-24T22:45:34.719Z",
-      "asOf": null
-    },
     {
       "route": "etf-rotation",
       "status": "updated",
@@ -18,12 +12,6 @@
       "route": "watchlist-daily",
       "status": "updated",
       "publishedAt": "2026-11-24T22:45:35.004Z",
-      "asOf": "2026-11-24"
-    },
-    {
-      "route": "turnover-estimate",
-      "status": "updated",
-      "publishedAt": "2026-11-24T22:45:47.196Z",
       "asOf": "2026-11-24"
     },
     {
@@ -42,12 +30,6 @@
       "route": "index-candles/sh000001",
       "status": "updated",
       "publishedAt": "2026-11-24T22:45:48.846Z",
-      "asOf": null
-    },
-    {
-      "route": "turnover-signal-log",
-      "status": "updated",
-      "publishedAt": "2026-11-24T22:45:48.847Z",
       "asOf": null
     },
     {
@@ -108,6 +90,24 @@
       "status": "updated",
       "publishedAt": "2026-11-24T22:46:04.034Z",
       "asOf": "2026-11-17"
+    },
+    {
+      "route": "turnover-signal-log",
+      "status": "updated",
+      "publishedAt": "2026-11-25T09:44:40.024Z",
+      "asOf": null
+    },
+    {
+      "route": "market-quotes",
+      "status": "updated",
+      "publishedAt": "2026-11-25T09:44:41.826Z",
+      "asOf": null
+    },
+    {
+      "route": "turnover-estimate",
+      "status": "updated",
+      "publishedAt": "2026-11-25T09:44:54.377Z",
+      "asOf": "2026-11-25"
     }
   ]
 }
