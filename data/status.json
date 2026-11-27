@@ -1,113 +1,117 @@
 {
-  "checkedAt": "2026-11-27T10:08:25.426Z",
+  "checkedAt": "2026-11-27T19:39:26.699Z",
   "origin": "https://zy-research-lab-2jwhxpli.edgeone.dev",
   "results": [
-    {
-      "route": "etf-rotation",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:07:45.103Z",
-      "asOf": "2026-11-27"
-    },
-    {
-      "route": "market-quotes",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:07:45.175Z",
-      "asOf": null
-    },
-    {
-      "route": "watchlist-daily",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:07:46.079Z",
-      "asOf": "2026-11-27"
-    },
-    {
-      "route": "turnover-estimate",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:02.193Z",
-      "asOf": "2026-11-27"
-    },
-    {
-      "route": "index-candles/sh000300",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:03.819Z",
-      "asOf": null
-    },
-    {
-      "route": "publish-weekly-review",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:04.532Z",
-      "asOf": null
-    },
-    {
-      "route": "turnover-signal-log",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:04.672Z",
-      "asOf": null
-    },
-    {
-      "route": "index-candles/sh000001",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:04.756Z",
-      "asOf": null
-    },
-    {
-      "route": "index-candles/sh000688",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:06.140Z",
-      "asOf": null
-    },
-    {
-      "route": "index-candles/sz399006",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:06.728Z",
-      "asOf": null
-    },
-    {
-      "route": "index-candles/sh000905",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:06.846Z",
-      "asOf": null
-    },
-    {
-      "route": "index-candles/hkHSTECH",
-      "status": "retained",
-      "publishedAt": "2026-11-26T21:55:28.124Z",
-      "asOf": null,
-      "error": "TypeError: fetch failed"
-    },
-    {
-      "route": "market-history/sp500",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:08.999Z",
-      "asOf": null
-    },
-    {
-      "route": "index-candles/usIXIC",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:09.384Z",
-      "asOf": null
-    },
-    {
-      "route": "market-history/vix",
-      "status": "updated",
-      "publishedAt": "2026-11-27T10:08:09.428Z",
-      "asOf": null
-    },
     {
       "route": "/research/review/2026-11-20",
       "status": "updated",
       "publishedAt": "2026-11-27T10:08:25.425Z"
     },
     {
+      "route": "market-quotes",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:38:54.288Z",
+      "asOf": null
+    },
+    {
+      "route": "etf-rotation",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:38:55.021Z",
+      "asOf": "2026-11-27"
+    },
+    {
+      "route": "watchlist-daily",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:38:55.035Z",
+      "asOf": "2026-11-27"
+    },
+    {
+      "route": "turnover-estimate",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:38:59.112Z",
+      "asOf": "2026-11-27"
+    },
+    {
+      "route": "index-candles/sh000300",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:00.616Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sh000001",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:00.913Z",
+      "asOf": null
+    },
+    {
+      "route": "publish-weekly-review",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:01.648Z",
+      "asOf": null
+    },
+    {
+      "route": "turnover-signal-log",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:01.717Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sh000688",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:03.026Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sh000905",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:03.189Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/sz399006",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:03.364Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/hkHSTECH",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:03.731Z",
+      "asOf": null
+    },
+    {
+      "route": "index-candles/usIXIC",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:05.190Z",
+      "asOf": null
+    },
+    {
+      "route": "market-history/sp500",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:05.228Z",
+      "asOf": null
+    },
+    {
+      "route": "market-history/vix",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:05.789Z",
+      "asOf": null
+    },
+    {
+      "route": "/research/review/2026-11-27",
+      "status": "updated",
+      "publishedAt": "2026-11-27T19:39:26.699Z"
+    },
+    {
       "route": "etf-quality",
       "status": "updated",
-      "publishedAt": "2026-11-27T10:08:25.466Z",
+      "publishedAt": "2026-11-27T19:39:26.744Z",
       "asOf": "2026-11-27"
     },
     {
       "route": "market-history/cot",
       "status": "updated",
-      "publishedAt": "2026-11-27T10:08:25.466Z",
+      "publishedAt": "2026-11-27T19:39:26.744Z",
       "asOf": "2026-11-17"
     }
   ]
